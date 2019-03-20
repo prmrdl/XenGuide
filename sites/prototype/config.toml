@@ -1,0 +1,12 @@
+baseURL = "http://127.0.0.1"
+languageCode = "en-us"
+title = "Xeneta Guide"
+theme = "hugo-theme-learn"
+showVisitedLinks = false
+disableLanguageSwitchingButton = true
+disableNextPrev = true
+disableAssetsBusting = false
+publishDir = "docs"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

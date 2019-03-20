@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Air on Xeneta Docs</title>
+    <link>http://127.0.0.1/air/</link>
+    <description>Recent content in Air on Xeneta Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://127.0.0.1/air/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>http://127.0.0.1/air/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/air/overview/</guid>
+      <description>Random text</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Methodology</title>
+      <link>http://127.0.0.1/air/benchmarkingmethodology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/air/benchmarkingmethodology/</guid>
+      <description>What kind of cargo do we benchmark?
+At this moment, Xeneta only benchmarks general cargo.</description>
+    </item>
+    
+    <item>
+      <title>Flat Rates</title>
+      <link>http://127.0.0.1/air/flatrates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/air/flatrates/</guid>
+      <description>Random text</description>
+    </item>
+    
+    <item>
+      <title>Service Levels</title>
+      <link>http://127.0.0.1/air/servicelevels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/air/servicelevels/</guid>
+      <description>Introduction Xeneta categorizes your air freight rates based on three different service levels: &amp;ldquo;Upper Tier&amp;rdquo;, &amp;ldquo;Mid Tier&amp;rdquo;, and &amp;ldquo;Lower Tier&amp;rdquo;. This allows a direct comparison to other market rates that are most similar to yours. The reason for standardizing and categorizing these rates is because many freight forwarders use different names for their service levels. Re-categorizing and renaming these service levels allows us to more easily standardize and compare the rates directly with others in the market.</description>
+    </item>
+    
+  </channel>
+</rss>

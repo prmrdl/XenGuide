@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.53" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Benchmarking Methodology :: Xeneta Docs</title>
+
+    
+    <link href="/css/nucleus.css?1547203322" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1547203322" rel="stylesheet">
+    <link href="/css/hybrid.css?1547203322" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1547203322" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1547203322" rel="stylesheet">
+    <link href="/css/auto-complete.css?1547203322" rel="stylesheet">
+    <link href="/css/theme.css?1547203322" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1547203322" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1547203322"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/air/benchmarkingmethodology/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://127.0.0.1">
+  <svg width="200px" height="42px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406 302">
+                <path d="M106.411 146.85L29.377 22h51.466l51.47 84.01L183.779 22h51.137l-77.034 124.85L240.228 281h-50.803l-57.445-92.643L74.867 281H23.731l82.68-134.15zM448.332 22l-17.324 41H340v65h63v41h-63v71h108v41H293V22h155.332zM948.332 22l-17.324 41H840v65h63v41h-63v71h108v41H793V22h155.332zM670.063 22H715v259h-34.593L563 109.327 563.062 281H518V22h34.256L670.25 193.673 670.063 22zM1169.67 22H997v41h60v218h46V63h49.223zM1384.051 281L1274.269 22h-.918l-109.227 258h46.8c2.967-.023 41.443-7.46 74.666-30.929 13.596-9.604 27.729-8.831 34.608-7.637L1336.925 281h47.126zm-122.673-66.201c-9.335 6.594-19.673 11.659-29.073 15.447l41.434-98.184 28.586 67.296c-12.978 1.436-27.35 5.837-40.947 15.441z"></path>
+            </svg>
+			<span style="margin-left:-5px;font-size:20px;">Docs</span>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1547203322"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1547203322"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/127.0.0.1";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1547203322"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction/" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/introduction/">
+          Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/regions/" title="Regions" class="dd-item ">
+        <a href="/introduction/regions/">
+        Regions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/terminology/" title="Terminology" class="dd-item ">
+        <a href="/introduction/terminology/">
+        Terminology
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/ocean/" title="Ocean" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/ocean/">
+          Ocean
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ocean/overview/" title="Overview" class="dd-item ">
+        <a href="/ocean/overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ocean/myprices/" title="My Prices" class="dd-item ">
+        <a href="/ocean/myprices/">
+        My Prices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ocean/carrierspread/" title="Carrier Spread" class="dd-item ">
+        <a href="/ocean/carrierspread/">
+        Carrier Spread
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ocean/tradelanes/" title="Trade Lanes" class="dd-item ">
+        <a href="/ocean/tradelanes/">
+        Trade Lanes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/air/" title="Air" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/air/">
+          Air
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/overview/" title="Overview" class="dd-item ">
+        <a href="/air/overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/benchmarkingmethodology/" title="Benchmarking Methodology" class="dd-item active">
+        <a href="/air/benchmarkingmethodology/">
+        Benchmarking Methodology
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/flatrates/" title="Flat Rates" class="dd-item ">
+        <a href="/air/flatrates/">
+        Flat Rates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/servicelevels/" title="Service Levels" class="dd-item ">
+        <a href="/air/servicelevels/">
+        Service Levels
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/account/" title="Account" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/account/">
+          Account
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/account/account/" title="Account" class="dd-item ">
+        <a href="/account/account/">
+        Account
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/glossary/" title="Glossary" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/glossary/">
+          Glossary
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Xeneta Docs</a> > <a href='/air/'>Air</a> > Benchmarking Methodology
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Benchmarking Methodology</h1>
+          
+
+        
+
+
+<p><strong>What kind of cargo do we benchmark?</strong></p>
+
+<p>At this moment, Xeneta only benchmarks general cargo.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/air/overview/" title="Overview"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/air/flatrates/" title="Flat Rates" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1547203322"></script>
+    <script src="/js/perfect-scrollbar.min.js?1547203322"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1547203322"></script>
+    <script src="/js/jquery.sticky.js?1547203322"></script>
+    <script src="/js/featherlight.min.js?1547203322"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1547203322"></script>
+    <script src="/js/highlight.pack.js?1547203322"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1547203322"></script>
+    <script src="/js/learn.js?1547203322"></script>
+    <script src="/js/hugo-learn.js?1547203322"></script>
+
+    <link href="/mermaid/mermaid.css?1547203322" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1547203322"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

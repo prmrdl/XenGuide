@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocean on Xeneta Docs</title>
+    <link>http://127.0.0.1/ocean/</link>
+    <description>Recent content in Ocean on Xeneta Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://127.0.0.1/ocean/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>http://127.0.0.1/ocean/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/ocean/overview/</guid>
+      <description>Random text</description>
+    </item>
+    
+    <item>
+      <title>My Prices</title>
+      <link>http://127.0.0.1/ocean/myprices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/ocean/myprices/</guid>
+      <description>Random text</description>
+    </item>
+    
+    <item>
+      <title>Carrier Spread</title>
+      <link>http://127.0.0.1/ocean/carrierspread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/ocean/carrierspread/</guid>
+      <description>Random text</description>
+    </item>
+    
+    <item>
+      <title>Trade Lanes</title>
+      <link>http://127.0.0.1/ocean/tradelanes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/ocean/tradelanes/</guid>
+      <description>Random text</description>
+    </item>
+    
+  </channel>
+</rss>

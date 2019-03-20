@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Xeneta Guide</title>
+    <link>http://127.0.0.1/introduction/</link>
+    <description>Recent content in Introduction on Xeneta Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://127.0.0.1/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://127.0.0.1/introduction/gettingstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introduction/gettingstarted/</guid>
+      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
+    </item>
+    
+    <item>
+      <title>Uploading Rates</title>
+      <link>http://127.0.0.1/introduction/uploading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introduction/uploading/</guid>
+      <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
+Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
+    </item>
+    
+    <item>
+      <title>Regions</title>
+      <link>http://127.0.0.1/introduction/regions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introduction/regions/</guid>
+      <description>To categorize and analyze the movement of freight, Xeneta organizes ports into regional and sub-regional groups. The mapping is done to give a better view into the way geography plays into freight prices. To reflect this, nearby ports with similar costs of shipping will be grouped together.
+Geographic Hierarchy The availability of freight data fluctuates throughout the year and Xeneta may not always have optimal freight rate coverage to provide to the user.</description>
+    </item>
+    
+    <item>
+      <title>Market Metrics</title>
+      <link>http://127.0.0.1/introduction/marketmetrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introduction/marketmetrics/</guid>
+      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
+They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
+Market metrics for ocean freight. Currently, Xeneta uses 3 types of market metrics across both Ocean and Air freight products:</description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>http://127.0.0.1/introduction/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/introduction/reports/</guid>
+      <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
+Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
+Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
+    </item>
+    
+  </channel>
+</rss>
