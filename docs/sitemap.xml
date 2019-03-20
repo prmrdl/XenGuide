@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/gettingstarted/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/air/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/air/myprices/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/portsearch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/uploading/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/myprices/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/regions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/air/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/marketmetrics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/spendoverview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/graphs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/ocean/api/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/introduction/reports/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,134 @@
+[
+{
+	"uri": "http://127.0.0.1/ocean/overview/",
+	"title": "Dashboard",
+	"tags": [],
+	"description": "",
+	"content": " \rThe Ocean dashboard summarizes your freight spend information and provides a search box for finding market prices for trade lanes.\r Overview The Ocean dashboard contains a port-to-port search and a number of sub-sections that detail your performance against the market. You can use the dashboard to understand your position in the market and to quickly navigate between different features of Xeneta.\nDashboard — Xeneta Ocean\r\r You can return to the dashboard at any time by clicking the Xeneta logo in the top-left corner of the app.\nLink to the dashboard.\r\r My Spend The My Spend section of the dashboard brings together the relevant information about your freight rates. At a glance, it provides the volume of your shipped freight (in TEU) and a spend comparison against the market and a calculation about potential savings that could be achieved if your freight rates matched the three different market categories.\nDashboard — My Spend\r\r My Prices The My Prices section of the dashboard details the amount of your prices covered by Xeneta, as well as a snapshot of your prices that fall above or below the market.\nDashboard — My Prices\r\r Followed Market Trends You can follow any trade lane whose trends you wish to keep an eye on from the search results.\nDashboard — Following a Trade Lane\r\r Followed lanes are added to the bottom of the dashboard and show their current price as well as changes in the price since the week before.\nDashboard — Followed Market Trends\r\r Next Steps Now that you understand the basics of the dashboard, let\u0026rsquo;s look at searching for rates.\nPort-to-port Search\r "
+},
+{
+	"uri": "http://127.0.0.1/introduction/gettingstarted/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": " \rXeneta\u0026rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform.\r Ocean View a summary of your freight rates\rUse the dashboard to get an overview of your rates and how they compare to the market.\r Get a spot rate for a trade lane\rUse the trade lane search from the dashboard to retrieve today\u0026#39;s market rates for any origin and destination port across a number of container types.\r Analyze historical trade lane rates\rUse Xeneta\u0026#39;s Trends graph to review past freight rates and get an understanding of recent market movements.\r Benchmark your rates against different market segments\rUse Xeneta\u0026#39;s Benchmarks graph to compare your prices to different market segments, including the market\u0026#39;s best and worst performers.\r Measure your potential savings\rCompare your freight rates to different market segments using the Spend Overview to determine how much you could save if your spend matched the market.\r Compare your total spend against the market\rUse the My Prices analytics to get an overview of your business and how your spend performs on each trade corridor.\r Compare your total spend against the market by supplier\rUse the My Prices analytics to see how your spend is allocated to each supplier.\r Export rate data to Excel reports\rExport any part of Xeneta\u0026#39;s analytics into Excel format for better integration into your workflow.\r Access Xeneta freight rate data through an API\rIf you need functionality beyond that of the Xeneta user interface, you may want to look at Xeneta\u0026#39;s RESTful API.\r Air View a summary of your freight rates\rUse the dashboard to get an overview of your rates and how they compare to the market.\r Get a spot rate for a trade lane\rUse the trade lane search from the dashboard to retrieve today\u0026#39;s market rates for any origin and destination port across a number of container types.\r Benchmark your rates against different market segments [Soon]\rUse Xeneta\u0026#39;s Benchmarks graph to compare your prices to different market segments, including the market\u0026#39;s best and worst performers.\r Compare your total spend against the market\rUse the My Prices analytics to get an overview of your business and how your spend performs on each trade corridor.\r Compare your total spend against the market by supplier\rUse the My Prices analytics to see how your spend is allocated to each supplier.\r Export rate data to Excel reports\rExport any part of Xeneta\u0026#39;s analytics into Excel format for better integration into your workflow.\r Xeneta Add-Ons For more information about add-ons, contact your Customer Success Manager.\r Xeneta add-ons are premium features that provide additional functionality not found in the basic Xeneta product offerings.\nCompare regional rates across different carriers The Carrier Spread analytics tool allows you to view region to region rates across all your uploaded carrier prices.\nSee long-term contracts running beyond the current day The Futures analytics tool allows you to view the rates of long-term contracts that run 3 months beyond the current date.\n"
+},
+{
+	"uri": "http://127.0.0.1/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Xeneta is a software-as-a-service platform designed to help you understand the prices of the air and ocean freight transport markets.\nFor more information about Xeneta and our products, visit our website.\r At its core, Xeneta provides aggregated and anonymized shipping prices for ocean and air freight. These prices can not only help you understand the historical movement of the market, they can also help you understand the market as it is today.\nOn top of simply providing data, Xeneta\u0026rsquo;s platform allows users to compare their own freight rates against various market segments. By uploading freight rates into Xeneta, the user gains the ability to use Xeneta\u0026rsquo;s suite of analytics tools to compare their own prices to the average market rates, as well as the best and worst market performers.\nBeyond benchmarking and market comparisons, the Xeneta platform provides you with analytics about:\n Potential savings that can be achieved if your freight rate spending were to improve Market development for short-term and long-term contracts Trade lane volume for different container types Simplified and standardized air freight tier comparisons  Next Steps You can learn more about what Xeneta can do by reading the Getting Started guide.\nGetting Started\r "
+},
+{
+	"uri": "http://127.0.0.1/air/overview/",
+	"title": "Overview",
+	"tags": [],
+	"description": "",
+	"content": " \rXeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market.\r The Dashboard Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.\nDashboard — Xeneta for Air Freight\r\r The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.\nPort-to-port search bar.\r\r Simply enter an origin port, a destination port, select your preferred weight break, and click Search.\nSearch Results After running the search, Xeneta will return one of two types of results:\nContracted Rates A contracted rate is an aggregated rate that meets Xeneta’s data quality rule of at least 5 sources being available across 2 providers. It is the most accurate rate that Xeneta can provide.\nA contracted rate.\r\r Regional Rates A regional rate is an aggregated rate that did not meet exact port-to-port search specifications because of a lack of rate data between the two ports.\nA regional rate.\r\r Regional rates are displayed with additional information that detail how the rate was constructed. This can be viewed by clicking the \r icon beside the name of the trade lane.\nRegional rate explanation for the Shanghai–Bremen trade lane.\r\r Next Steps Next, let\u0026rsquo;s take a look at the My Prices page.\nMy Prices\r "
+},
+{
+	"uri": "http://127.0.0.1/air/myprices/",
+	"title": "My Prices",
+	"tags": [],
+	"description": "",
+	"content": " \rThe My Prices page collects your air freight rates and organizes them into a number of categories for convenient analysis.\r For an in-depth look at the My Prices page in Xeneta for Air Freight, read our help article.\r Overview The My Prices page lists every rate you\u0026rsquo;ve uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.\nThe My Prices page in Xeneta for Air Freight.\r\r My Prices functionality is only available if you\u0026rsquo;ve uploaded your freight rates into Xeneta.\r Market Comparison — All Rates The My Prices page calculates how your prices compare to the market and divides your prices into two groups: prices above the market and prices below the market.\nThe My Prices page in Xeneta for Air Freight.\r\r Market Comparison — Categories The My Prices page also calculates how rates are spread over the four different categories of air freight groupings — corridor, origin, destination, and freight forwarder.\nCategories can help you identify trade lanes or freight forwarders that stand out in terms of their prices.\nFor instance, in the image below, air freight rates are shown as they relate to corridors, along with a count of how many of those freight rates fall above or below the market price.\nThe spread of air freight rates over different corridors.\r\r From a brief look at the data, we can determine that the Asia–Europe corridor has many prices below the market, while both the Europe–Asia and the Europe–North America corridors have prices that could be better. With this sort of data available to you, it becomes clear where improvements can be made.\n"
+},
+{
+	"uri": "http://127.0.0.1/ocean/",
+	"title": "Ocean",
+	"tags": [],
+	"description": "",
+	"content": " Ocean Xeneta\u0026rsquo;s Ocean product helps users to find freight rates, analyze trade lanes, and benchmark their own rates against market trends.\nDashboard\rA basic introduction to the Ocean dashboard.\r Search\rFind spot prices and compare them against the market.\r My Prices\rLearn how to benchmark your prices against the market.\r Spend Overview\rSee how your spend is distributed along with your potential savings.\r Graphs\rLearn how to use graphs to visualize the market.\r API\rLearn how to access Xeneta\u0026#39;s data through an API.\r  "
+},
+{
+	"uri": "http://127.0.0.1/ocean/portsearch/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": " \rThe port-to-port search allows you to find today\u0026rsquo;s rate for the majority of port-to-port combinations in the world across a variety of container types.\r Overview The port-to-port search bar can be found on the dashboard and at the top of any graphs page.\nThe port-to-port search with a result.\r\r Simply enter an origin port and a destination port, select your preferred container type, and click Search.\nSearch Results The results of a port-to-port search will return a market rate based on the rate data available to Xeneta. Search results include the spot rate, the price change since a week ago, the applied THC methodology, and a link to the Trends graph associated with the ports in the search.\nXeneta can return a number of results based on the availability of rate data for a particular port-port pair. The results fall into the following categories:\nContracted Rate A contracted rate is an aggregated rate that meets Xeneta\u0026rsquo;s data quality rule of at least 5 sources being available across 2 providers. It is the most accurate rate that Xeneta can provide.\nA contracted rate.\r\r Regional Rate A regional rate is an aggregated rate that did not meet exact port-to-port search specifications because of a lack of rate data between the two ports.\nA regional rate.\r\r To create a regional rate, Xeneta increases the scope of the search to include ports near to the selected ports. Once enough nearby ports are found, their data is aggregated together to form a rate that — while not as precise as a contracted rate — still informs you about the general rate of shipping goods in the region.\nRegional rates vary in precision based on how much the data scope was increased to create the regional rate. See this article for more information.\r Estimated Rate An estimated rates is a computed approximations of what a freight rate might be for a lane lacking contracted rate data. Estimated rates are not available for all trade lanes and are shown only when Xeneta has confidence that an estimated rate meets a certain level of accuracy.\nAn estimated rate.\r\r See this article for more information on estimated rates.\r Geo-Selector Tool The geo-selector tool helps you visually navigate ports and their respective regions. It can be opened by clicking on the globe icon \r on the search bar.\nSearch — Geo-Selector Tool\r\r Next Steps Next we\u0026rsquo;ll take a look at how Xeneta handles your prices.\nMy Prices\r "
+},
+{
+	"uri": "http://127.0.0.1/introduction/uploading/",
+	"title": "Uploading Rates",
+	"tags": [],
+	"description": "",
+	"content": " One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying \u0026ldquo;comparing\u0026rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.\nBenchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.\nTo benchmark data within Xeneta, you will need to upload your rates to the platform. You can upload your rates in two ways:\nUpload Prices within Xeneta You can upload prices at any time within Xeneta by clicking the \r icon from the main navigation menu or by visiting the Upload Prices page.\nContact Our Rate Management Team You can also reach out to our [Rate Management Team] if you want to deliver your rates in another way.\n"
+},
+{
+	"uri": "http://127.0.0.1/ocean/myprices/",
+	"title": "My Prices",
+	"tags": [],
+	"description": "",
+	"content": " \rThe My Prices page organizes your uploaded freight rates into a number of categories to help you understand your prices across the market.\r Overview The My Prices page lists every rate you’ve uploaded into Xeneta. It contains a number of filters — including origin, destination, supplier, and container type — to help you find the rates relevant to you.\nThe My Prices page.\r\r My Prices functionality is only available if you\u0026rsquo;ve uploaded your freight rates into Xeneta.\r Price Overview Xeneta can provide you with an overview of your prices organized into the following categories:\n Corridors Origins Destinations Suppliers Container types  You can select these categories using the tab navigation at the top of the My Prices page.\nPrice Overview categories.\r\r Once you select a category, your prices will be grouped to reflect your selection. For example, the image below shows prices grouped by destination regions.\nPrice overview grouped by destination.\r\r Clicking on a row in the Price Overview page will take you to the All Prices tab, which will use your selected row as a filter for your prices.\nAll Prices The All Prices tab shows your port-to-port prices, as well the associated supplier and the container type. It also shows how your prices compare to the day\u0026rsquo;s rate for that trade lane in both dollar value and percent.\nPrice Details Clicking on a row on the All Prices tab will open up a dialog that provides additional details about your port-to-port freight rate. The bottom of the dialog contains the Open Trade Lane Graph button, which will take you to the Benchmarks graphs for the selected trade lane with all associated filters pre-set.\nPrice details dialog.\r\r Next Steps Next we\u0026rsquo;ll take a look at how your freight spend is organized.\nSpend Overview\r "
+},
+{
+	"uri": "http://127.0.0.1/introduction/regions/",
+	"title": "Regions",
+	"tags": [],
+	"description": "",
+	"content": " To categorize and analyze the movement of freight, Xeneta organizes ports into regional and sub-regional groups. The mapping is done to give a better view into the way geography plays into freight prices. To reflect this, nearby ports with similar costs of shipping will be grouped together.\nGeographic Hierarchy The availability of freight data fluctuates throughout the year and Xeneta may not always have optimal freight rate coverage to provide to the user. In cases like these, the Xeneta platform will automatically attempt to find the most relevant freight rates based on geographic proximity to the rates requested.\nFor example, if a user were to search for a freight rate between Hamburg (DEHAM) and Oslo (NOOSL), they might find that direct pricing information between those two ports is unavailable. However, to provide a useful price to the user, Xeneta will automatically look at the freight rates in the places closest to Hamburg and Oslo.\nThe platform may expand the search area to include more ports with which to compare rates. In the the examples below, you can see how both Oslo and Hamburg are mapped out in Xeneta\u0026rsquo;s geographic hierarchy.\nOslo HIERARCHY\nOslo → Norway South East → Scandinavia → Northern Europe → Europe → World\n Hamburg HIERARCHY\nHamburg → North Europe Main → Northern Europe → Europe → World\n Based on the availability of freight rates, Xeneta may compare Norway South East and North Europe Main instead of Hamburg and Oslo. The main goal of the geographic hierarchy is to provide the user with some level of confidence about freight rates between any two location.\nYou can read more about the Geographic Hierarchy methodology and how Xeneta uses regional aggregation to give the best insight into the freight market here.\r "
+},
+{
+	"uri": "http://127.0.0.1/air/",
+	"title": "Air",
+	"tags": [],
+	"description": "",
+	"content": " Air Xeneta\u0026rsquo;s Air product helps users to find air freight rates, understand market movements, and benchmark their rates against market trends.\nOverview\rA basic introduction to the Air product.\r My Prices\rView your prices and see how they perform against the market.\r  "
+},
+{
+	"uri": "http://127.0.0.1/introduction/marketmetrics/",
+	"title": "Market Metrics",
+	"tags": [],
+	"description": "",
+	"content": "For an in-depth look at Market Metrics, read our article in the help center.\r Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.\nThey appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.\nMarket metrics for ocean freight.\r\r Currently, Xeneta uses 3 types of market metrics across both Ocean and Air freight products:\n Contract duration Market position Service levels  It is important to select the right market metrics when viewing data in Xeneta because market metrics determine the data you will be shown.\nFor example, if you\u0026rsquo;re looking at the My Prices page, you have a number of combinations for the market metrics available to you. You can look at short-term contracts as they compare to the market average, or you can take a look at long-term contracts as they compare to the market low, for instance.\n"
+},
+{
+	"uri": "http://127.0.0.1/ocean/spendoverview/",
+	"title": "Spend Overview",
+	"tags": [],
+	"description": "",
+	"content": " For an in-depth look at the Spend Overview page, read our help center article.\r \rThe Spend Overview page ties together your freight volume and its associated prices with the rest of the market.\r Overview The Spend Overview helps you understand how much your freight prices can improve in terms of dollar value. Xeneta refers to this as the Saving Potential — the theoretical savings that can be achieved if the prices you paid for freight matched the price paid by different segments of the market.\nThe Spend Overview page.\r\r Spend Overview Categories Your Spend Overview can be filtered and grouped within the following categories:\n Corridors Origins Destinations Suppliers Container types  You can select these categories using the tab navigation at the top of the Spend Overview.\nSpend Overview categories.\r\r Like the My Prices page, selecting a category from the Spend Overview will group your prices based on your selection.\nClicking on a row in the Spend Overview page will take you to the All Spend tab, which will use your selected row as a filter for your spend.\nAll Spend The All Spend tab shows your port-to-port spend and your savings potential — along with other details like your supplier for the trade lane and the container type that was used.\nMy Spend Details Clicking on a row on the All Spend tab will open up a dialog that provides additional details about your port-to-port freight rate. The bottom of the dialog contains the Open Trade Lane Graph button, which will take you to the Benchmarks graph for the selected trade lane with all associated filters pre-set.\nMy Spend details dialog.\r\r Next Steps Next, let\u0026rsquo;s look at how Xeneta visualizes your rates and the market\u0026rsquo;s rates.\nGraphs\r "
+},
+{
+	"uri": "http://127.0.0.1/ocean/graphs/",
+	"title": "Graphs",
+	"tags": [],
+	"description": "",
+	"content": " \rGraphs are a tool for visualizing your freight rates in relation to the market and your own suppliers.\r Overview Xeneta provides three types of graphs to help you understand your rates:\n The Benchmarks graph The Trends graph The Carrier Spread graph  All graphs in Xeneta have a number of filters to help you narrow the scope of the rates you\u0026rsquo;re viewing, including filters for date range, container type, contract duration, and terminal handling charges (THC).\nGraphs can be reached from the port-to-port search, the Market Trends page, the My Prices page, and the Spend Overview.\r Benchmarks Graph The Benchmarks graph helps you compare the rates you pay for your freight suppliers against the market at large across specific trade lanes or regions. Once you\u0026rsquo;ve uploaded your rates into Xeneta, you\u0026rsquo;ll be able to see them plotted against the market average, market low, and market high price benchmarks provided by Xeneta.\nThe Benchmarks graph.\r\r The Benchmarks graph functionality is only available if you\u0026rsquo;ve uploaded your freight rates into Xeneta. You can upload prices by visiting the Upload Prices page.\r Trends Graph The Trends graph helps you visualize the movement of market prices on a trade lane — for both short-term and long-term contracts — over time.\nThe Trends graph.\r\r Additionally, you can find a small summary of price movements for the selected time period beneath the graph:\nChanges in short-term contracts.\r\r Trends Graph — Future Rates Future rates are a feature of the Trends graph that lets you view long-term contracts that extend past the current day.\nEnabling future rates on the Trends graph.\r\r Once enabled, you will be able to see long-term contract rates for up to 3 months into the future.\nFuture rates on the Trends graph.\r\r Future Rates are an add-on feature. Contact your Customer Success Manager to find out more.\r Carrier Spread The Carrier Spread graph allows you to compare carrier prices between regions. For an in-depth look at the Carrier Spread, you can read this article from our Help Center.\nThe Carrier Spread is an add-on feature. Contact your Customer Success Manager to find out more.\r The Carrier Spread graph.\r\r Next Steps That about covers the basics of Xeneta for Ocean Freight. If you\u0026rsquo;re interested in learning more about what Xeneta offers, you can take a look at Xeneta for Air Freight.\n"
+},
+{
+	"uri": "http://127.0.0.1/ocean/api/",
+	"title": "API",
+	"tags": [],
+	"description": "",
+	"content": "\rThe Xeneta API can be used to work with rate information programmatically.\r For more information about getting API access, read this article.\nSee the API reference for technical details.\n"
+},
+{
+	"uri": "http://127.0.0.1/introduction/reports/",
+	"title": "Reports",
+	"tags": [],
+	"description": "",
+	"content": " Xeneta can create a number of Excel reports based on the analytics data found on our platform.\nAny page capable of exporting an Excel report will contain a \r symbol in the top-right corner of the page. You can find all your created reports on the Reports page.\nNote: A number of larger reports will take some time to generate. In such cases, you\u0026rsquo;ll be notified by email when your report is ready.\r Ocean The following pages can export an Excel report in Xeneta for Ocean Freight:\n Market Trends — Following Market Trends — Global Trends Price Overview All Prices Spend Overview All Spend  Additionally, every graph page — Benchmarks, Trends, and Carrier Spread — can also export their contents to an Excel report.\nAir The following pages can export an Excel report in Xeneta for Air Freight:\n Price Overview All Prices  "
+},
+{
+	"uri": "http://127.0.0.1/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://127.0.0.1/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://127.0.0.1/",
+	"title": "Xeneta Guide",
+	"tags": [],
+	"description": "",
+	"content": " Xeneta Guide This guide is intended to introduce you to the Xeneta freight rate analytics and benchmarking platform and its features.\nYou can explore the Xeneta product through the index on the left.\nAdditional Questions If you have any questions, you can contact the Customer Success team by email at [insert email].\nYou can also find more answers in the Xeneta Help Center.\n"
+}]
