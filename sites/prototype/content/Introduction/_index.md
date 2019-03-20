@@ -21,9 +21,9 @@ Beyond benchmarking and market comparisons, the Xeneta platform provides you wit
 
 ## Next Steps
 
-You can learn more about what Xeneta can do by reading the [Getting Started]({{< ref "gettingstarted.md" >}}) guide.
+Next we'll learn about the benefits of uploading freight rates to Xeneta.
 
-{{% linkbutton title="Getting Started" %}} {{< ref "Introduction/gettingstarted.md" >}} {{% /linkbutton %}}
+{{% linkbutton title="Uploading Rates" %}} {{< ref "Introduction/uploading.md" >}} {{% /linkbutton %}}
 
 <div style="clear:both"/>
 
