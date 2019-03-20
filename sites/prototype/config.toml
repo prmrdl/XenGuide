@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1"
+baseURL = "https://prmrdl.github.io/XenGuide/"
 languageCode = "en-us"
 title = "Xeneta Guide"
 theme = "hugo-theme-learn"
@@ -6,7 +6,7 @@ showVisitedLinks = false
 disableLanguageSwitchingButton = true
 disableNextPrev = true
 disableAssetsBusting = false
-publishDir = "docs"
+publishDir = "../../docs"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
