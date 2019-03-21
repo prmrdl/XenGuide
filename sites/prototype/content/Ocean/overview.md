@@ -7,7 +7,7 @@ weight = 1
 
 ## Overview
 
-The Ocean dashboard contains a [port-to-port search]({{< ref "Ocean/portsearch.md" >}}) and a number of sub-sections that detail your performance against the market. You can use the dashboard to understand your position in the market and to quickly navigate between different features of Xeneta.
+The Ocean dashboard contains a [port-to-port search]({{< ref "Ocean/portsearch.md" >}}) and a number of sub-sections that describe your performance in the market. You can use the dashboard to understand your position in the market and to quickly navigate between different features of Xeneta.
 
 {{< fig src="../ocean-dashboard.png" text="Dashboard — Xeneta Ocean" >}}
 

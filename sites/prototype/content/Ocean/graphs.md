@@ -19,7 +19,7 @@ All graphs in Xeneta have a number of filters to help you narrow the scope of th
 
 ## Benchmarks Graph
 
-The Benchmarks graph helps you compare the rates you pay for your freight suppliers against the market at large across specific trade lanes or regions. Once you've <a href="{{< ref "Introduction/uploading.md" >}}" target="_blank">uploaded your rates</a> into Xeneta, you'll be able to see them plotted against the market average, market low, and market high price benchmarks provided by Xeneta.
+The Benchmarks graph helps you compare the rates you pay for your freight suppliers against the market at large across specific trade lanes or regions. Once you've <a href="{{< ref "Introduction/uploading.md" >}}" target="_blank">uploaded your rates</a>, you'll be able to see them plotted against the market average, market low, and market high price benchmarks provided by Xeneta.
 
 {{< fig src="../graphs-benchmarks.png" text="The Benchmarks graph." >}}
 
