@@ -8,14 +8,27 @@ title = "Xeneta Guide"
 
 After you've explored the product a bit, you should take the following steps to acquaint yourself with the Xeneta platform:
 
-## Step 1 — Read This Guide
+<div style="margin-bottom:10px;">
+	<a href="{{< ref "/Introduction" >}}" class="gsblock">
+	<div style="margin-bottom:6px;color:black;font-weight:500;font-size:20px;">Step 1</div>
+	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Read This Guide</div>
+	<div style="font-size:15px;line-height:1.4;color:#212121;">This guide is intended to step you through all the features of Xeneta, including benchmarking and analytics. We recommend that you read the <strong>Introduction</strong> section as a starter.</div>
+	</a>
+</div>
 
-This guide is intended to step you through all the features of Xeneta, including benchmarking and analytics. We recommend that you read the [introduction]({{< ref "/Introduction" >}}) section as a starter.
+<div style="margin-bottom:10px;">
+	<a href="https://app.xeneta.com/my-company/upload-rates" target="_blank" class="gsblock">
+	<div style="margin-bottom:6px;color:black;font-weight:500;font-size:20px;">Step 2</div>
+	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Upload Your Rates</div>
+	<div style="font-size:15px;line-height:1.4;color:#212121;">To get the most out of Xeneta, you should upload your freight rates. Once your rates are available within Xeneta, you'll have access to an array of tools to help you understand the ocean and air freight markets.</div>
+	</a>
+</div>
 
-## Step 2 — Upload Your Rates
+<div>
+	<a href="https://support.xeneta.com/hc/en-us" target="_blank" class="gsblock">
+	<div style="margin-bottom:6px;color:black;font-weight:500;font-size:20px;">Step 3</div>
+	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Explore the Help Center</div>
+	<div style="font-size:15px;line-height:1.4;color:#212121;">If you have additional questions about Xeneta’s features or you wish to learn more about the product, you can refer to the <strong>Help Center</strong>.</div>
+	</a>
+</div>
 
-To get the most out of Xeneta, you should <a href="https://app.xeneta.com/my-company/upload-rates" target="_blank">upload your freight rates</a>. Once your rates are available within Xeneta, you'll have access to an array of tools to help you understand the ocean freight market.
-
-## Step 3 — Explore the Help Center
-
-If you have additional questions about Xeneta's features or you wish to learn more about the product, you can refer to the <a href="https://support.xeneta.com/hc/en-us" target="_blank">Help Center</a>.
