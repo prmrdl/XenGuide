@@ -41,15 +41,6 @@ Benchmarking can help you understand how much you pay relative to the market and
     </item>
     
     <item>
-      <title>Getting Started</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</guid>
-      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
-    </item>
-    
-    <item>
       <title>My Prices</title>
       <link>https://prmrdl.github.io/XenGuide/air/myprices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,6 +57,15 @@ Benchmarking can help you understand how much you pay relative to the market and
       <guid>https://prmrdl.github.io/XenGuide/ocean/portsearch/</guid>
       <description>The port-to-port search allows you to find today&amp;rsquo;s rate for the majority of port-to-port combinations in the world across a variety of container types. Overview The port-to-port search bar can be found on the dashboard and at the top of any graphs page.
 The port-to-port search with a result. Simply enter an origin port and a destination port, select your preferred container type, and click Search.</description>
+    </item>
+    
+    <item>
+      <title>Use Cases</title>
+      <link>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</guid>
+      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
     </item>
     
     <item>
