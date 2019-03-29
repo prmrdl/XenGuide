@@ -1,4 +1,4 @@
-baseURL = "https://xeneta.github.io/XenGuide/"
+baseURL = "https://guide.xveneta.net/"
 languageCode = "en-us"
 title = "Xeneta Guide"
 theme = "hugo-theme-learn"
