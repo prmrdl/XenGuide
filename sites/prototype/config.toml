@@ -1,4 +1,4 @@
-baseURL = "https://prmrdl.github.io/XenGuide/"
+baseURL = "https://xeneta.github.io/XenGuide/"
 languageCode = "en-us"
 title = "Xeneta Guide"
 theme = "hugo-theme-learn"

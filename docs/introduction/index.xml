@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Xeneta Guide</title>
-    <link>https://prmrdl.github.io/XenGuide/introduction/</link>
+    <link>https://xeneta.github.io/XenGuide/introduction/</link>
     <description>Recent content in Introduction on Xeneta Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://prmrdl.github.io/XenGuide/introduction/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xeneta.github.io/XenGuide/introduction/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Uploading Rates</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/uploading/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/uploading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/uploading/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/uploading/</guid>
       <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
 Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
     </item>
     
     <item>
       <title>Use Cases</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/gettingstarted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/gettingstarted/</guid>
       <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/reports/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/reports/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/reports/</guid>
       <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
 Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
 Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>

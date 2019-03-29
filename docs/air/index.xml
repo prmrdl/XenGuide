@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Air on Xeneta Guide</title>
-    <link>https://prmrdl.github.io/XenGuide/air/</link>
+    <link>https://xeneta.github.io/XenGuide/air/</link>
     <description>Recent content in Air on Xeneta Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://prmrdl.github.io/XenGuide/air/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xeneta.github.io/XenGuide/air/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Overview</title>
-      <link>https://prmrdl.github.io/XenGuide/air/overview/</link>
+      <link>https://xeneta.github.io/XenGuide/air/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/air/overview/</guid>
+      <guid>https://xeneta.github.io/XenGuide/air/overview/</guid>
       <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
 Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.</description>
     </item>
     
     <item>
       <title>My Prices</title>
-      <link>https://prmrdl.github.io/XenGuide/air/myprices/</link>
+      <link>https://xeneta.github.io/XenGuide/air/myprices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/air/myprices/</guid>
+      <guid>https://xeneta.github.io/XenGuide/air/myprices/</guid>
       <description>The My Prices page collects your air freight rates and organizes them into a number of categories for convenient analysis. For an in-depth look at the My Prices page in Xeneta for Air Freight, read our help article. Overview The My Prices page lists every rate you&amp;rsquo;ve uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.</description>
     </item>
     

@@ -7,7 +7,7 @@ weight = 2
 
 ## Overview
 
-The port-to-port search bar can be found on the <a href="https://app.xeneta.com/ocean/dashboard" target="_blank">dashboard</a> and at the top of any <a href="{{< ref "/Ocean/graphs.md" >}}" target="_blank">graphs</a> page.
+The port-to-port search bar can be found on the <a href="https://app.xeneta.com/ocean/dashboard" target="_blank">dashboard</a> and at the top of any <a href="{{< ref "/Ocean/graphs.md" >}}" target="_blank">graphs</a> pages.
 
 {{< fig src="../ocean-dashboard-search.png" text="The port-to-port search with a result." >}}
 

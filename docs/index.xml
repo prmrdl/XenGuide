@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xeneta Guide</title>
-    <link>https://prmrdl.github.io/XenGuide/</link>
+    <link>https://xeneta.github.io/XenGuide/</link>
     <description>Recent content on Xeneta Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://prmrdl.github.io/XenGuide/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xeneta.github.io/XenGuide/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dashboard</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/overview/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/overview/</guid>
+      <guid>https://xeneta.github.io/XenGuide/ocean/overview/</guid>
       <description>The Ocean dashboard summarizes your freight spend information and provides a search box for finding market prices for trade lanes. Overview The Ocean dashboard contains a port-to-port search and a number of sub-sections that describe your performance in the market. You can use the dashboard to understand your position in the market and to quickly navigate between different features of Xeneta.
 Dashboard — Xeneta Ocean You can return to the dashboard at any time by clicking the Xeneta logo in the top-left corner of the app.</description>
     </item>
     
     <item>
       <title>Overview</title>
-      <link>https://prmrdl.github.io/XenGuide/air/overview/</link>
+      <link>https://xeneta.github.io/XenGuide/air/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/air/overview/</guid>
+      <guid>https://xeneta.github.io/XenGuide/air/overview/</guid>
       <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
 Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.</description>
     </item>
     
     <item>
       <title>Uploading Rates</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/uploading/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/uploading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/uploading/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/uploading/</guid>
       <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
 Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
     </item>
     
     <item>
       <title>My Prices</title>
-      <link>https://prmrdl.github.io/XenGuide/air/myprices/</link>
+      <link>https://xeneta.github.io/XenGuide/air/myprices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/air/myprices/</guid>
+      <guid>https://xeneta.github.io/XenGuide/air/myprices/</guid>
       <description>The My Prices page collects your air freight rates and organizes them into a number of categories for convenient analysis. For an in-depth look at the My Prices page in Xeneta for Air Freight, read our help article. Overview The My Prices page lists every rate you&amp;rsquo;ve uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/portsearch/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/portsearch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/portsearch/</guid>
-      <description>The port-to-port search allows you to find today&amp;rsquo;s rate for the majority of port-to-port combinations in the world across a variety of container types. Overview The port-to-port search bar can be found on the dashboard and at the top of any graphs page.
+      <guid>https://xeneta.github.io/XenGuide/ocean/portsearch/</guid>
+      <description>The port-to-port search allows you to find today&amp;rsquo;s rate for the majority of port-to-port combinations in the world across a variety of container types. Overview The port-to-port search bar can be found on the dashboard and at the top of any graphs pages.
 The port-to-port search with a result. Simply enter an origin port and a destination port, select your preferred container type, and click Search.</description>
     </item>
     
     <item>
       <title>Use Cases</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/gettingstarted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/gettingstarted/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/gettingstarted/</guid>
       <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
     </item>
     
     <item>
       <title>My Prices</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/myprices/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/myprices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/myprices/</guid>
+      <guid>https://xeneta.github.io/XenGuide/ocean/myprices/</guid>
       <description>The My Prices page organizes your uploaded freight rates into a number of categories to help you understand your prices across the market. Overview The My Prices page lists every rate you’ve uploaded into Xeneta. It contains a number of filters — including origin, destination, supplier, and container type — to help you find the rates relevant to you.
 The My Prices page. My Prices functionality is only available if you&amp;rsquo;ve uploaded your freight rates into Xeneta.</description>
     </item>
     
     <item>
       <title>Spend Overview</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/spendoverview/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/spendoverview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/spendoverview/</guid>
+      <guid>https://xeneta.github.io/XenGuide/ocean/spendoverview/</guid>
       <description>For an in-depth look at the Spend Overview page, read our help center article. The Spend Overview page ties together your freight volume and its associated prices with the rest of the market. Overview The Spend Overview helps you understand how much your freight prices can improve in terms of dollar value. Xeneta refers to this as the Saving Potential — the theoretical savings that can be achieved if the prices you paid for freight matched the price paid by different segments of the market.</description>
     </item>
     
     <item>
       <title>Graphs</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/graphs/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/graphs/</guid>
+      <guid>https://xeneta.github.io/XenGuide/ocean/graphs/</guid>
       <description>Graphs are a tool for visualizing your freight rates in relation to the market and your own suppliers. Overview Xeneta provides three types of graphs to help you understand your rates:
  The Benchmarks graph The Trends graph The Carrier Spread graph  All graphs in Xeneta have a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, container type, contract duration, and terminal handling charges (THC).</description>
     </item>
     
     <item>
       <title>API</title>
-      <link>https://prmrdl.github.io/XenGuide/ocean/api/</link>
+      <link>https://xeneta.github.io/XenGuide/ocean/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/ocean/api/</guid>
+      <guid>https://xeneta.github.io/XenGuide/ocean/api/</guid>
       <description>The Xeneta API can be used to work with rate information programmatically. For more information about getting API access, read this article.
 See the API reference for technical details.</description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://prmrdl.github.io/XenGuide/introduction/reports/</link>
+      <link>https://xeneta.github.io/XenGuide/introduction/reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prmrdl.github.io/XenGuide/introduction/reports/</guid>
+      <guid>https://xeneta.github.io/XenGuide/introduction/reports/</guid>
       <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
 Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
 Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
