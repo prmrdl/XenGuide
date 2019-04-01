@@ -1,4 +1,5 @@
 baseURL = "https://guide.xveneta.net/"
+googleAnalytics = "UA-137344312-1"
 languageCode = "en-us"
 title = "Xeneta Guide"
 theme = "hugo-theme-learn"
