@@ -5,9 +5,9 @@ weight = 2
 
 {{% header %}} The <a href="https://app.xeneta.com/air/prices/corridors" target="_blank">My Prices</a> page collects your air freight rates and organizes them into a number of categories for convenient analysis. {{% /header %}}
 
-{{% aside %}} For an in-depth look at the My Prices page in Xeneta for Air Freight, read our <a href="https://support.xeneta.com/hc/en-us/articles/360006592233-My-Prices-Air" target="_blank">help article</a>. {{% /aside %}}
-
 ## Overview
+
+{{% aside %}} For an in-depth look at the My Prices page in Xeneta for Air Freight, read our <a href="https://support.xeneta.com/hc/en-us/articles/360006592233-My-Prices-Air" target="_blank">help article</a>. {{% /aside %}}
 
 The My Prices page lists every rate you've uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.
 

@@ -3,11 +3,11 @@ title = "Spend Overview"
 weight = 4
 +++
 
-{{% aside %}} For an in-depth look at the Spend Overview page, read our <a href="https://support.xeneta.com/hc/en-us/articles/360000942974-Contents-of-Spend-Overview" target="_blank">help center article</a>. {{% /aside %}}
-
 {{% header %}} The <a href="https://app.xeneta.com/ocean/spend/corridors" target="_blank">Spend Overview</a> page ties together your freight volume and its associated prices with the rest of the market. {{% /header %}}
 
 ## Overview
+
+{{% aside %}} For an in-depth look at the Spend Overview page, read our <a href="https://support.xeneta.com/hc/en-us/articles/360000942974-Contents-of-Spend-Overview" target="_blank">help center article</a>. {{% /aside %}}
 
 The Spend Overview helps you understand how much your freight prices can improve in terms of dollar value. Xeneta refers to this as the Saving Potential — the theoretical savings that can be achieved if the prices you paid for freight matched the price paid by different segments of the market.
 

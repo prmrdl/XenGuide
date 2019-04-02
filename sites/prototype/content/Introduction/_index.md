@@ -6,7 +6,7 @@ weight = 1
 
 Xeneta is a <a href="https://app.xeneta.com/" target="_blank">software-as-a-service platform</a> designed to help you understand the prices of the air and ocean freight transport markets. 
 
-{{% aside %}} For more information about Xeneta and our products, visit our [website](http://www.xeneta.com). {{% /aside %}}
+{{% aside %}} If you'd like to watch an introduction to Xeneta, take a look at our <a href="https://support.xeneta.com/hc/en-us/articles/360012687573-Ocean-Onboarding-Walkthrough" target="_blank">onboarding video</a>. {{% /aside %}}
 
 At its core, Xeneta provides aggregated and anonymized shipping prices for ocean and air freight. These prices can not only help you understand the historical movement of the market, they can also help you understand the market as it is today.
 

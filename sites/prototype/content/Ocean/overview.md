@@ -7,7 +7,9 @@ weight = 1
 
 ## Overview
 
-The Ocean dashboard contains a [port-to-port search]({{< ref "Ocean/portsearch.md" >}}) and a number of sub-sections that describe your performance in the market. You can use the dashboard to understand your position in the market and to quickly navigate between different features of Xeneta.
+The Ocean dashboard ties together all the key pieces of information about your freight spend in a single page. It's a good starting point for understanding your position in the freight market.
+
+Once you have the basics down, you can use the dashboard to quickly navigate to deeper analytics provided by Xeneta. The [port-to-port search]({{< ref "Ocean/portsearch.md" >}}) is a core tool for finding current and historical prices for trade lanes and trade corridors across the world. The My Spend and My Prices sections of the dashboard connect you to expanded details about your freight prices.
 
 {{< fig src="../ocean-dashboard.png" text="Dashboard — Xeneta Ocean" >}}
 
@@ -17,7 +19,7 @@ You can return to the dashboard at any time by clicking the Xeneta logo in the t
 
 ## My Spend 
 
-The My Spend section of the dashboard brings together the relevant information about your freight rates. At a glance, it provides the volume of your shipped freight (in TEU) and a spend comparison against the market and a calculation about potential savings that could be achieved if your freight rates matched the three different market categories.
+The My Spend section of the dashboard brings together the relevant information about your freight rates. At a glance, it provides the volume of your shipped freight (in TEU), a spend comparison against the market, and a calculation about potential savings that could be achieved if your freight rates matched the three different market categories.
 
 {{< fig src="../ocean-dashboard-my-spend.png" text="Dashboard — My Spend" >}}
 
@@ -26,17 +28,6 @@ The My Spend section of the dashboard brings together the relevant information a
 The My Prices section of the dashboard details the amount of your prices covered by Xeneta, as well as a snapshot of your prices that fall above or below the market. 
 
 {{< fig src="../ocean-dashboard-my-prices.png" text="Dashboard — My Prices" >}}
-
-## Followed Market Trends
-
-You can follow any trade lane whose trends you wish to keep an eye on from the search results.
-
-{{< fig src="../ocean-dashboard-follow.png" text="Dashboard — Following a Trade Lane" >}}
-
-Followed lanes are added to the bottom of the dashboard and show their current price as well as changes in the price since the week before.
-
-{{< fig src="../ocean-dashboard-followed-markets.png" text="Dashboard — Followed Market Trends" >}}
-
 
 ## Next Steps
 

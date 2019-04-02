@@ -7,7 +7,7 @@ weight = 2
 
 ## Overview
 
-The port-to-port search bar can be found on the <a href="https://app.xeneta.com/ocean/dashboard" target="_blank">dashboard</a> and at the top of any <a href="{{< ref "/Ocean/graphs.md" >}}" target="_blank">graphs</a> pages.
+The port-to-port search bar can be found on the <a href="https://app.xeneta.com/ocean/dashboard" target="_blank">dashboard</a> and at the top of any <a href="{{< ref "/Ocean/graphs.md" >}}" >graphs</a> pages.
 
 {{< fig src="../ocean-dashboard-search.png" text="The port-to-port search with a result." >}}
 
@@ -42,6 +42,16 @@ An estimated rates is a computed approximations of what a freight rate might be 
 {{< fig src="../search-estimated.png" text="An estimated rate." >}}
 
 {{% tip %}} See <a href="https://support.xeneta.com/hc/en-us/articles/115003199553-Estimated-Rates" target="_blank">this article</a> for more information on estimated rates. {{% /tip %}}
+
+## Followed Market Trends
+
+You can follow any trade lane whose trends you wish to keep an eye on from the search results.
+
+{{< fig src="../ocean-dashboard-follow.png" text="Dashboard — Following a Trade Lane" >}}
+
+Followed lanes are added to the bottom of the dashboard and show their current price as well as changes in the price since the week before.
+
+{{< fig src="../ocean-dashboard-followed-markets.png" text="Dashboard — Followed Market Trends" >}}
 
 ## Geo-Selector Tool
 
