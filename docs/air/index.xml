@@ -29,5 +29,15 @@ Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port 
       <description>The My Prices page collects your air freight rates and organizes them into a number of categories for convenient analysis. Overview For an in-depth look at the My Prices page in Xeneta for Air Freight, read our help article. The My Prices page lists every rate you&amp;rsquo;ve uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.</description>
     </item>
     
+    <item>
+      <title>Graphs</title>
+      <link>https://guide.xveneta.net/air/graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xveneta.net/air/graphs/</guid>
+      <description>Graphs are a tool for visualizing your freight rates in relation to the market and your own freight forwarders. Overview Xeneta for Air Freight uses the Benchmarks graph to plot both market prices and your freight forwarder prices together. It has a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, weight break, and service level.
+The Benchmarks graph for air freight.</description>
+    </item>
+    
   </channel>
 </rss>

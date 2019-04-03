@@ -19,15 +19,22 @@ You can return to the dashboard at any time by clicking the Xeneta logo in the t
 
 ## My Spend 
 
-The My Spend section of the dashboard brings together the relevant information about your freight rates. At a glance, it provides the volume of your shipped freight (in TEU), a spend comparison against the market, and a calculation about potential savings that could be achieved if your freight rates matched the three different market categories.
+At a glance, the My Spend section of the dashboard provides the volume of your shipped freight (in TEU), a spend comparison against the market, and a calculation about potential savings (in USD) that could be achieved if your freight rates matched the three different market categories.
 
 {{< fig src="../ocean-dashboard-my-spend.png" text="Dashboard — My Spend" >}}
+
+The section contains five links that direct you to different to the **My Spend** analytics pages with pre-set filters that express the dashboard information in more details.
+
+In particular, the **View Comparison** link will provide a concrete comparison between your freight spend and the comparable market spend. Similarly, the **View Savings Potential** link will highlight the corridors where spend performance can be improved.
+
 
 ## My Prices
 
 The My Prices section of the dashboard details the amount of your prices covered by Xeneta, as well as a snapshot of your prices that fall above or below the market. 
 
 {{< fig src="../ocean-dashboard-my-prices.png" text="Dashboard — My Prices" >}}
+
+As with the My Spend section, each summary card under the My Prices section contains a link to expanded spend information. The **View Prices Below** and **View Prices Above** links are useful for determining on what lanes and corridors your prices fall below market expectations.
 
 ## Next Steps
 

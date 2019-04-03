@@ -9,5 +9,11 @@ disableNextPrev = true
 disableAssetsBusting = false
 publishDir = "../../docs"
 
+[[menu.shortcuts]]
+name = "<i class='fas fa-book'></i> Help Center"
+identifier = "xensup"
+url = "https://support.xeneta.com"
+weight = 10
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

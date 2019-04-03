@@ -15,7 +15,9 @@ Simply enter an origin port and a destination port, select your preferred contai
 
 ## Search Results
 
-The results of a port-to-port search will return a market rate based on the rate data available to Xeneta. Search results include the spot rate, the price change since a week ago, the applied THC methodology, and a link to the [Trends graph]({{< ref "/Ocean/graphs.md#trends-graph" >}}) associated with the ports in the search.
+The results of a port-to-port search will return a market rate for shipping your selected container type between your chosen locations based on the rate data available to Xeneta. 
+
+Search results include the spot rate, the price change since a week ago, the applied THC methodology, and a link to the [Trends graph]({{< ref "/Ocean/graphs.md#trends-graph" >}}) associated with the ports in the search.
 
 Xeneta can return a number of results based on the availability of rate data for a particular port-port pair. The results fall into the following categories:
 

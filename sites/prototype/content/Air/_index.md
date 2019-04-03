@@ -14,4 +14,6 @@ Xeneta's Air product helps users to find air freight rates, understand market mo
 
 {{% linkblock title="My Prices" text="View your prices and see how they perform against the market." %}} {{< ref "Air/myprices.md" >}} {{% /linkblock %}}
 
+{{% linkblock title="Graphs" text="Learn about the Benchmarks graph for air freight." %}} {{< ref "Air/graphs.md" >}} {{% /linkblock %}}
+
 </div>

@@ -33,24 +33,8 @@ For instance, in the image below, air freight rates are shown as they relate to 
 
 From a brief look at the data, we can determine that the Asia–Europe corridor has many prices below the market, while both the Europe–Asia and the Europe–North America corridors have prices that could be better. With this sort of data available to you, it becomes clear where improvements can be made.
 
-<br>
+## Next Steps
 
-## Additional Resources
+Next, let's take a look at how Xeneta visualizes your air freight data.
 
-If you have more questions about Xeneta, we recommend you explore the following resources:
-
-<div>
-<div style="margin-bottom:10px;">
-	<a href="{{< ref "/Introduction/gettingstarted.md" >}}" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Use Cases</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">A list of the basic tasks that can be done within the Xeneta platform.</div>
-	</a>
-</div>
-
-<div>
-	<a href="https://support.xeneta.com/hc/en-us" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Help Center</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">Xeneta's knowledge base containing answers to common questions.</div>
-	</a>
-</div>
-</div>
+{{% linkbutton title="Graphs" %}} {{< ref "Air/graphs.md" >}} {{% /linkbutton %}}

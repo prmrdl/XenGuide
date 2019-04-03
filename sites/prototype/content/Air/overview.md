@@ -21,7 +21,7 @@ Simply enter an origin port, a destination port, select your preferred weight br
 
 ## Search Results
 
-After running the search, Xeneta will return one of two types of results:
+After running the search, Xeneta will return results in the unit of **price per kilogram**. The results themselves can take one of two forms:
 
 ### Contracted Rates
 
