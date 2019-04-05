@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ocean on Xeneta Guide</title>
-    <link>https://guide.xeneta.net/ocean/</link>
+    <link>https://guide.xeneta.com/ocean/</link>
     <description>Recent content in Ocean on Xeneta Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://guide.xeneta.net/ocean/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guide.xeneta.com/ocean/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dashboard</title>
-      <link>https://guide.xeneta.net/ocean/overview/</link>
+      <link>https://guide.xeneta.com/ocean/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/overview/</guid>
+      <guid>https://guide.xeneta.com/ocean/overview/</guid>
       <description>The Ocean dashboard summarizes your freight spend information and provides a search box for finding market prices for trade lanes. Overview The Ocean dashboard ties together all the key pieces of information about your freight spend in a single page. It&amp;rsquo;s a good starting point for understanding your position in the freight market.
 Once you have the basics down, you can use the dashboard to quickly navigate to deeper analytics provided by Xeneta.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://guide.xeneta.net/ocean/portsearch/</link>
+      <link>https://guide.xeneta.com/ocean/portsearch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/portsearch/</guid>
+      <guid>https://guide.xeneta.com/ocean/portsearch/</guid>
       <description>The port-to-port search allows you to find today&amp;rsquo;s rate for the majority of port-to-port combinations in the world across a variety of container types. Overview The port-to-port search bar can be found on the dashboard and at the top of any graphs pages.
 The port-to-port search with a result. Simply enter an origin port and a destination port, select your preferred container type, and click Search.</description>
     </item>
     
     <item>
       <title>My Prices</title>
-      <link>https://guide.xeneta.net/ocean/myprices/</link>
+      <link>https://guide.xeneta.com/ocean/myprices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/myprices/</guid>
+      <guid>https://guide.xeneta.com/ocean/myprices/</guid>
       <description>The My Prices page organizes your uploaded freight rates into a number of categories to help you understand your prices across the market. Overview The My Prices page lists every rate you’ve uploaded into Xeneta. It contains a number of filters — including origin, destination, supplier, and container type — to help you find the rates relevant to you.
 The My Prices page. My Prices functionality is only available if you&amp;rsquo;ve uploaded your freight rates into Xeneta.</description>
     </item>
     
     <item>
       <title>Spend Overview</title>
-      <link>https://guide.xeneta.net/ocean/spendoverview/</link>
+      <link>https://guide.xeneta.com/ocean/spendoverview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/spendoverview/</guid>
+      <guid>https://guide.xeneta.com/ocean/spendoverview/</guid>
       <description>The Spend Overview page ties together your freight volume and its associated prices with the rest of the market. Overview For an in-depth look at the Spend Overview page, read our help center article. The Spend Overview helps you understand how much your freight prices can improve in terms of dollar value. Xeneta refers to this as the Saving Potential — the theoretical savings that can be achieved if the prices you paid for freight matched the price paid by different segments of the market.</description>
     </item>
     
     <item>
       <title>Graphs</title>
-      <link>https://guide.xeneta.net/ocean/graphs/</link>
+      <link>https://guide.xeneta.com/ocean/graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/graphs/</guid>
+      <guid>https://guide.xeneta.com/ocean/graphs/</guid>
       <description>Graphs are a tool for visualizing your freight rates in relation to the market and your own suppliers. Overview Xeneta provides three types of graphs to help you understand your rates:
  The Benchmarks graph The Trends graph The Carrier Spread graph  All graphs in Xeneta have a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, container type, contract duration, and terminal handling charges (THC).</description>
     </item>
     
     <item>
       <title>API</title>
-      <link>https://guide.xeneta.net/ocean/api/</link>
+      <link>https://guide.xeneta.com/ocean/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.net/ocean/api/</guid>
+      <guid>https://guide.xeneta.com/ocean/api/</guid>
       <description>The Xeneta API can be used to work with rate information programmatically. For more information about getting API access, read this article.
 See the API reference for technical details.</description>
     </item>
