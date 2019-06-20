@@ -89,6 +89,17 @@ The My Prices page. My Prices functionality is only available if you&amp;rsquo
     </item>
     
     <item>
+      <title>Reports</title>
+      <link>https://guide.xeneta.com/introduction/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/reports/</guid>
+      <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
+Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
+Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
+    </item>
+    
+    <item>
       <title>Spend Overview</title>
       <link>https://guide.xeneta.com/ocean/spendoverview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -108,6 +119,17 @@ The My Prices page. My Prices functionality is only available if you&amp;rsquo
     </item>
     
     <item>
+      <title>Market Metrics</title>
+      <link>https://guide.xeneta.com/introduction/marketmetrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/marketmetrics/</guid>
+      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
+They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
+Market metrics for ocean freight.</description>
+    </item>
+    
+    <item>
       <title>API</title>
       <link>https://guide.xeneta.com/ocean/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,17 +137,6 @@ The My Prices page. My Prices functionality is only available if you&amp;rsquo
       <guid>https://guide.xeneta.com/ocean/api/</guid>
       <description>The Xeneta API can be used to work with rate information programmatically. For more information about getting API access, read this article.
 See the API reference for technical details.</description>
-    </item>
-    
-    <item>
-      <title>Reports</title>
-      <link>https://guide.xeneta.com/introduction/reports/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/introduction/reports/</guid>
-      <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
-Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
-Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
     </item>
     
   </channel>

@@ -1,6 +1,6 @@
 +++
 title = "Reports"
-weight = 6
+weight = 4
 +++
 
 Xeneta can create a number of Excel reports based on the analytics data found on our platform.

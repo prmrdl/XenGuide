@@ -47,6 +47,10 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/introduction/reports/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/ocean/spendoverview/</loc>
   </url>
   
@@ -55,11 +59,11 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/ocean/api/</loc>
+    <loc>https://guide.xeneta.com/introduction/marketmetrics/</loc>
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/introduction/reports/</loc>
+    <loc>https://guide.xeneta.com/ocean/api/</loc>
   </url>
   
   <url>

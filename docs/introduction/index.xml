@@ -40,5 +40,16 @@ Any page capable of exporting an Excel report will contain a  symbol in the top
 Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
     </item>
     
+    <item>
+      <title>Market Metrics</title>
+      <link>https://guide.xeneta.com/introduction/marketmetrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/marketmetrics/</guid>
+      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
+They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
+Market metrics for ocean freight.</description>
+    </item>
+    
   </channel>
 </rss>

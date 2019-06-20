@@ -17,7 +17,7 @@ The port-to-port search on the dashboard is used to find spot rates for air frei
 
 {{< fig src="../air-search.png" text="Port-to-port search bar." >}}
 
-Simply enter an origin port, a destination port, select your preferred weight break, and click **Search**.
+Simply enter an origin port, a destination port, select your preferred <a href="https://support.xeneta.com/hc/en-us/articles/360012268533-Weight-Breaks-in-Air-Rate-Search" target="_blank">weight break</a>, and click **Search**.
 
 ## Search Results
 

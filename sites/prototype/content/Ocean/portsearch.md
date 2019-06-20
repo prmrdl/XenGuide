@@ -11,7 +11,7 @@ The port-to-port search bar can be found on the <a href="https://app.xeneta.com/
 
 {{< fig src="../ocean-dashboard-search.png" text="The port-to-port search with a result." >}}
 
-Simply enter an origin port and a destination port, select your preferred container type, and click **Search**.
+Simply enter an origin port and a destination port, select your preferred <a href="https://support.xeneta.com/hc/en-us/articles/115002624293-Container-Types" target="_blank">container type</a>, and click **Search**.
 
 ## Search Results
 
