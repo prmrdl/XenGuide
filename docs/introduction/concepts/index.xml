@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concepts on Xeneta Guide</title>
+    <link>https://guide.xeneta.com/introduction/concepts/</link>
+    <description>Recent content in Concepts on Xeneta Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://guide.xeneta.com/introduction/concepts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Freight Rates</title>
+      <link>https://guide.xeneta.com/introduction/concepts/introfreightrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/concepts/introfreightrate/</guid>
+      <description>An Introduction to Freight Rate Benchmarking and Analytics for Ocean Freight What is a freight rate? A freight rate is a negotiated or quoted price for shipping a freight container from one part of the world to another.
+Freight rates that are tied to contracts have a validity period that defines the length of time that the freight rate is valid. The validity of a freight rate will depend on if it is based on a short-term contract or a long-term contract.</description>
+    </item>
+    
+    <item>
+      <title>Market Metrics</title>
+      <link>https://guide.xeneta.com/introduction/concepts/marketmetrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/concepts/marketmetrics/</guid>
+      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
+They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
+Market metrics for ocean freight.</description>
+    </item>
+    
+  </channel>
+</rss>

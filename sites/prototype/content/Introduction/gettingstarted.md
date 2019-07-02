@@ -1,7 +1,7 @@
 +++
 title = "Use Cases"
 chapter = false
-weight = 2
+weight = 3
 +++
 
 {{% header %}} Xeneta's platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. {{% /header %}}

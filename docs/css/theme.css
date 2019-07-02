@@ -273,7 +273,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar ul.topics > li > a {
     line-height: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
+	font-variant: small-caps;
+	color: #565656;
+	padding-left: 1.2em;
 }
 #sidebar ul.topics > li > a b {
     opacity: 0.5;
@@ -308,6 +311,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	border-bottom:1px solid #bce2ff;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	padding-left:35px;
+}
+#sidebar ul li.active > a:hover {
+	color: #1d63ff;
+}
+#sidebar ul li > a:hover {
+	color: #1d63ff;
 }
 #sidebar ul li ul li.active > a {
     /*background: #fff;*/
@@ -325,6 +335,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	border-bottom:1px solid #bce2ff;
 	padding-top: 4px;
 	padding-bottom: 4px;
+}
+#sidebar ul li ul li ul li.active > a {
+	margin-left:-48px;
+	padding-left:48px;
 }
 #sidebar ul li {
     padding: 0;
@@ -344,7 +358,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar ul li > a {
     padding: 4px 0;
-	font-size: 16px;
+	font-size: 14px;
+	line-height:1.4;
 }
 #sidebar ul li.visited > a .read-icon {
     color: #9c6fb6;

@@ -21,9 +21,9 @@ Beyond benchmarking and market comparisons, the Xeneta platform provides you wit
 
 ## Next Steps
 
-Next we'll learn about the benefits of uploading freight rates to Xeneta.
+You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
 
-{{% linkbutton title="Uploading Rates" %}} {{< ref "Introduction/uploading.md" >}} {{% /linkbutton %}}
+{{% linkbutton title="Xeneta Dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkbutton %}}
 
 <div style="clear:both"/>
 

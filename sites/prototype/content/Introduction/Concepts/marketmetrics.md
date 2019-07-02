@@ -1,7 +1,7 @@
 +++
 title = "Market Metrics"
 chapter = false
-weight = 5
+weight = 2
 +++
 
 {{% aside %}} For an in-depth look at Market Metrics, read our <a href="https://support.xeneta.com/hc/en-us/articles/360000925173-Market-Metrics" target="_blank">article</a> in the help center. {{% /aside %}}

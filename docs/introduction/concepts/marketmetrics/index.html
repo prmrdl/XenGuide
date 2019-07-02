@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>My Prices :: Xeneta Guide</title>
+    <title>Market Metrics :: Xeneta Guide</title>
 
     
     <link href="/css/nucleus.css?1562074205" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/air/myprices/">
+  <body class="" data-url="/introduction/concepts/marketmetrics/">
     <nav id="sidebar" class="">
 
 
@@ -79,7 +79,7 @@
   
     
     <li data-nav-id="/introduction/" title="Introduction" class="dd-item 
-        
+        parent
         
         
         ">
@@ -106,7 +106,7 @@
   
     
     <li data-nav-id="/introduction/concepts/" title="Concepts" class="dd-item 
-        
+        parent
         
         
         ">
@@ -149,7 +149,7 @@
  
   
     
-      <li data-nav-id="/introduction/concepts/marketmetrics/" title="Market Metrics" class="dd-item ">
+      <li data-nav-id="/introduction/concepts/marketmetrics/" title="Market Metrics" class="dd-item active">
         <a href="/introduction/concepts/marketmetrics/">
         Market Metrics
         
@@ -388,7 +388,7 @@
   
     
     <li data-nav-id="/air/" title="Air" class="dd-item 
-        parent
+        
         
         
         ">
@@ -431,7 +431,7 @@
  
   
     
-      <li data-nav-id="/air/myprices/" title="My Prices" class="dd-item active">
+      <li data-nav-id="/air/myprices/" title="My Prices" class="dd-item ">
         <a href="/air/myprices/">
         My Prices
         
@@ -530,7 +530,13 @@
             
           
           
-            <a href='/'>Xeneta Guide</a> > <a href='/air/'>Air</a> > My Prices
+            
+            
+          
+          
+            <a href='/'>Xeneta Guide</a> > <a href='/introduction/'>Introduction</a> > <a href='/introduction/concepts/'>Concepts</a> > Market Metrics
+          
+         
           
          
           
@@ -547,12 +553,19 @@
 <ul>
 <li>
 <ul>
-<li><a href="#overview">Overview</a>
+<li><a href="#understanding-your-metrics-ocean">Understanding Your Metrics — Ocean</a>
 <ul>
-<li><a href="#market-comparison-all-rates">Market Comparison — All Rates</a></li>
-<li><a href="#market-comparison-categories">Market Comparison — Categories</a></li>
+<li><a href="#short-term-contracts-and-market-average-position">Short-term Contracts and Market Average Position</a></li>
+<li><a href="#short-term-contracts-and-market-high-position">Short-term Contracts and Market High Position</a></li>
+<li><a href="#long-term-contracts-and-market-low-position">Long-term Contracts and Market Low Position</a></li>
+<li><a href="#summary">Summary</a></li>
 </ul></li>
-<li><a href="#next-steps">Next Steps</a></li>
+<li><a href="#understanding-your-metrics-air">Understanding Your Metrics — Air</a>
+<ul>
+<li><a href="#mid-tier-service-level-and-market-average">Mid-Tier Service Level and Market Average</a></li>
+<li><a href="#mid-tier-service-level-and-market-low">Mid-Tier Service Level and Market Low</a></li>
+<li><a href="#low-tier-service-level-and-market-average">Low-Tier Service Level and Market Average</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -567,25 +580,13 @@
         
         <div id="body-inner">
           
-            <h1>My Prices</h1>
+            <h1>Market Metrics</h1>
           
 
         
 
 
 
-
-<div>
-	<p style="
-	font-size:18px;
-	padding: 3px 3px 3px 10px;
-	border-left:4px solid #1d63ff;
-	margin-bottom:2em;">
-		The <a href="https://app.xeneta.com/air/prices/corridors" target="_blank">My Prices</a> page collects your air freight rates and organizes them into a number of categories for convenient analysis.
-	</p>
-</div>
-
-<h2 id="overview">Overview</h2>
 
 <div style="width: 220px;
 font-size: 14px;
@@ -594,13 +595,15 @@ border: 1px solid #dedede;
 float: right;
 margin: 0px 0px 15px 40px;
 border-radius:5px;">
-For an in-depth look at the My Prices page in Xeneta for Air Freight, read our <a href="https://support.xeneta.com/hc/en-us/articles/360006592233-My-Prices-Air" target="_blank">help article</a>.
+For an in-depth look at Market Metrics, read our <a href="https://support.xeneta.com/hc/en-us/articles/360000925173-Market-Metrics" target="_blank">article</a> in the help center.
 </div>
 
-<p>The My Prices page lists every rate you&rsquo;ve uploaded into Xeneta. It contains a number of filters — including transit time, weight break, and service type — to help you find the rates relevant to you.</p>
+<p>Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.</p>
+
+<p>They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../air-myprices.png' />
+	<img style="margin-top:0px;" src='../market-metrics-ocean.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -615,27 +618,34 @@ For an in-depth look at the My Prices page in Xeneta for Air Freight, read our <
 	text-align:center;
 	float:left;
 	">
-		The My Prices page in Xeneta for Air Freight.
+		Market metrics for ocean freight.
 	</div>
 </div>
 
-<div style="background-color: #e3f3ff;
-    padding: 12px 12px 12px 20px;
-    border-left: 6px solid #1c9fd2;
-    margin-left: 0px;
-  	margin-bottom: 15px;
-    max-width: 705px;
-	border-radius:5px;
-	font-size:15px;">
-My Prices functionality is only available if you&rsquo;ve <a href="/introduction/uploading/">uploaded your freight rates</a> into Xeneta.
-</div>
+<p>Currently, Xeneta uses 3 types of market metrics across both Ocean and Air freight products:</p>
 
-<h3 id="market-comparison-all-rates">Market Comparison — All Rates</h3>
+<ul>
+<li>Contract duration (Ocean)</li>
+<li>Market position (Air and Ocean)</li>
+<li>Service levels (Air)<br /></li>
+</ul>
 
-<p>The My Prices page calculates how your prices compare to the market and divides your prices into two groups: prices above the market and prices below the market.</p>
+<h2 id="understanding-your-metrics-ocean">Understanding Your Metrics — Ocean</h2>
+
+<p>It is important to select the right market metrics when viewing data in Xeneta because market metrics determine the data you will be shown.</p>
+
+<p>Xeneta separates data between short-term contracts and long-term contracts, which means that you need to use market metrics to select the type of contracts you would prefer to see. Additionally, long-term contracts can be filtered by their age using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within">Contracted Within</a> option.</p>
+
+<p>Xeneta also allows you to focus on different parts of the market, including the average freight rates, as well as the low and high segments of the market. You can read more about how Xeneta divides prices into different segments of the freight market <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks">here</a>.</p>
+
+<p>With this in mind, let&rsquo;s take a look at the following freight rate search results and see how they are affected by market metrics:</p>
+
+<h3 id="short-term-contracts-and-market-average-position">Short-term Contracts and Market Average Position</h3>
+
+<p>In this case, Xeneta returns the market average price across all short term contracts available on the Shanghai–Hamburg trade lane.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../myprices-market.png' />
+	<img style="margin-top:0px;" src='../mm-1.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -650,20 +660,16 @@ My Prices functionality is only available if you&rsquo;ve <a href="/introduction
 	text-align:center;
 	float:left;
 	">
-		The My Prices page in Xeneta for Air Freight.
+		Rate from Shanghai to Hamburg with short-term rates and a market average position.
 	</div>
 </div>
 
-<h3 id="market-comparison-categories">Market Comparison — Categories</h3>
+<h3 id="short-term-contracts-and-market-high-position">Short-term Contracts and Market High Position</h3>
 
-<p>The My Prices page also calculates how rates are spread over the four different categories of air freight groupings — corridor, origin, destination, and freight forwarder.</p>
-
-<p>Categories can help you identify trade lanes or freight forwarders that stand out in terms of their prices.</p>
-
-<p>For instance, in the image below, air freight rates are shown as they relate to corridors, along with a count of how many of those freight rates fall above or below the market price.</p>
+<p>Here we can see the same short term contracts but the market position is now focused on the <strong>market high</strong>, or, in other words, the highest prices paid on the market to ship freight on this trade lane.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../myprices-row.png' />
+	<img style="margin-top:0px;" src='../mm-2.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -678,19 +684,148 @@ My Prices functionality is only available if you&rsquo;ve <a href="/introduction
 	text-align:center;
 	float:left;
 	">
-		The spread of air freight rates over different corridors.
+		Rate from Shanghai to Hamburg with short-term rates and a market high position.
 	</div>
 </div>
 
-<p>From a brief look at the data, we can determine that the Asia–Europe corridor has many prices below the market, while both the Europe–Asia and the Europe–North America corridors have prices that could be better. With this sort of data available to you, it becomes clear where improvements can be made.</p>
+<h3 id="long-term-contracts-and-market-low-position">Long-term Contracts and Market Low Position</h3>
 
-<h2 id="next-steps">Next Steps</h2>
+<p>Finally, we can see long-term contracts with the market low position — that is, the lowest prices paid by market participants.</p>
 
-<p>Next, let&rsquo;s take a look at how Xeneta visualizes your air freight data.</p>
+<div style="display:inline-block;">
+	<img style="margin-top:0px;" src='../mm-3.png' />
+	<div style="font-size:14px;
+	margin-top:-17px;
+	margin-bottom: 10px;
+	padding:8px 8px 5px 10px;
+	background-color:#e8e8e8;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	border-top: 1px solid #b9b9b9;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	float:left;
+	">
+		Rate from Shanghai to Hamburg with long-term rates and a market low position.
+	</div>
+</div>
 
-<a class="linkbutton" href="/air/graphs/">
-	Graphs
-</a>
+<h3 id="summary">Summary</h3>
+
+<p>The market metrics determine the parts of the freight rate market that Xeneta will show. In the examples above, the freight rate can vary drastically under different market metrics. The price of long-term contracts will differ from the short-term, and the market average value can be significantly different between the highest and lowest prices paid on the market.</p>
+
+<h2 id="understanding-your-metrics-air">Understanding Your Metrics — Air</h2>
+
+<p>Market metrics in Xeneta for Air Freight differ from Ocean freight in the following ways:</p>
+
+<ul>
+<li>Air freight uses only long-term contracts</li>
+<li>Air freight has a market metric tied to the service level of the cargo</li>
+</ul>
+
+<div style="display:inline-block;">
+	<img style="margin-top:0px;" src='../mm-4.png' />
+	<div style="font-size:14px;
+	margin-top:-17px;
+	margin-bottom: 10px;
+	padding:8px 8px 5px 10px;
+	background-color:#e8e8e8;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	border-top: 1px solid #b9b9b9;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	float:left;
+	">
+		Market metrics for Air freight.
+	</div>
+</div>
+
+<p>Like Ocean freight, Xeneta uses three different market positions to show freight rates for the market average, low, and high segments.</p>
+
+<p>However, unlike Ocean freight, air freight is categorized by Xeneta into <a href="https://support.xeneta.com/hc/en-us/articles/360012088593">service levels</a>. This is done to ensure that air cargo, which lacks the standardization of ocean freight, can be made comparable to other air cargo.</p>
+
+<p>In general, the way Xeneta creates benchmarks for air freight differs from the way it is done for ocean freight. You can read more about our benchmarking methodology <a href="https://support.xeneta.com/hc/en-us/articles/360012921174-Air-Benchmarking-Methodology">here</a>.</p>
+
+<p>Let&rsquo;s examine how the service level market metric affects the prices seen within the air freight search:</p>
+
+<h3 id="mid-tier-service-level-and-market-average">Mid-Tier Service Level and Market Average</h3>
+
+<p>Here we can see the prices for air freight from Shanghai to Frankfurt at the market average.</p>
+
+<div style="display:inline-block;">
+	<img style="margin-top:0px;" src='../mm-5.png' />
+	<div style="font-size:14px;
+	margin-top:-17px;
+	margin-bottom: 10px;
+	padding:8px 8px 5px 10px;
+	background-color:#e8e8e8;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	border-top: 1px solid #b9b9b9;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	float:left;
+	">
+		Mid-tier service level and a market average position.
+	</div>
+</div>
+
+<h3 id="mid-tier-service-level-and-market-low">Mid-Tier Service Level and Market Low</h3>
+
+<p>Contrast the price above with the same service tier but focused on the lowest price on the market. We can see that the spread between the market average and the market low is not very large.</p>
+
+<div style="display:inline-block;">
+	<img style="margin-top:0px;" src='../mm-6.png' />
+	<div style="font-size:14px;
+	margin-top:-17px;
+	margin-bottom: 10px;
+	padding:8px 8px 5px 10px;
+	background-color:#e8e8e8;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	border-top: 1px solid #b9b9b9;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	float:left;
+	">
+		Mid-tier service level and a market low position.
+	</div>
+</div>
+
+<h3 id="low-tier-service-level-and-market-average">Low-Tier Service Level and Market Average</h3>
+
+<p>Finally, we can look at the low-tier service level at the market average for the same trade lane.</p>
+
+<div style="display:inline-block;">
+	<img style="margin-top:0px;" src='../mm-7.png' />
+	<div style="font-size:14px;
+	margin-top:-17px;
+	margin-bottom: 10px;
+	padding:8px 8px 5px 10px;
+	background-color:#e8e8e8;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	border-top: 1px solid #b9b9b9;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	float:left;
+	">
+		Low-tier service level and a market average position.
+	</div>
+</div>
+
+<p>The difference between the low-tier and mid-tier air freight viewed at the market average provides a good insight into the value of service level offered by carriers. For instance, if you&rsquo;re particularly price-sensitive, it would make sense to forgo some service level benefits — like shipping speed — for a lower price.</p>
 
 
 <script type="application/javascript">
@@ -743,8 +878,6 @@ if (!doNotTrack) {
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -761,6 +894,7 @@ if (!doNotTrack) {
             
                 
                     
+                    
                 
                 
 
@@ -773,6 +907,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -790,56 +927,6 @@ if (!doNotTrack) {
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -860,6 +947,9 @@ if (!doNotTrack) {
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -867,6 +957,9 @@ if (!doNotTrack) {
                     
                     
 
+                    
+            
+        
                     
                         
             
@@ -899,6 +992,22 @@ if (!doNotTrack) {
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -964,30 +1073,10 @@ if (!doNotTrack) {
             
         
                     
-            
-        
-                    
                         
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -1005,6 +1094,37 @@ if (!doNotTrack) {
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1022,8 +1142,21 @@ if (!doNotTrack) {
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -1048,10 +1181,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/air/overview/" title="Overview"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/introduction/concepts/introfreightrate/" title="Introduction to Freight Rates"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/air/graphs/" title="Graphs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/introduction/uploading/" title="Uploading Rates" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

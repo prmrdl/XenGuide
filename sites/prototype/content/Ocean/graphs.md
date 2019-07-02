@@ -3,7 +3,7 @@ title = "Graphs"
 weight = 5
 +++
 
-{{% header %}} Graphs are a tool for visualizing	 your freight rates in relation to the market and your own suppliers. {{% /header %}}
+{{% header %}} Graphs are a tool for visualizing your freight rates in relation to the market and your own suppliers. {{% /header %}}
 
 ## Overview
 

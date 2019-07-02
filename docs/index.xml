@@ -21,23 +21,34 @@ Once you have the basics down, you can use the dashboard to quickly navigate to 
     </item>
     
     <item>
+      <title>Introduction to Freight Rates</title>
+      <link>https://guide.xeneta.com/introduction/concepts/introfreightrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/concepts/introfreightrate/</guid>
+      <description>An Introduction to Freight Rate Benchmarking and Analytics for Ocean Freight What is a freight rate? A freight rate is a negotiated or quoted price for shipping a freight container from one part of the world to another.
+Freight rates that are tied to contracts have a validity period that defines the length of time that the freight rate is valid. The validity of a freight rate will depend on if it is based on a short-term contract or a long-term contract.</description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>https://guide.xeneta.com/air/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://guide.xeneta.com/air/overview/</guid>
-      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
+      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard For details about Xeneta&amp;rsquo;s benchmarking of air freight, read our this article. Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
 Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.</description>
     </item>
     
     <item>
-      <title>Uploading Rates</title>
-      <link>https://guide.xeneta.com/introduction/uploading/</link>
+      <title>Market Metrics</title>
+      <link>https://guide.xeneta.com/introduction/concepts/marketmetrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.com/introduction/uploading/</guid>
-      <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
-Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
+      <guid>https://guide.xeneta.com/introduction/concepts/marketmetrics/</guid>
+      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
+They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
+Market metrics for ocean freight.</description>
     </item>
     
     <item>
@@ -60,12 +71,13 @@ The port-to-port search with a result. Simply enter an origin port and a desti
     </item>
     
     <item>
-      <title>Use Cases</title>
-      <link>https://guide.xeneta.com/introduction/gettingstarted/</link>
+      <title>Uploading Rates</title>
+      <link>https://guide.xeneta.com/introduction/uploading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.com/introduction/gettingstarted/</guid>
-      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
+      <guid>https://guide.xeneta.com/introduction/uploading/</guid>
+      <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
+Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
     </item>
     
     <item>
@@ -86,6 +98,15 @@ The Benchmarks graph for air freight.</description>
       <guid>https://guide.xeneta.com/ocean/myprices/</guid>
       <description>The My Prices page organizes your uploaded freight rates into a number of categories to help you understand your prices across the market. Overview The My Prices page lists every rate you’ve uploaded into Xeneta. It contains a number of filters — including origin, destination, supplier, and container type — to help you find the rates relevant to you.
 The My Prices page. My Prices functionality is only available if you&amp;rsquo;ve uploaded your freight rates into Xeneta.</description>
+    </item>
+    
+    <item>
+      <title>Use Cases</title>
+      <link>https://guide.xeneta.com/introduction/gettingstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/gettingstarted/</guid>
+      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
     </item>
     
     <item>
@@ -116,17 +137,6 @@ Note: A number of larger reports will take some time to generate. In such cases,
       <guid>https://guide.xeneta.com/ocean/graphs/</guid>
       <description>Graphs are a tool for visualizing your freight rates in relation to the market and your own suppliers. Overview Xeneta provides three types of graphs to help you understand your rates:
  The Benchmarks graph The Trends graph The Carrier Spread graph  All graphs in Xeneta have a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, container type, contract duration, and terminal handling charges (THC).</description>
-    </item>
-    
-    <item>
-      <title>Market Metrics</title>
-      <link>https://guide.xeneta.com/introduction/marketmetrics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/introduction/marketmetrics/</guid>
-      <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
-They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
-Market metrics for ocean freight.</description>
     </item>
     
     <item>

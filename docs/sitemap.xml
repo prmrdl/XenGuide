@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://guide.xeneta.com/introduction/concepts/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/ocean/overview/</loc>
   </url>
   
@@ -11,11 +15,15 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/introduction/concepts/introfreightrate/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/air/overview/</loc>
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/introduction/uploading/</loc>
+    <loc>https://guide.xeneta.com/introduction/concepts/marketmetrics/</loc>
   </url>
   
   <url>
@@ -31,7 +39,7 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/introduction/gettingstarted/</loc>
+    <loc>https://guide.xeneta.com/introduction/uploading/</loc>
   </url>
   
   <url>
@@ -40,6 +48,10 @@
   
   <url>
     <loc>https://guide.xeneta.com/ocean/myprices/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/introduction/gettingstarted/</loc>
   </url>
   
   <url>
@@ -56,10 +68,6 @@
   
   <url>
     <loc>https://guide.xeneta.com/ocean/graphs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://guide.xeneta.com/introduction/marketmetrics/</loc>
   </url>
   
   <url>
