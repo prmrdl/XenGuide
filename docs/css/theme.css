@@ -257,6 +257,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul.topics {
     margin: 0 1rem;
 	font-weight:400;
+	border:1px solid #e6e6e6;
+	box-shadow: 3px 3px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
 }
 #sidebar ul.topics.searched ul {
     display: block;
@@ -277,6 +279,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	font-variant: small-caps;
 	color: #565656;
 	padding-left: 1.2em;
+	background-color: #fbfbfb;
+	padding: 20px;
 }
 #sidebar ul.topics > li > a b {
     opacity: 0.5;
@@ -286,32 +290,26 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    /*background: #251f29;*/
-	/*background: #31356b;*/
 	background: white;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding-left: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0rem;
     padding-right: 1rem;
 	border-top: 1px solid #ececec;
 	border-bottom: 1px solid #ececec;
 	
 }
 #sidebar ul li.active > a {
-    /*background: #fff;*/
-    /*color: #fff !important;*/
-	/*color: #1d63ff;*/
-	/*font-weight: bold;*/
-    margin-left: -1rem;
+    margin-left: 0rem;
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-	background-color: #e3f3ff;
-	border-top:1px solid #bce2ff;
+	background-color: #bce2ff73 !important;
 	border-bottom:1px solid #bce2ff;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left:35px;
+	border-top:1px solid #bce2ff;
+	padding:20px;
+	margin-top:-1px;
+	margin-bottom:-1px;
 }
 #sidebar ul li.active > a:hover {
 	color: #1d63ff;
@@ -319,27 +317,37 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul li > a:hover {
 	color: #1d63ff;
 }
+li.dd-item.parent > a {
+	background-color: white !important;
+}
+li.dd-item:not(parent){
+	padding-top:10px;
+}
+
+#sidebar ul li ul li ul li a {
+	padding-left:0px;
+}
+
 #sidebar ul li ul li.active > a {
-    /*background: #fff;*/
-    /*color: #fff !important;*/
-	/*color: #1d63ff;*/
-	/*font-weight: bold;*/
-    margin-left: -2rem;
-    margin-right: -1rem;
-    padding-left: 2rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    padding-left: 0.5rem;
+	padding-left:7px;
     padding-right: 2rem;
 	margin-top:-1px;
 	margin-bottom:-1px;
 	background-color: #e3f3ff;
-	border-top:1px solid #bce2ff;
-	border-bottom:1px solid #bce2ff;
+	border:1px solid #bce2ff;
+	border-radius:5px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
+
 #sidebar ul li ul li ul li.active > a {
-	margin-left:-48px;
-	padding-left:48px;
+	margin-left:-24px;
+	padding-left:23px;
 }
+
 #sidebar ul li {
     padding: 0;
 }
