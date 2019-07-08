@@ -81,17 +81,6 @@ Benchmarking can help you understand how much you pay relative to the market and
     </item>
     
     <item>
-      <title>Contract Horizon</title>
-      <link>https://guide.xeneta.com/introduction/concepts/futures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/introduction/concepts/futures/</guid>
-      <description>At its core, the Xeneta platform helps you understand the trends in the freight market. It does so by providing three views of the market:
- The historical rate trends The current day&amp;rsquo;s rate The trend of rates that run into the future or begin in the future  The Contract Horizon in particular is
-Visualizing Rates We can visualize Xeneta&amp;rsquo;s rate data by viewing it as a collection of lines: the length of each line representing the duration of a contracted rate and its vertical position representing the price that the rate was negotiated at.</description>
-    </item>
-    
-    <item>
       <title>Graphs</title>
       <link>https://guide.xeneta.com/air/graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
