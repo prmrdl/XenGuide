@@ -312,7 +312,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	margin-bottom:-1px;
 }
 #sidebar ul li.active > a:hover {
-	color: #1d63ff;
+	color: black;
 }
 #sidebar ul li > a:hover {
 	color: #1d63ff;
