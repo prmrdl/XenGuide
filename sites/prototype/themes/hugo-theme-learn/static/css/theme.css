@@ -341,11 +341,13 @@ li.dd-item:not(parent){
 	border-radius:5px;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	font-weight:500;
 }
 
 #sidebar ul li ul li ul li.active > a {
 	margin-left:-24px;
 	padding-left:23px;
+	font-weight:500;
 }
 
 #sidebar ul li {
@@ -367,7 +369,7 @@ li.dd-item:not(parent){
 #sidebar ul li > a {
     padding: 4px 0;
 	font-size: 14px;
-	line-height:1.4;
+	line-height:2.0;
 }
 #sidebar ul li.visited > a .read-icon {
     color: #9c6fb6;

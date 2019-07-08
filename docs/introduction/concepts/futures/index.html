@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Market Metrics :: Xeneta Guide</title>
+    <title>Contract Horizon :: Xeneta Guide</title>
 
     
     <link href="/css/nucleus.css?1562586596" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/introduction/concepts/marketmetrics/">
+  <body class="" data-url="/introduction/concepts/futures/">
     <nav id="sidebar" class="">
 
 
@@ -149,7 +149,7 @@
  
   
     
-      <li data-nav-id="/introduction/concepts/marketmetrics/" title="Market Metrics" class="dd-item active">
+      <li data-nav-id="/introduction/concepts/marketmetrics/" title="Market Metrics" class="dd-item ">
         <a href="/introduction/concepts/marketmetrics/">
         Market Metrics
         
@@ -168,7 +168,7 @@
  
   
     
-      <li data-nav-id="/introduction/concepts/futures/" title="Contract Horizon" class="dd-item ">
+      <li data-nav-id="/introduction/concepts/futures/" title="Contract Horizon" class="dd-item active">
         <a href="/introduction/concepts/futures/">
         Contract Horizon
         
@@ -553,7 +553,7 @@
             
           
           
-            <a href='/'>Xeneta Guide</a> > <a href='/introduction/'>Introduction</a> > <a href='/introduction/concepts/'>Concepts</a> > Market Metrics
+            <a href='/'>Xeneta Guide</a> > <a href='/introduction/'>Introduction</a> > <a href='/introduction/concepts/'>Concepts</a> > Contract Horizon
           
          
           
@@ -572,18 +572,13 @@
 <ul>
 <li>
 <ul>
-<li><a href="#understanding-your-metrics-ocean">Understanding Your Metrics — Ocean</a>
+<li><a href="#visualizing-rates">Visualizing Rates</a></li>
+<li><a href="#contracted-within">Contracted Within</a></li>
+<li><a href="#contract-horizon">Contract Horizon</a></li>
+<li><a href="#contracted-within-and-contract-horizon">Contracted Within and Contract Horizon</a>
 <ul>
-<li><a href="#short-term-contracts-and-market-average-position">Short-term Contracts and Market Average Position</a></li>
-<li><a href="#short-term-contracts-and-market-high-position">Short-term Contracts and Market High Position</a></li>
-<li><a href="#long-term-contracts-and-market-low-position">Long-term Contracts and Market Low Position</a></li>
-<li><a href="#summary">Summary</a></li>
-</ul></li>
-<li><a href="#understanding-your-metrics-air">Understanding Your Metrics — Air</a>
-<ul>
-<li><a href="#mid-tier-service-level-and-market-average">Mid-Tier Service Level and Market Average</a></li>
-<li><a href="#mid-tier-service-level-and-market-low">Mid-Tier Service Level and Market Low</a></li>
-<li><a href="#low-tier-service-level-and-market-average">Low-Tier Service Level and Market Average</a></li>
+<li><a href="#why-is-the-contract-horizon-limited-to-3-months">Why is the Contract Horizon limited to 3 months?</a></li>
+<li><a href="#why-is-the-contract-horizon-limited">Why is the Contract Horizon limited?</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -599,7 +594,7 @@
         
         <div id="body-inner">
           
-            <h1>Market Metrics</h1>
+            <h1>Contract Horizon</h1>
           
 
         
@@ -607,22 +602,24 @@
 
 
 
-<div style="width: 220px;
-font-size: 14px;
-padding: 15px;
-border: 1px solid #dedede;
-float: right;
-margin: 0px 0px 15px 40px;
-border-radius:5px;">
-For an in-depth look at Market Metrics, read our <a href="https://support.xeneta.com/hc/en-us/articles/360000925173-Market-Metrics" target="_blank">article</a> in the help center.
-</div>
+<p>At its core, the Xeneta platform helps you understand the trends in the freight market. It does so by providing three views of the market:</p>
 
-<p>Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.</p>
+<ol>
+<li>The historical rate trends</li>
+<li>The current day&rsquo;s rate</li>
+<li>The trend of rates that run into the future or begin in the future</li>
+</ol>
 
-<p>They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.</p>
+<p>The Contract Horizon in particular is</p>
+
+<h2 id="visualizing-rates">Visualizing Rates</h2>
+
+<p>We can visualize Xeneta&rsquo;s rate data by viewing it as a collection of lines: the length of each line representing the duration of a contracted rate and its vertical position representing the price that the rate was negotiated at.</p>
+
+<p>At the scale of Xeneta&rsquo;s data, the lines of contracts for any day will overlap in both duration and price.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../market-metrics-ocean.png' />
+	<img style="margin-top:0px;" src='../futures-1.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -637,34 +634,22 @@ For an in-depth look at Market Metrics, read our <a href="https://support.xeneta
 	text-align:center;
 	float:left;
 	">
-		Market metrics for ocean freight.
+		Freight market visualization.
 	</div>
 </div>
 
-<p>Currently, Xeneta uses 3 types of market metrics across both Ocean and Air freight products:</p>
+<p>In the example above, the benchmark price provided by Xeneta for today — in this case, the market average — can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dotted line. In this case, the market average will be $300.</p>
 
-<ul>
-<li>Contract duration (Ocean)</li>
-<li>Market position (Air and Ocean)</li>
-<li>Service levels (Air)<br /></li>
-</ul>
+<h2 id="contracted-within">Contracted Within</h2>
 
-<h2 id="understanding-your-metrics-ocean">Understanding Your Metrics — Ocean</h2>
+<p>By default, Xeneta combines all contracts available in a single day into one price.</p>
 
-<p>It is important to select the right market metrics when viewing data in Xeneta because market metrics determine the data you will be shown.</p>
+<p>This includes contracts that were created in the past as well as those created recently. However, you can choose to exclude older contracts by using the Contracted Within filter.</p>
 
-<p>Xeneta separates data between short-term contracts and long-term contracts, which means that you need to use market metrics to select the type of contracts you would prefer to see. Additionally, long-term contracts can be filtered by their age using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within">Contracted Within</a> option.</p>
-
-<p>Xeneta also allows you to focus on different parts of the market, including the average freight rates, as well as the low and high segments of the market. You can read more about how Xeneta divides prices into different segments of the freight market <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks">here</a>.</p>
-
-<p>With this in mind, let&rsquo;s take a look at the following freight rate search results and see how they are affected by market metrics:</p>
-
-<h3 id="short-term-contracts-and-market-average-position">Short-term Contracts and Market Average Position</h3>
-
-<p>In this case, Xeneta returns the market average price across all short term contracts available on the Shanghai–Hamburg trade lane.</p>
+<p>This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-1.png' />
+	<img style="margin-top:0px;" src='../futures-2.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -679,16 +664,24 @@ For an in-depth look at Market Metrics, read our <a href="https://support.xeneta
 	text-align:center;
 	float:left;
 	">
-		Rate from Shanghai to Hamburg with short-term rates and a market average position.
+		Freight market visualization.
 	</div>
 </div>
 
-<h3 id="short-term-contracts-and-market-high-position">Short-term Contracts and Market High Position</h3>
+<p>In our example, if we calculate the market average for only those contracts that start within the scope of the Contracted Within filter for 3 months — the contracts that start within the pink region — we find that the market average value is $350.</p>
 
-<p>Here we can see the same short term contracts but the market position is now focused on the <strong>market high</strong>, or, in other words, the highest prices paid on the market to ship freight on this trade lane.</p>
+<p>This suggests that, by looking only at newer contracts, the market is moving towards a higher average price.</p>
+
+<h2 id="contract-horizon">Contract Horizon</h2>
+
+<p>Finally, Xeneta is able to look at contracts that run past the current day or are contracted to begin some time in the future.</p>
+
+<p>These contracts — located at what Xeneta refers to as the Contract Horizon — contain additional information about the state of the freight market for the coming 3 months.</p>
+
+<p>Consider that any contract set to begin in the future has to be negotiated near the present day. Because such contracts begin in the future, they will not be visible as part of the historical rate or the current day&rsquo;s rate.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-2.png' />
+	<img style="margin-top:0px;" src='../futures-3.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -703,16 +696,23 @@ For an in-depth look at Market Metrics, read our <a href="https://support.xeneta
 	text-align:center;
 	float:left;
 	">
-		Rate from Shanghai to Hamburg with short-term rates and a market high position.
+		Freight rates with the contract horizon.
 	</div>
 </div>
 
-<h3 id="long-term-contracts-and-market-low-position">Long-term Contracts and Market Low Position</h3>
+<p>Nonetheless, these contracts set the basis for the market rates in the coming months.
+By looking at the Contract Horizon, you can see where market participants have decided to position their freight rates in the near future, and how long-running contracts overlap with them.</p>
 
-<p>Finally, we can see long-term contracts with the market low position — that is, the lowest prices paid by market participants.</p>
+<p>Note: The Contract Horizon is a premium add-on and is not available in standard Xeneta packages.</p>
+
+<h2 id="contracted-within-and-contract-horizon">Contracted Within and Contract Horizon</h2>
+
+<p>Finally, you can combine the Contracted Within filter with the Contract Horizon to see only the most recent contracts that extend into the future.</p>
+
+<p>In our example, we&rsquo;ll look at the period 3 months from today with a Contracted Within filter of 3 months applied. This means that we&rsquo;ll only see freight rate information for contracts that begin on today&rsquo;s date at the latest.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-3.png' />
+	<img style="margin-top:0px;" src='../futures-3.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -727,124 +727,23 @@ For an in-depth look at Market Metrics, read our <a href="https://support.xeneta
 	text-align:center;
 	float:left;
 	">
-		Rate from Shanghai to Hamburg with long-term rates and a market low position.
+		Freight rates with the contract horizon.
 	</div>
 </div>
 
-<h3 id="summary">Summary</h3>
+<p>This view of the freight market shows us the absolutely newest contracts that have been negotiated, and the ones least affected by older long-term contracts.</p>
 
-<p>The market metrics determine the parts of the freight rate market that Xeneta will show. In the examples above, the freight rate can vary drastically under different market metrics. The price of long-term contracts will differ from the short-term, and the market average value can be significantly different between the highest and lowest prices paid on the market.</p>
+<p>In this example, only two contracted rates begin in the future, and their market average value is $100 when evaluated 3 months from today. By looking at the market in this way, we can get a sense of where the price of future contracts is trending.</p>
 
-<h2 id="understanding-your-metrics-air">Understanding Your Metrics — Air</h2>
+<h3 id="why-is-the-contract-horizon-limited-to-3-months">Why is the Contract Horizon limited to 3 months?</h3>
 
-<p>Market metrics in Xeneta for Air Freight differ from Ocean freight in the following ways:</p>
+<p>Due to the nature of the freight market, market participants simply do not negotiate contracts to start very far into the future.</p>
 
-<ul>
-<li>Air freight uses only long-term contracts</li>
-<li>Air freight has a market metric tied to the service level of the cargo</li>
-</ul>
+<p>Xeneta cannot show freight data past the Contract Horizon because such data simply does not exist.</p>
 
-<div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-4.png' />
-	<div style="font-size:14px;
-	margin-top:-17px;
-	margin-bottom: 10px;
-	padding:8px 8px 5px 10px;
-	background-color:#e8e8e8;
-	border-left: 1px solid #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
-	border-right: 1px solid #e6e6e6;
-	border-top: 1px solid #b9b9b9;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-	text-align:center;
-	float:left;
-	">
-		Market metrics for Air freight.
-	</div>
-</div>
+<h3 id="why-is-the-contract-horizon-limited">Why is the Contract Horizon limited?</h3>
 
-<p>Like Ocean freight, Xeneta uses three different market positions to show freight rates for the market average, low, and high segments.</p>
-
-<p>However, unlike Ocean freight, air freight is categorized by Xeneta into <a href="https://support.xeneta.com/hc/en-us/articles/360012088593">service levels</a>. This is done to ensure that air cargo, which lacks the standardization of ocean freight, can be made comparable to other air cargo.</p>
-
-<p>In general, the way Xeneta creates benchmarks for air freight differs from the way it is done for ocean freight. You can read more about our benchmarking methodology <a href="https://support.xeneta.com/hc/en-us/articles/360012921174-Air-Benchmarking-Methodology">here</a>.</p>
-
-<p>Let&rsquo;s examine how the service level market metric affects the prices seen within the air freight search:</p>
-
-<h3 id="mid-tier-service-level-and-market-average">Mid-Tier Service Level and Market Average</h3>
-
-<p>Here we can see the prices for air freight from Shanghai to Frankfurt at the market average.</p>
-
-<div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-5.png' />
-	<div style="font-size:14px;
-	margin-top:-17px;
-	margin-bottom: 10px;
-	padding:8px 8px 5px 10px;
-	background-color:#e8e8e8;
-	border-left: 1px solid #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
-	border-right: 1px solid #e6e6e6;
-	border-top: 1px solid #b9b9b9;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-	text-align:center;
-	float:left;
-	">
-		Mid-tier service level and a market average position.
-	</div>
-</div>
-
-<h3 id="mid-tier-service-level-and-market-low">Mid-Tier Service Level and Market Low</h3>
-
-<p>Contrast the price above with the same service tier but focused on the lowest price on the market. We can see that the spread between the market average and the market low is not very large.</p>
-
-<div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-6.png' />
-	<div style="font-size:14px;
-	margin-top:-17px;
-	margin-bottom: 10px;
-	padding:8px 8px 5px 10px;
-	background-color:#e8e8e8;
-	border-left: 1px solid #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
-	border-right: 1px solid #e6e6e6;
-	border-top: 1px solid #b9b9b9;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-	text-align:center;
-	float:left;
-	">
-		Mid-tier service level and a market low position.
-	</div>
-</div>
-
-<h3 id="low-tier-service-level-and-market-average">Low-Tier Service Level and Market Average</h3>
-
-<p>Finally, we can look at the low-tier service level at the market average for the same trade lane.</p>
-
-<div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../mm-7.png' />
-	<div style="font-size:14px;
-	margin-top:-17px;
-	margin-bottom: 10px;
-	padding:8px 8px 5px 10px;
-	background-color:#e8e8e8;
-	border-left: 1px solid #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
-	border-right: 1px solid #e6e6e6;
-	border-top: 1px solid #b9b9b9;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-	text-align:center;
-	float:left;
-	">
-		Low-tier service level and a market average position.
-	</div>
-</div>
-
-<p>The difference between the low-tier and mid-tier air freight viewed at the market average provides a good insight into the value of service level offered by carriers. For instance, if you&rsquo;re particularly price-sensitive, it would make sense to forgo some service level benefits — like shipping speed — for a lower price.</p>
+<p>The further you look into the future, the fewer rates are available since older long-term rates begin to expire and fewer new long-term rates are contracted ahead of time. If you look too far into the future, there will simply be no data for Xeneta to show.</p>
 
 
 <script type="application/javascript">
@@ -946,7 +845,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
                 
                 
 
@@ -963,8 +861,6 @@ if (!doNotTrack) {
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -984,6 +880,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1216,10 +1115,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/introduction/concepts/introfreightrate/" title="Introduction to Freight Rates"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/introduction/concepts/marketmetrics/" title="Market Metrics"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/introduction/concepts/futures/" title="Contract Horizon" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/introduction/uploading/" title="Uploading Rates" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
