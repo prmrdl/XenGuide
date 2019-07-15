@@ -7,7 +7,7 @@ weight = 1
 
 ## The Dashboard
 
-{{% aside %}} For details about Xeneta's benchmarking of air freight, read our <a href="https://support.xeneta.com/hc/en-us/articles/360012921174-Air-Benchmarking-Methodology" target="_blank">this article</a>. {{% /aside %}}
+{{% aside %}} For details about Xeneta's benchmarking of air freight, read <a href="https://support.xeneta.com/hc/en-us/articles/360012921174-Air-Benchmarking-Methodology" target="_blank">this article</a>. {{% /aside %}}
 
 Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
 

@@ -36,7 +36,7 @@ Freight rates that are tied to contracts have a validity period that defines the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://guide.xeneta.com/air/overview/</guid>
-      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard For details about Xeneta&amp;rsquo;s benchmarking of air freight, read our this article. Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
+      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard For details about Xeneta&amp;rsquo;s benchmarking of air freight, read this article. Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
 Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.</description>
     </item>
     
@@ -78,16 +78,6 @@ The port-to-port search with a result. Simply enter an origin port and a desti
       <guid>https://guide.xeneta.com/introduction/uploading/</guid>
       <description>One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying &amp;ldquo;comparing&amp;rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.
 Benchmarking can help you understand how much you pay relative to the market and can, in turn, give you the insight you need to negotiate better rates in the future.</description>
-    </item>
-    
-    <item>
-      <title>Contract Horizon</title>
-      <link>https://guide.xeneta.com/introduction/concepts/futures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/introduction/concepts/futures/</guid>
-      <description>At its core, the Xeneta platform helps you understand the trends in the freight market. It does so by providing three views of the market:
- The historical rate trends The current day&amp;rsquo;s rate The trend of rates that run into the future or begin in the future  In the third case, Xeneta offers a short view of the future by showing contracted freight rates that extend past the current day.</description>
     </item>
     
     <item>
