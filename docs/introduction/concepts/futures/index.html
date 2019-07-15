@@ -12,17 +12,17 @@
     <title>Contract Horizon :: Xeneta Guide</title>
 
     
-    <link href="/css/nucleus.css?1562586596" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1562586596" rel="stylesheet">
-    <link href="/css/hybrid.css?1562586596" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1562586596" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1562586596" rel="stylesheet">
-    <link href="/css/auto-complete.css?1562586596" rel="stylesheet">
-    <link href="/css/theme.css?1562586596" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1562586596" rel="stylesheet">
+    <link href="/css/nucleus.css?1563182922" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1563182922" rel="stylesheet">
+    <link href="/css/hybrid.css?1563182922" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1563182922" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1563182922" rel="stylesheet">
+    <link href="/css/auto-complete.css?1563182922" rel="stylesheet">
+    <link href="/css/theme.css?1563182922" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1563182922" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1562586596"></script>
+    <script src="/js/jquery-2.x.min.js?1563182922"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1562586596"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1562586596"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1563182922"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1563182922"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/guide.xeneta.com\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1562586596"></script>
+<script type="text/javascript" src="/js/search.js?1563182922"></script>
 
     
   </div>
@@ -489,6 +489,95 @@
  
 
           
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/guides/" title="Guides" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/guides/">
+          Guides
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide1/" title="Guide 1" class="dd-item ">
+        <a href="/guides/guide1/">
+        Guide 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide2/" title="Guide 2" class="dd-item ">
+        <a href="/guides/guide2/">
+        Guide 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide3/" title="Guide 3" class="dd-item ">
+        <a href="/guides/guide3/">
+        Guide 3
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
          
     </ul>
 
@@ -578,7 +667,6 @@
 <li><a href="#contracted-within-and-contract-horizon">Contracted Within and Contract Horizon</a>
 <ul>
 <li><a href="#why-is-the-contract-horizon-limited-to-3-months">Why is the Contract Horizon limited to 3 months?</a></li>
-<li><a href="#why-is-the-contract-horizon-limited">Why is the Contract Horizon limited?</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -610,7 +698,9 @@
 <li>The trend of rates that run into the future or begin in the future</li>
 </ol>
 
-<p>The Contract Horizon in particular is</p>
+<p>In the third case, Xeneta offers a short view of the future by showing contracted freight rates that extend past the current day. We refer to this as the <strong>Contract Horizon</strong>, and it is particularly useful for understanding the developing trends in the freight market as it moves into the future.</p>
+
+<p>To understand the Contract Horizon, let&rsquo;s first walk through how Xeneta visualizes rates and how rates are filtered based on their age.</p>
 
 <h2 id="visualizing-rates">Visualizing Rates</h2>
 
@@ -640,11 +730,13 @@
 
 <p>In the example above, the benchmark price provided by Xeneta for today — in this case, the market average — can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dotted line. In this case, the market average will be $300.</p>
 
+<p>This is the most basic scenario of how Xeneta presents rates from across the market as a single value that is used for benchmarking.</p>
+
 <h2 id="contracted-within">Contracted Within</h2>
 
 <p>By default, Xeneta combines all contracts available in a single day into one price.</p>
 
-<p>This includes contracts that were created in the past as well as those created recently. However, you can choose to exclude older contracts by using the Contracted Within filter.</p>
+<p>This includes contracts that were created in the past as well as those created recently. However, you can choose to exclude older contracts by using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within" target="_blank">Contracted Within</a> filter.</p>
 
 <p>This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.</p>
 
@@ -664,7 +756,7 @@
 	text-align:center;
 	float:left;
 	">
-		Freight market visualization.
+		A set of rates contracted within 3 months.
 	</div>
 </div>
 
@@ -703,16 +795,14 @@
 <p>Nonetheless, these contracts set the basis for the market rates in the coming months.
 By looking at the Contract Horizon, you can see where market participants have decided to position their freight rates in the near future, and how long-running contracts overlap with them.</p>
 
-<p>Note: The Contract Horizon is a premium add-on and is not available in standard Xeneta packages.</p>
-
 <h2 id="contracted-within-and-contract-horizon">Contracted Within and Contract Horizon</h2>
 
 <p>Finally, you can combine the Contracted Within filter with the Contract Horizon to see only the most recent contracts that extend into the future.</p>
 
-<p>In our example, we&rsquo;ll look at the period 3 months from today with a Contracted Within filter of 3 months applied. This means that we&rsquo;ll only see freight rate information for contracts that begin on today&rsquo;s date at the latest.</p>
+<p>In our example, we&rsquo;ll look at the period 3 months that starts today with a Contracted Within filter of 3 months applied. This means that at the end of the Contract Horizon, 3 months past the current day, the oldest contract could only begin from today&rsquo;s date. This means that you see the most current view of the market — a view that is least affected by older long-term rates.</p>
 
 <div style="display:inline-block;">
-	<img style="margin-top:0px;" src='../futures-3.png' />
+	<img style="margin-top:0px;" src='../futures-4.png' />
 	<div style="font-size:14px;
 	margin-top:-17px;
 	margin-bottom: 10px;
@@ -727,7 +817,7 @@ By looking at the Contract Horizon, you can see where market participants have d
 	text-align:center;
 	float:left;
 	">
-		Freight rates with the contract horizon.
+		Freight rates on the contract horizon contracted within 3 months.
 	</div>
 </div>
 
@@ -741,9 +831,7 @@ By looking at the Contract Horizon, you can see where market participants have d
 
 <p>Xeneta cannot show freight data past the Contract Horizon because such data simply does not exist.</p>
 
-<h3 id="why-is-the-contract-horizon-limited">Why is the Contract Horizon limited?</h3>
-
-<p>The further you look into the future, the fewer rates are available since older long-term rates begin to expire and fewer new long-term rates are contracted ahead of time. If you look too far into the future, there will simply be no data for Xeneta to show.</p>
+<p>Additionally, the further you look into the future, the fewer rates are available since older long-term rates begin to expire and fewer new long-term rates are contracted ahead of time. If you look too far into the future, there will simply be no data for Xeneta to show.</p>
 
 
 <script type="application/javascript">
@@ -1106,6 +1194,70 @@ if (!doNotTrack) {
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
         
@@ -1128,20 +1280,20 @@ if (!doNotTrack) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1562586596"></script>
-    <script src="/js/perfect-scrollbar.min.js?1562586596"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1562586596"></script>
-    <script src="/js/jquery.sticky.js?1562586596"></script>
-    <script src="/js/featherlight.min.js?1562586596"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1562586596"></script>
-    <script src="/js/highlight.pack.js?1562586596"></script>
+    <script src="/js/clipboard.min.js?1563182922"></script>
+    <script src="/js/perfect-scrollbar.min.js?1563182922"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1563182922"></script>
+    <script src="/js/jquery.sticky.js?1563182922"></script>
+    <script src="/js/featherlight.min.js?1563182922"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1563182922"></script>
+    <script src="/js/highlight.pack.js?1563182922"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1562586596"></script>
-    <script src="/js/learn.js?1562586596"></script>
-    <script src="/js/hugo-learn.js?1562586596"></script>
+    <script src="/js/modernizr.custom.71422.js?1563182922"></script>
+    <script src="/js/learn.js?1563182922"></script>
+    <script src="/js/hugo-learn.js?1563182922"></script>
 
-    <link href="/mermaid/mermaid.css?1562586596" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1562586596"></script>
+    <link href="/mermaid/mermaid.css?1563182922" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1563182922"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

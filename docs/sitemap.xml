@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/guides/guide1/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/</loc>
   </url>
   
@@ -20,6 +24,10 @@
   
   <url>
     <loc>https://guide.xeneta.com/air/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/guides/guide2/</loc>
   </url>
   
   <url>
@@ -43,7 +51,15 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/introduction/concepts/futures/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/air/graphs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/guides/guide3/</loc>
   </url>
   
   <url>
@@ -56,6 +72,10 @@
   
   <url>
     <loc>https://guide.xeneta.com/air/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/guides/</loc>
   </url>
   
   <url>

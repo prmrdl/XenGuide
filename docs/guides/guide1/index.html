@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Introduction to Freight Rates :: Xeneta Guide</title>
+    <title>Guide 1 :: Xeneta Guide</title>
 
     
     <link href="/css/nucleus.css?1563182922" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/introduction/concepts/introfreightrate/">
+  <body class="" data-url="/guides/guide1/">
     <nav id="sidebar" class="">
 
 
@@ -79,7 +79,7 @@
   
     
     <li data-nav-id="/introduction/" title="Introduction" class="dd-item 
-        parent
+        
         
         
         ">
@@ -106,7 +106,7 @@
   
     
     <li data-nav-id="/introduction/concepts/" title="Concepts" class="dd-item 
-        parent
+        
         
         
         ">
@@ -130,7 +130,7 @@
  
   
     
-      <li data-nav-id="/introduction/concepts/introfreightrate/" title="Introduction to Freight Rates" class="dd-item active">
+      <li data-nav-id="/introduction/concepts/introfreightrate/" title="Introduction to Freight Rates" class="dd-item ">
         <a href="/introduction/concepts/introfreightrate/">
         Introduction to Freight Rates
         
@@ -496,7 +496,7 @@
   
     
     <li data-nav-id="/guides/" title="Guides" class="dd-item 
-        
+        parent
         
         
         ">
@@ -520,7 +520,7 @@
  
   
     
-      <li data-nav-id="/guides/guide1/" title="Guide 1" class="dd-item ">
+      <li data-nav-id="/guides/guide1/" title="Guide 1" class="dd-item active">
         <a href="/guides/guide1/">
         Guide 1
         
@@ -638,13 +638,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/'>Xeneta Guide</a> > <a href='/introduction/'>Introduction</a> > <a href='/introduction/concepts/'>Concepts</a> > Introduction to Freight Rates
-          
-         
+            <a href='/'>Xeneta Guide</a> > <a href='/guides/'>Guides</a> > Guide 1
           
          
           
@@ -661,16 +655,7 @@
 <ul>
 <li>
 <ul>
-<li><a href="#what-is-a-freight-rate">What is a freight rate?</a></li>
-<li><a href="#trade-lanes">Trade Lanes</a></li>
-<li><a href="#surcharges">Surcharges</a></li>
-<li><a href="#aggregation">Aggregation</a></li>
-<li><a href="#benchmarking">Benchmarking</a></li>
-<li><a href="#uploading-your-freight-rates">Uploading Your Freight Rates</a></li>
-<li><a href="#xeneta-s-transformation-of-freight-rates">Xeneta&rsquo;s Transformation of Freight Rates</a></li>
-<li><a href="#global-coverage">Global Coverage</a></li>
-<li><a href="#what-can-i-use-xeneta-for">What Can I Use Xeneta For?</a></li>
-<li><a href="#next-steps">Next Steps</a></li>
+<li><a href="#ocean">Ocean</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -685,7 +670,7 @@
         
         <div id="body-inner">
           
-            <h1>Introduction to Freight Rates</h1>
+            <h1>Guide 1</h1>
           
 
         
@@ -699,83 +684,13 @@
 	padding: 3px 3px 3px 10px;
 	border-left:4px solid #1d63ff;
 	margin-bottom:2em;">
-		An Introduction to Freight Rate Benchmarking and Analytics for Ocean Freight
+		Xeneta&rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform.
 	</p>
 </div>
 
-<h2 id="what-is-a-freight-rate">What is a freight rate?</h2>
+<h2 id="ocean">Ocean</h2>
 
-<p>A freight rate is a negotiated price for shipping a freight container from one part of the world to another.</p>
-
-<p>Freight rates that are tied to contracts have a validity period that defines the length of time that the freight rate is valid. The validity of a freight rate will depend on if it is based on a short-term contract or a long-term contract.</p>
-
-<p>Xeneta considers short-term contracts to be less than 32 days and long-term contracts to be longer than 88 days in terms of their validity.</p>
-
-<h2 id="trade-lanes">Trade Lanes</h2>
-
-<p>Freight rates are tied to specific trade lanes.</p>
-
-<p>A trade lane is a route from an origin port to a destination port on which freight is shipped. Because logistics of port to port shipping are complex, a freight rate will sometimes include multiple smaller ports as part of the larger route. The price of moving the freight between the smaller ports and the larger ports may very well be included in the total freight rate.</p>
-
-<p>At its core, Xeneta provides a price benchmark for shipping freight between most ports globally.</p>
-
-<h2 id="surcharges">Surcharges</h2>
-
-<p>Freight rates are typically associated with a number of surcharges. Surcharges are additional fees involved with transporting the freight container, such as loading the container, processing the cargo documentation, or providing security for the container.</p>
-
-<p>Many surcharges are common to all service providers: fuel fees, documentation fees, and piracy fees. Other surcharges vary based on the carrier, port, global events, and seasons. A common charge applied to cargo based on the location of the port is the <a href="https://support.xeneta.com/hc/en-us/articles/360024759453-THC-Methodology" target="_blank">terminal handling charge</a>, which is the fee paid for loading and unloading cargo at the port of origin and destination.</p>
-
-<p>In summary, the total cost of shipping a freight container is the combination of the base freight rate and additional surcharges.</p>
-
-<h2 id="aggregation">Aggregation</h2>
-
-<p>A single rate by itself will not say very much about the freight market.</p>
-
-<p>Xeneta offers insight into the freight rate market by collecting freight rates from across many participants in the market, including Beneficial Cargo Owners (BCOs) and Freight Forwarders (FFs).</p>
-
-<p>As a platform, Xeneta provides an aggregated high-level view of the freight market. When we say aggregation, we mean that across a single trade lane many valid rates are combined into a single value — usually a market average — to provide a clear picture of what the market prices as a whole are like on that trade lane.</p>
-
-<p>Aggregation is done historically, for the current day, and for long-term contracts extending <a href="https://support.xeneta.com/hc/en-us/articles/360006572714-Futures-The-Best-View-of-Future-Rate-Movement">past the current day</a>.</p>
-
-<h2 id="benchmarking">Benchmarking</h2>
-
-<p>Because Xeneta offers an aggregated value that depicts the freight market at large, this value can be used to benchmark your own freight rates against the market.</p>
-
-<p>Xeneta offers five <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks" target="_blank">market positions</a> that illustrate different parts of the market. In this way, you can compare your prices against the market average, as well as the best and worst performers across the entire spread of the market.</p>
-
-<p>By comparing your own prices to the market, you can understand where your organization can find improvements and efficiencies. Moreover, Xeneta&rsquo;s analytics can show you the saving potentials — that is, the possible savings in dollars — of your organization.</p>
-
-<h2 id="uploading-your-freight-rates">Uploading Your Freight Rates</h2>
-
-<p>To be able to benchmark your own freight rates against the market, your organization will need to <a href="http://localhost:1313/introduction/uploading/">upload its freight rates</a> into the Xeneta platform.</p>
-
-<h2 id="xeneta-s-transformation-of-freight-rates">Xeneta&rsquo;s Transformation of Freight Rates</h2>
-
-<p>There is no standard for categorizing freight rates across the whole of the shipping industry. Organizations will provide freight rate information in an internal format, mostly incomparable to freight rate information provided by others.</p>
-
-<p>While there is overlapping content, such as the freight rate itself, expressed as a cost for shipping a single type of container &ndash; 20 foot, 40 foot, high cube, and so on &ndash; the finer details will vary.</p>
-
-<p>When processing freight rate data, Xeneta transforms the various disparate formats received from market participants into a form that can be compared. This step relies on the expertise of our Rate Management Team, who leverage their market understanding to extract key information from market freight rates and construct the final set of Xeneta market data, which is then offered on the Xeneta platform.</p>
-
-<h2 id="global-coverage">Global Coverage</h2>
-
-<p>Xeneta receives freight rates from customers engaged in trade all over the world.</p>
-
-<p>When complete trade lane data is unavailable, Xeneta uses regional aggregation based on our <a href="https://support.xeneta.com/hc/en-us/articles/115003167489-Geo-Hierarchy-Methodology" target="_blank">geo-hierarchy methodology</a> to show freight rates between larger geographic regions.</p>
-
-<p>In other cases, Xeneta computes <a href="https://support.xeneta.com/hc/en-us/articles/115003199553-Estimated-Rates" target="_blank">estimated rates</a> that provide calculated approximations of what prices might be like for trade lanes lacking freight rate data.</p>
-
-<h2 id="what-can-i-use-xeneta-for">What Can I Use Xeneta For?</h2>
-
-<p>At its core, the Xeneta platform helps you understand the ocean freight market and your position relative to it. Take a look at some of the <a href="/introduction/gettingstarted/" target="_blank">use cases for Xeneta</a> to see how it can benefit your organization.</p>
-
-<h2 id="next-steps">Next Steps</h2>
-
-<p>Next, let&rsquo;s take a look at how the Xeneta platform displays freight rate information in its interface.</p>
-
-<a class="linkbutton" href="/introduction/concepts/marketmetrics/">
-	Market Metrics
-</a>
+<p>Words.</p>
 
 
 <script type="application/javascript">
@@ -828,6 +743,8 @@ if (!doNotTrack) {
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -844,7 +761,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
                 
                 
 
@@ -857,7 +773,6 @@ if (!doNotTrack) {
             
             
                 
-                    
                     
                 
                 
@@ -874,9 +789,6 @@ if (!doNotTrack) {
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1140,6 +1052,7 @@ if (!doNotTrack) {
             
                 
                     
+                    
                 
                 
 
@@ -1152,6 +1065,7 @@ if (!doNotTrack) {
             
             
                 
+                    
                     
                 
                 
@@ -1168,6 +1082,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1208,10 +1125,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/introduction/concepts/" title="Concepts"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/guides/" title="Guides"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/introduction/concepts/marketmetrics/" title="Market Metrics" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/guides/guide2/" title="Guide 2" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

@@ -304,15 +304,16 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-	background-color: #bce2ff73 !important;
-	border-bottom:1px solid #bce2ff;
-	border-top:1px solid #bce2ff;
+	/*background-color: #bce2ff73 !important;*/
+	/*border-bottom:1px solid #bce2ff;
+	border-top:1px solid #bce2ff;*/
 	padding:20px;
-	margin-top:-1px;
-	margin-bottom:-1px;
+	/*margin-top:-1px;
+	margin-bottom:-1px;*/
+	color: #1d63ff;
 }
 #sidebar ul li.active > a:hover {
-	color: black;
+	color: #1d63ff;
 }
 #sidebar ul li > a:hover {
 	color: #1d63ff;
@@ -332,22 +333,22 @@ li.dd-item:not(parent){
     margin-left: -0.5rem;
     margin-right: -0.5rem;
     padding-left: 0.5rem;
-	padding-left:7px;
+	padding-left:8px;
     padding-right: 2rem;
 	margin-top:-1px;
 	margin-bottom:-1px;
-	background-color: #e3f3ff;
-	border:1px solid #bce2ff;
+	/*background-color: #e3f3ff;*/
+	/*border:1px solid #bce2ff;*/
 	border-radius:5px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-weight:500;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*font-weight:500;*/
 }
 
 #sidebar ul li ul li ul li.active > a {
-	margin-left:-24px;
-	padding-left:23px;
-	font-weight:500;
+	margin-left:-22px;
+	padding-left:22px;
+	/*font-weight:500;*/
 }
 
 #sidebar ul li {
