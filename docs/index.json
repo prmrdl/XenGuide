@@ -14,13 +14,6 @@
 	"content": " \rThe Ocean dashboard summarizes your freight spend information and provides a search box for finding market prices for trade lanes.\r Overview The Ocean dashboard ties together all the key pieces of information about your freight spend in a single page. It\u0026rsquo;s a good starting point for understanding your position in the freight market.\nOnce you have the basics down, you can use the dashboard to quickly navigate to deeper analytics provided by Xeneta. The port-to-port search is a core tool for finding current and historical prices for trade lanes and trade corridors across the world. The My Spend and My Prices sections of the dashboard connect you to expanded details about your freight prices.\nDashboard — Xeneta Ocean\r\r You can return to the dashboard at any time by clicking the Xeneta logo in the top-left corner of the app.\nLink to the dashboard.\r\r My Spend At a glance, the My Spend section of the dashboard provides the volume of your shipped freight (in TEU), a spend comparison against the market, and a calculation about potential savings (in USD) that could be achieved if your freight rates matched the three different market categories.\nDashboard — My Spend\r\r The section contains five links that direct you to different to the My Spend analytics pages with pre-set filters that express the dashboard information in more details.\nIn particular, the View Comparison link will provide a concrete comparison between your freight spend and the comparable market spend. Similarly, the View Savings Potential link will highlight the corridors where spend performance can be improved.\nMy Prices The My Prices section of the dashboard details the amount of your prices covered by Xeneta, as well as a snapshot of your prices that fall above or below the market.\nDashboard — My Prices\r\r As with the My Spend section, each summary card under the My Prices section contains a link to expanded spend information. The View Prices Below and View Prices Above links are useful for determining on what lanes and corridors your prices fall below market expectations.\nNext Steps Now that you understand the basics of the dashboard, let\u0026rsquo;s look at searching for rates.\nPort-to-port Search\r "
 },
 {
-	"uri": "https://guide.xeneta.com/guides/guide1/",
-	"title": "Guide 1",
-	"tags": [],
-	"description": "",
-	"content": " \rXeneta\u0026rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform.\r Ocean Words.\n"
-},
-{
 	"uri": "https://guide.xeneta.com/introduction/",
 	"title": "Introduction",
 	"tags": [],
@@ -40,13 +33,6 @@
 	"tags": [],
 	"description": "",
 	"content": " \rXeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market.\r The Dashboard For details about Xeneta\u0026rsquo;s benchmarking of air freight, read our this article.\r Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.\nDashboard — Xeneta for Air Freight\r\r The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.\nPort-to-port search bar.\r\r Simply enter an origin port, a destination port, select your preferred weight break, and click Search.\nSearch Results After running the search, Xeneta will return results in the unit of price per kilogram. The results themselves can take one of two forms:\nContracted Rates A contracted rate is an aggregated rate that meets Xeneta’s data quality rule of at least 5 sources being available across 2 providers. It is the most accurate rate that Xeneta can provide.\nA contracted rate.\r\r Regional Rates A regional rate is an aggregated rate that did not meet exact port-to-port search specifications because of a lack of rate data between the two ports.\nA regional rate.\r\r Regional rates are displayed with additional information that detail how the rate was constructed. This can be viewed by clicking the \r icon beside the name of the trade lane.\nRegional rate explanation for the Shanghai–Bremen trade lane.\r\r Next Steps Next, let\u0026rsquo;s take a look at the My Prices page.\nMy Prices\r "
-},
-{
-	"uri": "https://guide.xeneta.com/guides/guide2/",
-	"title": "Guide 2",
-	"tags": [],
-	"description": "",
-	"content": "Xeneta can create a number of Excel reports based on the analytics data found on our platform.\nAny page capable of exporting an Excel report will contain a \r symbol in the top-right corner of the page. You can find all your created reports on the Reports page.\n"
 },
 {
 	"uri": "https://guide.xeneta.com/introduction/concepts/marketmetrics/",
@@ -98,13 +84,6 @@
 	"content": " \rGraphs are a tool for visualizing your freight rates in relation to the market and your own freight forwarders.\r Overview Xeneta for Air Freight uses the Benchmarks graph to plot both market prices and your freight forwarder prices together. It has a number of filters to help you narrow the scope of the rates you\u0026rsquo;re viewing, including filters for date range, weight break, and service level.\nThe Benchmarks graph for air freight.\r\r The Benchmarks graph helps you compare the rates you pay for your freight forwarders against the market at large across specific trade lanes or broader regions. Additionally, it can be used to see market movements over time for different categories of air freight.\nThe full functionality of the Benchmarks graph is only available if you\u0026rsquo;ve uploaded your freight rates into Xeneta. You can upload prices by visiting the Upload Prices page.\nThe graph feature can be reached from the port-to-port search and the My Prices page.\r \nAdditional Resources If you have more questions about Xeneta, we recommend you explore the following resources:\n Use Cases A list of the basic tasks that can be done within the Xeneta platform.    Help Center Xeneta's knowledge base containing answers to common questions.    "
 },
 {
-	"uri": "https://guide.xeneta.com/guides/guide3/",
-	"title": "Guide 3",
-	"tags": [],
-	"description": "",
-	"content": "One of the core features of the Xeneta platform is the ability to benchmark your rates against the market. Benchmarking is another way of saying \u0026ldquo;comparing\u0026rdquo; — that is, you compare the prices you pay for shipping against other market participants as a whole.\n"
-},
-{
 	"uri": "https://guide.xeneta.com/ocean/myprices/",
 	"title": "My Prices",
 	"tags": [],
@@ -124,13 +103,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Air Xeneta\u0026rsquo;s Air product helps users to find air freight rates, understand market movements, and benchmark their rates against market trends.\nOverview\rA basic introduction to the Air product.\r My Prices\rView your prices and see how they perform against the market.\r Graphs\rLearn about the Benchmarks graph for air freight.\r  "
-},
-{
-	"uri": "https://guide.xeneta.com/guides/",
-	"title": "Guides",
-	"tags": [],
-	"description": "",
-	"content": "Xeneta is a software-as-a-service platform designed to help you understand the prices of the air and ocean freight transport markets.\n"
 },
 {
 	"uri": "https://guide.xeneta.com/introduction/reports/",
