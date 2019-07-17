@@ -8,7 +8,7 @@ weight = 1
 
 ## What is a freight rate?
 
-A freight rate is a negotiated or quoted price for shipping a freight container from one part of the world to another.
+A freight rate is a negotiated price for shipping a freight container from one part of the world to another.
 
 Freight rates that are tied to contracts have a validity period that defines the length of time that the freight rate is valid. The validity of a freight rate will depend on if it is based on a short-term contract or a long-term contract. 
 
