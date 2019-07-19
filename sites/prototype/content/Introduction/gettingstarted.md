@@ -52,7 +52,7 @@ Xeneta add-ons are premium features that provide additional functionality not fo
 
 ### Compare regional rates across different carriers
 
-The [Carrier Spread]({{< ref "/Ocean/graphs.md#carrier-spread" >}}) analytics tool allows you to view region to region rates across all your uploaded carrier prices.
+The [Carrier Spread]({{< ref "/Ocean/graphs.md#carrier-spread" >}}) analytics tool allows you to view region to region rates for several of the largest carriers.
 
 ### See long-term contracts running beyond the current day
 

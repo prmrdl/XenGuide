@@ -12,17 +12,17 @@
     <title>Contract Horizon :: Xeneta Guide</title>
 
     
-    <link href="/css/nucleus.css?1563360523" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1563360523" rel="stylesheet">
-    <link href="/css/hybrid.css?1563360523" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1563360523" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1563360523" rel="stylesheet">
-    <link href="/css/auto-complete.css?1563360523" rel="stylesheet">
-    <link href="/css/theme.css?1563360523" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1563360523" rel="stylesheet">
+    <link href="/css/nucleus.css?1563542028" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1563542028" rel="stylesheet">
+    <link href="/css/hybrid.css?1563542028" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1563542028" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1563542028" rel="stylesheet">
+    <link href="/css/auto-complete.css?1563542028" rel="stylesheet">
+    <link href="/css/theme.css?1563542028" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1563542028" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1563360523"></script>
+    <script src="/js/jquery-2.x.min.js?1563542028"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1563360523"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1563360523"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1563542028"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1563542028"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/guide.xeneta.com\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1563360523"></script>
+<script type="text/javascript" src="/js/search.js?1563542028"></script>
 
     
   </div>
@@ -617,7 +617,7 @@
 
 <p>We can visualize Xeneta&rsquo;s rate data by viewing it as a collection of lines: the length of each line representing the duration of a contracted rate and its vertical position representing the price that the rate was negotiated at.</p>
 
-<p>At the scale of Xeneta&rsquo;s data, the lines of contracts for any day will overlap in both duration and price.</p>
+<p>Xeneta creates a <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks" target="_blank">benchmark value</a> by combining all valid rates for a single day into one number.</p>
 
 <div style="display:inline-block;">
 	<img style="margin-top:0px;" src='../futures-1.png' />
@@ -635,11 +635,11 @@
 	text-align:center;
 	float:left;
 	">
-		Freight market visualization.
+		Example 1 — Freight market visualization.
 	</div>
 </div>
 
-<p>In the example above, the benchmark price provided by Xeneta for today — in this case, the market average — can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dotted line. In this case, the market average will be $300.</p>
+<p>In the example above, the average benchmark price provided by Xeneta for today can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dashed line. In this case, the market benchmark will be $300.</p>
 
 <p>This is the most basic scenario of how Xeneta presents rates from across the market as a single value that is used for benchmarking.</p>
 
@@ -647,9 +647,9 @@
 
 <p>By default, Xeneta combines all contracts available in a single day into one price.</p>
 
-<p>This includes contracts that were created in the past as well as those created recently. However, you can choose to exclude older contracts by using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within" target="_blank">Contracted Within</a> filter.</p>
+<p>This includes contracts that were created in the past as well as those created recently. This means that long-term contracts from several months ago will influence the benchmark price provided by Xeneta.</p>
 
-<p>This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.</p>
+<p>If you are interested in the most current freight rates available on the market, you can choose to exclude older contracts by using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within" target="_blank">Contracted Within</a> filter. This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.</p>
 
 <div style="display:inline-block;">
 	<img style="margin-top:0px;" src='../futures-2.png' />
@@ -667,7 +667,7 @@
 	text-align:center;
 	float:left;
 	">
-		A set of rates contracted within 3 months.
+		Example 2 — A set of rates contracted within 3 months.
 	</div>
 </div>
 
@@ -699,7 +699,7 @@
 	text-align:center;
 	float:left;
 	">
-		Freight rates with the contract horizon.
+		Example 3 — Freight rates with the contract horizon.
 	</div>
 </div>
 
@@ -728,7 +728,7 @@ By looking at the Contract Horizon, you can see where market participants have d
 	text-align:center;
 	float:left;
 	">
-		Freight rates on the contract horizon contracted within 3 months.
+		Example 4 — Freight rates on the contract horizon contracted within 3 months.
 	</div>
 </div>
 
@@ -1127,20 +1127,20 @@ if (!doNotTrack) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1563360523"></script>
-    <script src="/js/perfect-scrollbar.min.js?1563360523"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1563360523"></script>
-    <script src="/js/jquery.sticky.js?1563360523"></script>
-    <script src="/js/featherlight.min.js?1563360523"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1563360523"></script>
-    <script src="/js/highlight.pack.js?1563360523"></script>
+    <script src="/js/clipboard.min.js?1563542028"></script>
+    <script src="/js/perfect-scrollbar.min.js?1563542028"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1563542028"></script>
+    <script src="/js/jquery.sticky.js?1563542028"></script>
+    <script src="/js/featherlight.min.js?1563542028"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1563542028"></script>
+    <script src="/js/highlight.pack.js?1563542028"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1563360523"></script>
-    <script src="/js/learn.js?1563360523"></script>
-    <script src="/js/hugo-learn.js?1563360523"></script>
+    <script src="/js/modernizr.custom.71422.js?1563542028"></script>
+    <script src="/js/learn.js?1563542028"></script>
+    <script src="/js/hugo-learn.js?1563542028"></script>
 
-    <link href="/mermaid/mermaid.css?1563360523" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1563360523"></script>
+    <link href="/mermaid/mermaid.css?1563542028" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1563542028"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

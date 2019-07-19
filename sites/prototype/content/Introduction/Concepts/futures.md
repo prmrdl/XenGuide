@@ -19,11 +19,11 @@ To understand the Contract Horizon, let's first walk through how Xeneta visualiz
 
 We can visualize Xeneta's rate data by viewing it as a collection of lines: the length of each line representing the duration of a contracted rate and its vertical position representing the price that the rate was negotiated at.
 
-At the scale of Xeneta's data, the lines of contracts for any day will overlap in both duration and price. 
+Xeneta creates a <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks" target="_blank">benchmark value</a> by combining all valid rates for a single day into one number. 
 
-{{< fig src="../futures-1.png" text="Freight market visualization." >}}
+{{< fig src="../futures-1.png" text="Example 1 — Freight market visualization." >}}
 
-In the example above, the benchmark price provided by Xeneta for today — in this case, the market average — can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dotted line. In this case, the market average will be $300.
+In the example above, the average benchmark price provided by Xeneta for today can be calculated by taking the arithmetic average of the 5 rates on our graph that pass through the blue dashed line. In this case, the market benchmark will be $300.
 
 This is the most basic scenario of how Xeneta presents rates from across the market as a single value that is used for benchmarking. 
 
@@ -31,11 +31,11 @@ This is the most basic scenario of how Xeneta presents rates from across the mar
 
 By default, Xeneta combines all contracts available in a single day into one price.
 
-This includes contracts that were created in the past as well as those created recently. However, you can choose to exclude older contracts by using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within" target="_blank">Contracted Within</a> filter.
+This includes contracts that were created in the past as well as those created recently. This means that long-term contracts from several months ago will influence the benchmark price provided by Xeneta. 
 
-This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.
+If you are interested in the most current freight rates available on the market, you can choose to exclude older contracts by using the <a href="https://support.xeneta.com/hc/en-us/articles/115001994874-Contracted-Within" target="_blank">Contracted Within</a> filter. This allows you to see only those rates that were recently contracted. This should give you a clear picture of the prices most-recently agreed upon by market participants.
 
-{{< fig src="../futures-2.png" text="A set of rates contracted within 3 months." >}}
+{{< fig src="../futures-2.png" text="Example 2 — A set of rates contracted within 3 months." >}}
 
 In our example, if we calculate the market average for only those contracts that start within the scope of the Contracted Within filter for 3 months — the contracts that start within the pink region — we find that the market average value is $350.
 
@@ -49,7 +49,7 @@ These contracts — located at what Xeneta refers to as the Contract Horizon —
 
 Consider that any contract set to begin in the future has to be negotiated near the present day. Because such contracts begin in the future, they will not be visible as part of the historical rate or the current day's rate.
 
-{{< fig src="../futures-3.png" text="Freight rates with the contract horizon." >}}
+{{< fig src="../futures-3.png" text="Example 3 — Freight rates with the contract horizon." >}}
 
 Nonetheless, these contracts set the basis for the market rates in the coming months. 
 By looking at the Contract Horizon, you can see where market participants have decided to position their freight rates in the near future, and how long-running contracts overlap with them.
@@ -60,7 +60,7 @@ Finally, you can combine the Contracted Within filter with the Contract Horizon 
 
 In our example, we'll look at the period 3 months that starts today with a Contracted Within filter of 3 months applied. This means that at the end of the Contract Horizon, 3 months past the current day, the oldest contract could only begin from today's date. This means that you see the most current view of the market — a view that is least affected by older long-term rates.
 
-{{< fig src="../futures-4.png" text="Freight rates on the contract horizon contracted within 3 months." >}}
+{{< fig src="../futures-4.png" text="Example 4 — Freight rates on the contract horizon contracted within 3 months." >}}
 
 This view of the freight market shows us the absolutely newest contracts that have been negotiated, and the ones least affected by older long-term contracts.
 
