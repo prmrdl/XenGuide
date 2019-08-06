@@ -15,15 +15,15 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/guides/guide1/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/concepts/introfreightrate/</loc>
   </url>
   
   <url>
     <loc>https://guide.xeneta.com/air/overview/</loc>
-  </url>
-  
-  <url>
-    <loc>https://guide.xeneta.com/introduction/concepts/marketmetrics/</loc>
   </url>
   
   <url>
@@ -43,11 +43,19 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/guides/guide2/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/concepts/futures/</loc>
   </url>
   
   <url>
     <loc>https://guide.xeneta.com/air/graphs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/guides/guide3/</loc>
   </url>
   
   <url>
@@ -63,11 +71,19 @@
   </url>
   
   <url>
+    <loc>https://guide.xeneta.com/guides/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/reports/</loc>
   </url>
   
   <url>
     <loc>https://guide.xeneta.com/ocean/spendoverview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/guides/marketmetrics/</loc>
   </url>
   
   <url>
