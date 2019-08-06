@@ -2,7 +2,7 @@
 title = "Guides"
 chapter = false
 weight = 4
-draft = true
+draft = false
 +++
 
-Xeneta is a <a href="https://app.xeneta.com/" target="_blank">software-as-a-service platform</a> designed to help you understand the prices of the air and ocean freight transport markets.
+The guides in this section explore a number of topics related to ocean freight benchmarking and analytics.

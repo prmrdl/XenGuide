@@ -80,4 +80,4 @@ At its core, the Xeneta platform helps you understand the ocean freight market a
 
 Next, let's take a look at how the Xeneta platform displays freight rate information in its interface.
 
-{{% linkbutton title="Market Metrics" %}} {{< ref "Introduction/Concepts/marketmetrics.md" >}} {{% /linkbutton %}}
+{{% linkbutton title="Market Metrics" %}} {{< ref "marketmetrics.md" >}} {{% /linkbutton %}}
