@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmarking on Xeneta Guide</title>
+    <link>https://guide.xeneta.com/guides/benchmarking/</link>
+    <description>Recent content in Benchmarking on Xeneta Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://guide.xeneta.com/guides/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Benchmarking</title>
+      <link>https://guide.xeneta.com/guides/benchmarking/guide1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/guides/benchmarking/guide1/</guid>
+      <description>In this guide, we&amp;rsquo;ll take a look at using Xeneta to compare your uploaded freight rates to current and historical market rates. Introduction The Benchmarks graph is designed to help you compare your freight rates against the market. At its core, it plots Xeneta&amp;rsquo;s market benchmarks alongside your own freight rates.
+The Benchmarks graph. The Benchmarks graph can be reached in two ways:
+ Clicking the View Graph button from the dashboard search after searching for a trade lane or trade corridor Clicking the View Graph button from the Market Trends page if you have followed trade lanes  Filtering Your Data The Benchmark graph contains a number of filters to help you narrow the scope of the market such that you can compare your prices to the most relevant segments of the market.</description>
+    </item>
+    
+    <item>
+      <title>Using Excel for Benchmarking</title>
+      <link>https://guide.xeneta.com/guides/benchmarking/guide2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/guides/benchmarking/guide2/</guid>
+      <description>In this guide, we&amp;rsquo;ll take a look at working with Excel to look at Xeneta&amp;rsquo;s Benchmarking data by exploring a few basic examples. Introduction Xeneta can export the data that composes the Benchmarks graph to an Excel report.
+To begin, we&amp;rsquo;ll need to generate the Benchmarks graph for the trade lane or trade corridor whose data we wish to export. Use the dashboard search or your followed trade lanes to reach the Benchmarks graph.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://guide.xeneta.com/guides/benchmarking/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/concepts/</loc>
   </url>
   
@@ -15,7 +19,7 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/guides/guide1/</loc>
+    <loc>https://guide.xeneta.com/guides/benchmarking/guide1/</loc>
   </url>
   
   <url>
@@ -43,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/guides/guide2/</loc>
+    <loc>https://guide.xeneta.com/guides/benchmarking/guide2/</loc>
   </url>
   
   <url>
