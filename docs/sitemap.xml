@@ -95,10 +95,6 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/ocean/api/</loc>
-  </url>
-  
-  <url>
     <loc>https://guide.xeneta.com/categories/</loc>
     <priority>0</priority>
   </url>

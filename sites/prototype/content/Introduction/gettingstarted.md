@@ -26,7 +26,7 @@ weight = 3
 
 {{% gsblock title="Export rate data to Excel reports" text="Export any part of Xeneta's analytics into Excel format for better integration into your workflow." %}} {{< ref "Introduction/reports.md" >}} {{% /gsblock %}}
 
-{{% gsblock title="Access Xeneta freight rate data through an API" text="If you need functionality beyond that of the Xeneta user interface, you may want to look at Xeneta's RESTful API." %}} {{< ref "Ocean/api.md" >}} {{% /gsblock %}}
+
 
 ## Air
 

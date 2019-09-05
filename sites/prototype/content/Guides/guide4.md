@@ -10,7 +10,7 @@ draft = true
 
 In Xeneta, you can find today's freight rates between any two locations using the [search]({{< ref "portsearch.md" >}}) on the dashboard. 
 
-If you're interested in a number of lanes, finding them over and over using the location search will be tedious. Instead, you can use the **Follow** button from any search result to add it to the Following list.
+If you're interested in a number of lanes, you can use the **Follow** button from any search result to add it to your followed trends. You can then view your followed trends to get a full list of trade lanes relevant to you.
 
 {{< fig src="../g4-follow.png" text="Using the Follow button." >}}
 

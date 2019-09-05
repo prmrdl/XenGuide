@@ -180,15 +180,5 @@ Market metrics for ocean freight.</description>
  The Benchmarks graph The Trends graph The Carrier Spread graph  All graphs in Xeneta have a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, container type, contract duration, and terminal handling charges (THC).</description>
     </item>
     
-    <item>
-      <title>API</title>
-      <link>https://guide.xeneta.com/ocean/api/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/ocean/api/</guid>
-      <description>The Xeneta API can be used to work with rate information programmatically. For more information about getting API access, read this article.
-See the API reference for technical details.</description>
-    </item>
-    
   </channel>
 </rss>

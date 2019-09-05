@@ -53,7 +53,7 @@ By comparing your own prices to the market, you can understand where your organi
 
 ## Uploading Your Freight Rates
 
-To be able to benchmark your own freight rates against the market, your organization will need to [upload its freight rates](http://localhost:1313/introduction/uploading/) into the Xeneta platform.
+To be able to benchmark your own freight rates against the market, your organization will need to [upload its freight rates]({{< ref "uploading.md" >}}) into the Xeneta platform.
 
 ## Xeneta's Transformation of Freight Rates
 
