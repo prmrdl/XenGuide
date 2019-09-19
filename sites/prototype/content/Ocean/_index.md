@@ -20,8 +20,6 @@ Xeneta's Ocean product helps users to find freight rates, analyze trade lanes, a
 
 {{% linkblock title="Graphs" text="Learn how to use graphs to visualize the market." %}} {{< ref "Ocean/graphs.md" >}} {{% /linkblock %}}
 
-
-
 </div>
 
 <div style="clear:both;"/><br>
