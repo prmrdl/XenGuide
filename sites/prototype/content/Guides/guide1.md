@@ -2,7 +2,7 @@
 title = "Introduction to Benchmarking"
 chapter = false
 weight = 1
-draft = true
+draft = false
 +++
 
 {{% header %}} In this guide, we'll take a look at using Xeneta to compare your uploaded freight rates to current and historical market rates. {{% /header %}}

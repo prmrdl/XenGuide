@@ -1,5 +1,10 @@
 <nav id="sidebar" class="{{if $.Site.Params.showVisitedLinks }}showVisitedLinks{{end}}">
 
+<div>
+
+<div style="display:inline-block;width:250px;"></div>
+<div style="display:inline-block;">
+
 {{ $currentNode := . }}
 {{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
   <div id="header-wrapper">
@@ -88,6 +93,11 @@
       {{ partial "menu-footer.html" . }}
     </section>
   </div>
+  
+  </div>
+  
+</div>
+
 </nav>
 
 <!-- templates -->

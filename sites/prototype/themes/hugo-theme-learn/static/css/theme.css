@@ -24,6 +24,24 @@
 }
 
 @font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -95,22 +113,30 @@ fieldset {
 }
 textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], select[multiple=multiple] {
     background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+    /*border: 1px solid #ddd;*/
+    border-radius: 0px;
+    border-bottom: 1px solid #c7c7c7 !important;
+    transition: border-bottom .3s ease !important;
+    /*box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);*/
 }
 textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
     border-color: #c4c4c4;
 }
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: #00bdf3;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
+    /*border-color: #00bdf3;*/
+    border-radius: 0px;
+    border-bottom: 1px solid #4e4e4e !important;
+    transition: border-bottom .3s ease !important;
+    /*box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)*/
 }
 #header-wrapper {
-    background: #071032;
+    background: #fcfcfd;
     color: #fff;
     text-align: center;
     /*border-bottom: 2px solid #ececec;*/
     padding: 1rem;
+    width:300px;
+    margin-top:20px;
 }
 #header a {
     display: inline-block;
@@ -122,12 +148,18 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #header #logo-svg path {
     fill: #fff;
 }
+
+.underline {
+      border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+}
+
 .searchbox {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     position: relative;
-    border: 1px solid #e0e0e0;
-    background: #fff;
-    border-radius: 4px;
+    /*border-bottom: 1px solid #c7c7c7;*/
+    background: #fcfcfd;
 }
 .searchbox label {
     color: #000;
@@ -177,17 +209,17 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #10183a;
+    background-color: #fcfcfd;
     position: fixed;
     top: 0;
-    width: 300px;
+    /*width: 500px;*/
     bottom: 0;
     left: 0;
     font-size: 15px;
 	border-right:1px solid #ececec;
 }
 #sidebar a {
-	color: #acafbb;
+	color: #000;
 }
 #sidebar a:hover {
 	color: #1d63ff;
@@ -255,7 +287,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul.topics {
     margin: 0 1rem;
 	font-weight:400;
-	box-shadow: 3px 3px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
 }
 #sidebar ul.topics.searched ul {
     display: block;
@@ -272,12 +303,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar ul.topics > li > a {
     line-height: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight:600;
 	font-variant: small-caps;
-	color: #c2c3c7;
+    text-transform: lowercase;
+	color: #000;
 	padding-left: 1.2em;
-	background-color: #071032;
-	padding: 20px;
+	background-color: #fcfcfd;
+	padding: 5px;
 }
 #sidebar ul.topics > li > a b {
     opacity: 0.5;
@@ -287,7 +320,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-	background: #071032;
+	background: #fcfcfd;
     margin-left: 0rem;
     margin-right: 0rem;
     padding-left: 0rem;
@@ -300,8 +333,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-	padding:20px;
-	color: #ffffff;
+	padding:5px 5px 5px 5px;
+	color: #1d63ff;
 	/*background-color: #bce2ff73 !important;*/
 	/*border-bottom:1px solid #bce2ff;
 	border-top:1px solid #bce2ff;*/
@@ -310,15 +343,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 }
 #sidebar ul li.active > a:hover {
-	/*color: #1d63ff;*/
-	color: #ffffff;
+	color: #1d63ff;
+    transition: all .3s ease
 }
 #sidebar ul li > a:hover {
-	/*color: #1d63ff;*/
-	color: #ffffff;
+	color: #1d63ff;
+    transition: all .3s ease
 }
 li.dd-item.parent > a {
-	background-color: #071032 !important;
+	background-color: #fcfcfd !important;
 }
 li.dd-item:not(parent){
 	padding-top:10px;
@@ -336,12 +369,9 @@ li.dd-item:not(parent){
     padding-right: 2rem;
 	margin-top:-1px;
 	margin-bottom:-1px;
-	/*background-color: #e3f3ff;*/
-	/*border:1px solid #bce2ff;*/
 	border-radius:5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	/*font-weight:500;*/
 }
 
 #sidebar ul li ul li ul li.active > a {
@@ -376,8 +406,8 @@ li.dd-item:not(parent){
     display: inline;
 }
 #sidebar ul li li {
-    padding-left: 1rem;
-    text-indent: 0.2rem;
+    /*padding-left: 0.5rem;*/
+    text-indent: 1.0rem;
 }
 #main {
     background: #f7f7f7;
@@ -385,7 +415,7 @@ li.dd-item:not(parent){
 }
 #body {
     position: relative;
-    margin-left: 300px;
+    margin-left: 550px;
     min-height: 100%;
 }
 #body img {
@@ -413,7 +443,7 @@ li.dd-item:not(parent){
     border: 1px solid #ccc;
 }
 #body .padding {
-    padding: 3rem 6rem 0rem 12%;
+    padding: 3rem 6rem 0rem 5%;
 }
 @media only all and (max-width: 59.938em) {
     #body .padding {
@@ -495,7 +525,7 @@ li.dd-item:not(parent){
     max-width: 600px;
 }
 #chapter h3 {
-    font-family: "Roboto","Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Muli","Roboto","Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
     text-align: center;
 }
@@ -516,7 +546,7 @@ li.dd-item:not(parent){
     margin: 0;
 }
 body {
-    font-family: "Roboto","Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Muli", "Roboto", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 400;
     line-height: 1.6;
     font-size: 20px !important;
@@ -525,29 +555,29 @@ p {
 
 }
 h2, h3, h4, h5, h6 {
-    font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Muli", "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-rendering: optimizeLegibility;
     color: #5e5e5e;
     font-weight: 400;
     letter-spacing: -1px;
 }
 h1 {
-    font-family: "Roboto", "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Muli", "Roboto", "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     color: #222;
     font-weight: 400;
 	margin-bottom: 15px;
-	font-size: 2.2rem !important;
+	font-size: 2.0rem !important;
 }
 h2 {
 	margin-top: 40px !important;
 	margin-bottom: 12px !important;
-	font-size: 1.8rem !important;
+	font-size: 1.4rem !important;
 	color: #10183a;
 }
 h3 {
 	margin-top: 25px !important;
 	margin-bottom: 8px !important;
-	font-size: 1.4rem !important;
+	font-size: 1.2rem !important;
 	color: #000;
 }
 h4 {
@@ -1079,8 +1109,9 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #f6f9fc;
-    border-radius: 2px;
+    background: #fcfcfd;
+    border-radius: 3px;
+    border: 1px solid #f1f1f1;
     padding: 0 1rem;
     height: 0;
     min-height: 3rem;

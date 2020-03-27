@@ -8,12 +8,19 @@ disableLanguageSwitchingButton = true
 disableNextPrev = true
 disableAssetsBusting = false
 publishDir = "../../docs"
+disableShortcutsTitle = true
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-book'></i> Help Center"
 identifier = "xensup"
 url = "https://support.xeneta.com"
 weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-book'></i> API Reference"
+identifier = "xenapi"
+url = "https://xeneta.github.io/XenDoc/"
+weight = 20
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
