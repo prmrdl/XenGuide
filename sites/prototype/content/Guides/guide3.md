@@ -78,4 +78,4 @@ The conclusion we can draw here is that the market participants that are enterin
 
 ## Further Reading
 
-- [Concepts — Contract Horizon]({{< ref "futures.md" >}})
+{{% linkarrow text="Concepts — Contract Horizon" %}} {{< ref "/Concepts/futures" >}} {{% /linkarrow %}}

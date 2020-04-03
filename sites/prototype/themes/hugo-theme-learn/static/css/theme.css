@@ -419,7 +419,8 @@ li.dd-item:not(parent){
     min-height: 100%;
 }
 #body img {
-	border: 1px solid #e6e6e6;
+	border: 2px solid #f3f3f3;
+    border-radius: 5px;
 	max-width:675px;
 }
 #body img, #body .video-container {
@@ -1323,4 +1324,95 @@ a.linkbutton:hover {
 
 ol > li {
 	margin-bottom: 14px;
+}
+
+.product-type {
+  border-radius:15px;
+  font-size:16px;
+  line-height: 1.3em;
+  display:inline-block;
+  padding: 0px 10px 3px 10px;
+  font-variant:all-small-caps;
+  margin-bottom:20px;
+}
+.product-type-air{
+  border:1px solid #ff7140;
+  border-bottom:2px solid #ff7140;
+  background-color: #ffeae2;
+  color: #ff7140;
+}
+.product-type-ocean {
+  border:1px solid #a5a5d6;
+  border-bottom:2px solid #a5a5d6;
+  background-color: aliceblue;
+  color: #8080bf;
+}
+.feature-release {
+  border: 1px solid #1d6dff;
+  border-bottom: 2px solid #1d6dff;
+  background-color: #c0d7ff;
+  color: #2354af;
+}
+
+.feature-update {
+  border: 1px solid #e45248;
+  border-bottom: 2px solid #e45248;
+  background-color: #ffddda;
+  color: #c7564e;
+}
+
+.geo-update {
+  border: 1px solid #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+  background-color: #effff0;
+  color: #317934;
+}
+
+.linkarrow {
+    display: inline-block !important;
+    font-size:16px;
+    font-weight:500;
+    color: #657790;
+    margin-bottom: 15px !important;
+}
+
+.linkarrow:hover {
+    border-bottom: 0px !important;
+    color: #494f56 !important;
+    transition: all .3s ease;
+}
+
+.stepbox {
+    display:block;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.stepbox a {
+    color:#6e83a0;
+    display:block;
+    border-bottom: 0px !important;
+}
+
+.stepbox a:hover {
+    border-bottom: 0px;
+}
+
+.stepbox div {
+    padding: 15px 22px 15px 20px;
+    background-color:#799fd424;
+    border-radius:5px;
+    width:400px;
+}
+
+.stepbox div:hover {
+    background-color:#395c8e24;
+}
+
+.stepbox span {
+    background-color:#cbd8ec;
+    padding:2px 8px 2px 8px;
+    border-radius:10px;
+    margin-right:10px;
+    color: #547da2;
 }

@@ -6,29 +6,12 @@ title = "Xeneta Guide"
 
 {{% header %}} This guide is intended as an introduction to the different parts of the Xeneta platform. It is most useful after you've <a href="https://app.xeneta.com/" target="_blank">logged in</a> and completed the product tour. {{% /header %}}
 
-After you've explored the product a bit, you should read through this guide to acquaint yourself with the Xeneta platform:
+You can get started by reading through the basics of the Xeneta platform in our Quickstart Guide.
 
-<div style="margin-bottom:25px;">
-	<a href="{{< ref "/Introduction" >}}" class="gsblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Read Guide</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">This guide is intended to walk you through all the features of Xeneta for Ocean and Air freight, including benchmarking and analytics.</div>
-	</a>
-</div>
+{{% linkarrow text="Read the Quickstart Guide" %}} {{< ref "/quickstart" >}} {{% /linkarrow %}}
 
-You can also explore the features of Xeneta's products on your own:
+For more in-depth reading, take a look at the concepts behind Xeneta's market analytics platform and read our guides.  
 
-<div style="margin-bottom:10px;">
-	<a href="{{< ref "/Ocean" >}}" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Ocean</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">Xeneta's rate analytics platform for the ocean freight market.</div>
-	</a>
-</div>
+{{% linkarrow text="Learn about Xeneta concepts" %}} {{< ref "/Concepts" >}} {{% /linkarrow %}}
 
-<div>
-	<a href="{{< ref "/Air" >}}" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Air</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">Xeneta's rate analytics platform for the air freight market.</div>
-	</a>
-</div>
-
-<div style="clear:left;"/><br>
+{{% linkarrow text="Explore our guides" %}} {{< ref "/Guides" >}} {{% /linkarrow %}}

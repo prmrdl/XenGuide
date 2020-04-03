@@ -12,7 +12,7 @@ To benchmark data within Xeneta, you will need to upload your rates to the platf
 
 ### Upload Rates within Xeneta
 
-You can upload rates within Xeneta at any time by clicking the {{< inlineimg src="../upload-icon.png" >}} icon from the main navigation menu or by visiting the <a href="https://app.xeneta.com/my-company/upload-rates" target="_blank">Upload Prices</a> page.
+You can upload rates within Xeneta at any time by clicking the {{< inlineimg src="/img/upload-icon.png" >}} icon from the main navigation menu or by visiting the <a href="https://app.xeneta.com/my-company/upload-rates" target="_blank">Upload Prices</a> page.
 
 ### Contact Our Rate Management Team
 

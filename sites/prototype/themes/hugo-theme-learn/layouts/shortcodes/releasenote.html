@@ -1,0 +1,28 @@
+<div style="margin-bottom:2.5em;">
+<div style="font-weight:500;font-size:18px;margin-bottom:-8px;color:#7f97b8;">
+{{ index .Params "date" }}
+</div>
+<div style="font-weight:500;font-size:24px;margin-bottom:3px;">{{ index .Params "title" }}</div>
+
+{{ if isset .Params "ocean"}}
+<div class="product-type product-type-ocean">Ocean</div>
+{{ end }}
+
+{{ if isset .Params "air"}}
+<div class="product-type product-type-air">Air</div>
+{{ end }}
+
+{{ if isset .Params "release"}}
+<div class="product-type feature-release">Feature Release</div>
+{{ end }}
+
+{{ if isset .Params "update"}}
+<div class="product-type feature-update">Feature Update</div>
+{{ end }}
+
+{{ if isset .Params "geo-update"}}
+<div class="product-type geo-update">Geo-hierarchy Update</div>
+{{ end }}
+
+<div style="font-size:16px;line-height:1.4;color:#212121;">{{ .Inner }}</div>
+</div>
