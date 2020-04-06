@@ -23,7 +23,7 @@ Beyond benchmarking and market comparisons, the Xeneta platform provides you wit
 
 You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
 
-{{% linkbutton title="Xeneta Dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkbutton %}}
+{{% linkarrow text="Read about the Xeneta dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkarrow %}}
 
 <div style="clear:both"/>
 
