@@ -74,7 +74,7 @@ In other cases, Xeneta computes <a href="https://support.xeneta.com/hc/en-us/art
 
 ## What Can I Use Xeneta For?
 
-At its core, the Xeneta platform helps you understand the ocean freight market and your position relative to it. Take a look at some of the <a href="{{< ref "Introduction/gettingstarted.md" >}}" target="_blank">use cases for Xeneta</a> to see how it can benefit your organization.
+At its core, the Xeneta platform helps you understand the ocean freight market and your position relative to it. Take a look at our <a href="{{< ref "Introduction/quickstart.md" >}}" target="_blank">Quickstart Guide</a> to see how it can benefit your organization.
 
 ## Next Steps
 

@@ -1,7 +1,7 @@
 +++
-title = "Introduction"
+title = "Analytics"
 chapter = false
-weight = 1
+weight = 4
 +++
 
 Xeneta is a <a href="https://app.xeneta.com/" target="_blank">software-as-a-service platform</a> designed to help you understand the prices of the air and ocean freight transport markets. 
@@ -23,7 +23,7 @@ Beyond benchmarking and market comparisons, the Xeneta platform provides you wit
 
 You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
 
-{{% linkarrow text="Read the Xeneta quickstart guide" %}} {{< ref "Introduction/quickstart.md" >}} {{% /linkarrow %}}
+{{% linkarrow text="Read about the Xeneta dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkarrow %}}
 
 <div style="clear:both"/>
 

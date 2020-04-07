@@ -2,6 +2,7 @@
 title = "Use Cases"
 chapter = false
 weight = 3
+draft = true
 +++
 
 {{% header %}} Xeneta's platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. {{% /header %}}
@@ -24,8 +25,6 @@ weight = 3
 
 {{% gsblock title="Compare your total spend against the market by supplier" text="Use the Spend Overview analytics to see how your spend is allocated to each supplier." %}} {{< ref "Ocean/spendoverview.md" >}} {{% /gsblock %}}
 
-{{% gsblock title="Export rate data to Excel reports" text="Export any part of Xeneta's analytics into Excel format for better integration into your workflow." %}} {{< ref "Introduction/reports.md" >}} {{% /gsblock %}}
-
 ## Air
 
 {{% gsblock title="View a summary of your freight rates" text="Use the dashboard to get an overview of your rates and how they compare to the market." %}} {{< ref "Air/overview.md" >}} {{% /gsblock %}}
@@ -39,8 +38,6 @@ weight = 3
 <!-- {{% gsblock title="Compare your total spend against the market" text="Use the My Prices analytics to get an overview of your business and how your spend performs on each trade corridor." %}} {{< ref "Ocean/myprices.md" >}} {{% /gsblock %}} -->
 
 <!-- {{% gsblock title="Compare your total spend against the market by supplier" text="Use the My Prices analytics to see how your spend is allocated to each supplier." %}} {{< ref "Ocean/myprices.md" >}} {{% /gsblock %}} -->
-
-{{% gsblock title="Export rate data to Excel reports" text="Export any part of Xeneta's analytics into Excel format for better integration into your workflow." %}} {{< ref "Introduction/reports.md" >}} {{% /gsblock %}}
 
 ## Xeneta Add-Ons
 

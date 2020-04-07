@@ -1,7 +1,7 @@
 +++
 title = "Guides"
 chapter = false
-weight = 4
+weight = 6
 draft = false
 +++
 

@@ -18,23 +18,3 @@ The full functionality of the Benchmarks graph is only available if you've uploa
 {{% tip %}} The graph feature can be reached from the port-to-port search and the My Prices page. {{% /tip %}}
 
 <br>
-
-## Additional Resources
-
-If you have more questions about Xeneta, we recommend you explore the following resources:
-
-<div>
-<div style="margin-bottom:10px;">
-	<a href="{{< ref "/Introduction/gettingstarted.md" >}}" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Use Cases</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">A list of the basic tasks that can be done within the Xeneta platform.</div>
-	</a>
-</div>
-
-<div>
-	<a href="https://support.xeneta.com/hc/en-us" class="fpblock">
-	<div style="font-weight:500;font-size:22px;margin-bottom:3px;padding-bottom:4px;">Help Center</div>
-	<div style="font-size:15px;line-height:1.4;color:#212121;">Xeneta's knowledge base containing answers to common questions.</div>
-	</a>
-</div>
-</div>
