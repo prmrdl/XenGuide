@@ -18,7 +18,11 @@ Xeneta calculates theoretical market prices for your volumes across your trade l
 
 ### Saving Potentials
 
-The Savings Potential is a measure of how many dollars can be saved if your freight prices matched different sections of the market. 
+The Savings Potential is a measure of how many dollars can be saved if your freight prices matched different sections of the market.
+
+### Spend Overview
+
+The Spend Overview unifies your trade lanes, their associated volumes, and the price you pay to ship freight with the price the rest of the market pays for shipping similar volumes. This feature provides a critical dollar-value insight into your procurement performance and can be drilled-down and explored to find potential optimizations.
 
 ## Next Steps
 

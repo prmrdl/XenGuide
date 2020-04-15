@@ -70,9 +70,9 @@ When complete trade lane data is unavailable, Xeneta uses regional aggregation b
 
 In other cases, Xeneta computes <a href="https://support.xeneta.com/hc/en-us/articles/115003199553-Estimated-Rates" target="_blank">estimated rates</a> that provide calculated approximations of what prices might be like for trade lanes lacking freight rate data.
 
-## What Can I Use Xeneta For?
+## What can I use Xeneta for?
 
-At its core, the Xeneta platform helps you understand the ocean freight market and your position relative to it. Take a look at our <a href="{{< ref "Introduction/quickstart.md" >}}" target="_blank">Quickstart Guide</a> to see how it can benefit your organization.
+At its core, the Xeneta platform helps you understand the ocean freight market and your position within it. Take a look at our <a href="{{< ref "Introduction/quickstart.md" >}}" target="_blank">Quickstart Guide</a> to see how it can benefit your organization.
 
 ## Next Steps
 
