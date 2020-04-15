@@ -31,6 +31,8 @@ Enter your origin and destination ports then select your preferred container typ
 
 Clicking on **View Graph** from the search results will take you to the Benchmarks Graph. This graph plots the historical market movements for the tradelane for up to 4 years back in time.
 
+{{< fig src="/img/view-graph.png" >}}
+
 ### Benchmark your prices against the market
 
 The Benchmarks graph also allows you to plot your own uploaded prices against the market price. This is a key visual insight into your freight procurement performance.
@@ -51,7 +53,7 @@ All graph data can be exported to an Excel report and analyzed further. You can 
 
 ### View corridor prices
 
-Review of your uploaded freight rates with the My Prices page. It provides a number of filters to help you explore your rates and find how much your rates differ from market prices.
+Review of your uploaded freight rates with the [My Prices](https://app.xeneta.com/ocean/prices/corridors) page. It provides a number of filters to help you explore your rates and find how much your rates differ from market prices.
 
 {{< fig src="/img/my-prices.png" >}}
 
@@ -65,7 +67,7 @@ The My Prices page lets you quickly filter all of your uploaded rates to just th
 
 ### Analyze potential savings
 
-The Spend Overview uses your uploaded volume data to calculate a theoretical market price for others shipping similar volumes. The Spend Overview provides a savings potential across your corridors and tradelanes, thus giving you clear points of focus for reducing your freight spend.
+The [Spend Overview](https://app.xeneta.com/ocean/spend/corridors) uses your uploaded volume data to calculate a theoretical market price for others shipping similar volumes. The Spend Overview provides a savings potential across your corridors and tradelanes, thus giving you clear points of focus for reducing your freight spend.
 
 {{< fig src="/img/savings-potential.png" >}}
 

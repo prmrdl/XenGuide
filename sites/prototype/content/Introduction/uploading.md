@@ -17,11 +17,3 @@ You can upload rates within Xeneta at any time by clicking the {{< inlineimg src
 ### Contact Our Rate Management Team
 
 You can also reach out to our [Rate Management Team](mailto:rmt@xeneta.com) if you want to deliver your rates in another way.
-
-## Next Steps
-
-You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
-
-{{% linkbutton title="Xeneta Dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkbutton %}}
-
-<div style="clear:both"/>

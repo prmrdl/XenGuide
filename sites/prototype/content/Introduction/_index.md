@@ -21,7 +21,7 @@ Beyond benchmarking and market comparisons, the Xeneta platform provides you wit
 
 ## Next Steps
 
-You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
+You can learn more about what Xeneta can do by walking through the Xeneta app.
 
 {{% linkarrow text="Read the Xeneta quickstart guide" %}} {{< ref "Introduction/quickstart.md" >}} {{% /linkarrow %}}
 

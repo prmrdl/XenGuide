@@ -4,26 +4,23 @@ chapter = false
 weight = 4
 +++
 
-Xeneta is a <a href="https://app.xeneta.com/" target="_blank">software-as-a-service platform</a> designed to help you understand the prices of the air and ocean freight transport markets. 
+{{% header %}} Xeneta's Analytics product adds volumes and dollar-value analysis to the base [Intelligence]({{< ref "Intelligence" >}}) product.  {{% /header %}}
 
-{{% aside %}} If you'd like to watch an introduction to Xeneta, take a look at our <a href="https://support.xeneta.com/hc/en-us/articles/360012687573-Ocean-Onboarding-Walkthrough" target="_blank">onboarding video</a>. {{% /aside %}}
+## Features
 
-At its core, Xeneta provides aggregated and anonymized shipping prices for ocean and air freight. These prices can not only help you understand the historical movement of the market, they can also help you understand the market as it is today.
+### All Intelligence features
 
-On top of simply providing data, Xeneta's platform allows users to compare their own freight rates against various market segments. By uploading freight rates into Xeneta, the user gains the ability to use Xeneta's suite of analytics tools to compare their own prices to the average market rates, as well as the best and worst market performers.
+Analytics contains all features of the Intelligence product and expands on them.
 
-Beyond benchmarking and market comparisons, the Xeneta platform provides you with analytics about: 
+### Spend Analysis
 
-* Potential savings that can be achieved if your freight rate spending were to improve
-* Market development for short-term and long-term contracts
-* Trade lane volume for different container types
-* Simplified and standardized air freight tier comparisons
+Xeneta calculates theoretical market prices for your volumes across your trade lanes. The computed values are then compared to the market to help you understand how much you pay compared to other market participants.
+
+### Saving Potentials
+
+The Savings Potential is a measure of how many dollars can be saved if your freight prices matched different sections of the market. 
 
 ## Next Steps
 
-You can learn more about what Xeneta can do by walking through the Xeneta app, starting with the dashboard.
-
-{{% linkarrow text="Read about the Xeneta dashboard" %}} {{< ref "Ocean/overview.md" >}} {{% /linkarrow %}}
-
-<div style="clear:both"/>
+Explore specific Analytics features to understand how Xeneta can help your freight procurement workflow.
 

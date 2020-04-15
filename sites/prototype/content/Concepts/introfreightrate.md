@@ -4,8 +4,6 @@ chapter = false
 weight = 1
 +++
 
-{{% header %}} An Introduction to Freight Rate Benchmarking and Analytics for Ocean Freight {{% /header %}}
-
 ## What is a freight rate?
 
 A freight rate is a negotiated price for shipping a freight container from one part of the world to another.
@@ -40,7 +38,7 @@ Xeneta offers insight into the freight rate market by collecting freight rates f
 
 As a platform, Xeneta provides an aggregated high-level view of the freight market. When we say aggregation, we mean that across a single trade lane many valid rates are combined into a single value — usually a market average — to provide a clear picture of what the market prices as a whole are like on that trade lane.
 
-Aggregation is done historically, for the current day, and for long-term contracts extending [past the current day](https://support.xeneta.com/hc/en-us/articles/360006572714-Futures-The-Best-View-of-Future-Rate-Movement).
+All market data presented by Xeneta is anonymized, aggregated data.
 
 ## Benchmarking
 
