@@ -37,4 +37,4 @@ From a brief look at the data, we can determine that the Asia–Europe corridor 
 
 Next, let's take a look at how Xeneta visualizes your air freight data.
 
-{{% linkbutton title="Graphs" %}} {{< ref "Air/graphs.md" >}} {{% /linkbutton %}}
+{{% linkarrow text="Graphs" %}} {{< ref "Air/graphs.md" >}} {{% /linkarrow %}}

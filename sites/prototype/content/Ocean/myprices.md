@@ -1,6 +1,7 @@
 +++
 title = "My Prices"
 weight = 3
+draft = true
 +++
 
 {{% header %}}The <a href="https://app.xeneta.com/ocean/prices/corridors" target="_blank">My Prices</a> page organizes your uploaded freight rates into a number of categories to help you understand your prices across the market. {{% /header %}}

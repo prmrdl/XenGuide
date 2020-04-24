@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Quick Start</title>
+      <link>https://guide.xeneta.com/introduction/quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/introduction/quickstart/</guid>
+      <description>Get an overview of Xeneta&amp;rsquo;s capabilities in this introductory guide.
+1Search for a spot price  2View Market Prices  3View Your Uploaded Prices  4View Spend Overview 
+1Search for a Spot Price  Navigate to the dashboard The Xeneta dashboard provides an overview of your uploaded rates and how the market compares to them.</description>
+    </item>
+    
+    <item>
       <title>Uploading Rates</title>
       <link>https://guide.xeneta.com/introduction/uploading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -21,23 +32,14 @@ Benchmarking can help you understand how much you pay relative to the market and
     </item>
     
     <item>
-      <title>Use Cases</title>
-      <link>https://guide.xeneta.com/introduction/gettingstarted/</link>
+      <title>Release Notes</title>
+      <link>https://guide.xeneta.com/introduction/releasenotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.com/introduction/gettingstarted/</guid>
-      <description>Xeneta&amp;rsquo;s platform offers you a number of tools to help you understand the freight market. Here you can find some basic use cases for the Xeneta platform. Ocean View a summary of your freight ratesUse the dashboard to get an overview of your rates and how they compare to the market. Get a spot rate for a trade laneUse the trade lane search from the dashboard to retrieve today&amp;#39;s market rates for any origin and destination port across a number of container types.</description>
-    </item>
-    
-    <item>
-      <title>Reports</title>
-      <link>https://guide.xeneta.com/introduction/reports/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/introduction/reports/</guid>
-      <description>Xeneta can create a number of Excel reports based on the analytics data found on our platform.
-Any page capable of exporting an Excel report will contain a  symbol in the top-right corner of the page. You can find all your created reports on the Reports page.
-Note: A number of larger reports will take some time to generate. In such cases, you&amp;rsquo;ll be notified by email when your report is ready.</description>
+      <guid>https://guide.xeneta.com/introduction/releasenotes/</guid>
+      <description>March 02, 2020Export Graph to ImageOceanAirFeature ReleaseYou can now export the Benchmarks and Trends graphs to a PNG image.
+ January 23, 2020User THC PreferenceOceanFeature ReleaseYou can now select between viewing your rates with the terminal handling charges (THCs) chosen by the default Xeneta methodology or with the THCs that were uploaded with your rates.
+For more information on this feature, refer to our help article.</description>
     </item>
     
   </channel>

@@ -1,6 +1,7 @@
 +++
 title = "Dashboard"
 weight = 1
+draft = true
 +++
 
 {{% header %}} The <a href="https://app.xeneta.com/ocean/dashboard" target="_blank">Ocean dashboard</a> summarizes your freight spend information and provides a search box for finding market prices for trade lanes. {{% /header %}}

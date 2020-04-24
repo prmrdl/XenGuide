@@ -31,7 +31,7 @@ Enter your origin and destination ports then select your preferred container typ
 
 Clicking on **View Graph** from the search results will take you to the Benchmarks Graph. This graph plots the historical market movements for the tradelane for up to 4 years back in time.
 
-{{< fig src="/img/view-graph.png" >}}
+{{< fig src="/img/location-benchmark.gif" >}}
 
 ### Benchmark your prices against the market
 

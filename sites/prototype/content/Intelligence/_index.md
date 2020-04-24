@@ -32,3 +32,5 @@ Every graph and table in Xeneta can be exported to an Excel report and analyzed 
 ## Next Steps
 
 Explore specific Intelligence features to understand how Xeneta can help your freight procurement workflow.
+
+{{% linkarrow text="Read more about benchmarking" %}} {{< ref "Intelligence/benchmarking.md" >}} {{% /linkarrow %}}

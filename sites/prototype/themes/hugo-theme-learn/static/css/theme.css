@@ -1159,16 +1159,16 @@ td {
 }
 @media only all and (max-width: 59.938em) {
     #sidebar {
-        width: 230px;
+        width: 350px;
     }
     #body {
-        margin-left: 230px;
+        margin-left: 350px;
     }
 }
 @media only all and (max-width: 47.938em) {
     #sidebar {
-        width: 230px;
-        left: -230px;
+        width: 350px;
+        left: -350px;
     }
     #body {
         margin-left: 0;

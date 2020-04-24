@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://guide.xeneta.com/air/overview/</guid>
-      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard For details about Xeneta&amp;rsquo;s benchmarking of air freight, read this article. Like the Ocean dashboard, the Air freight dashboard contains a port-to-port search bar and a summary of your price coverage and price benchmarks.
-Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port search on the dashboard is used to find spot rates for air freight.</description>
+      <description>Xeneta for Air Freight is an analytics and benchmark platform for understanding the prices of the air freight market. The Dashboard For details about Xeneta&amp;rsquo;s benchmarking of air freight, read this article. Like the Ocean dashboard, the Air freight dashboard contains a location search bar and a summary of your price coverage and price benchmarks.
+ The Location Search The location search on the dashboard is used to find spot rates for air freight.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ Dashboard — Xeneta for Air Freight The Port-to-port Search The port-to-port 
       
       <guid>https://guide.xeneta.com/air/graphs/</guid>
       <description>Graphs are a tool for visualizing your freight rates in relation to the market and your own freight forwarders. Overview Xeneta for Air Freight uses the Benchmarks graph to plot both market prices and your freight forwarder prices together. It has a number of filters to help you narrow the scope of the rates you&amp;rsquo;re viewing, including filters for date range, weight break, and service level.
-The Benchmarks graph for air freight.</description>
+ The Benchmarks graph helps you compare the rates you pay for your freight forwarders against the market at large across specific trade lanes or broader regions.</description>
     </item>
     
   </channel>

@@ -12,6 +12,10 @@ weight = 4
 
 Analytics contains all features of the Intelligence product and expands on them.
 
+### Expanded Dashboard
+
+Analytics adds additional panels to the dashboard to provide summaries of spend, volume, and coverage. 
+
 ### Spend Analysis
 
 Xeneta calculates theoretical market prices for your volumes across your trade lanes. The computed values are then compared to the market to help you understand how much you pay compared to other market participants.
@@ -27,4 +31,6 @@ The Spend Overview unifies your trade lanes, their associated volumes, and the p
 ## Next Steps
 
 Explore specific Analytics features to understand how Xeneta can help your freight procurement workflow.
+
+{{% linkarrow text="Read more about Spend Analysis" %}} {{< ref "Analytics/spend-analysis.md" >}} {{% /linkarrow %}}
 

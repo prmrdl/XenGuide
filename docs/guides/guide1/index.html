@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.53" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Introduction to Benchmarking :: Xeneta Guide</title>
+
+    
+    <link href="/css/nucleus.css?1587737150" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1587737150" rel="stylesheet">
+    <link href="/css/hybrid.css?1587737150" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1587737150" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1587737150" rel="stylesheet">
+    <link href="/css/auto-complete.css?1587737150" rel="stylesheet">
+    <link href="/css/theme.css?1587737150" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1587737150" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1587737150"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/guides/guide1/">
+    <nav id="sidebar" class="">
+
+<div>
+
+<div style="display:inline-block;width:250px;"></div>
+<div style="display:inline-block;">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://guide.xeneta.com/">
+  <svg fill="black" width="200px" height="42px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406 302">
+                <path d="M106.411 146.85L29.377 22h51.466l51.47 84.01L183.779 22h51.137l-77.034 124.85L240.228 281h-50.803l-57.445-92.643L74.867 281H23.731l82.68-134.15zM448.332 22l-17.324 41H340v65h63v41h-63v71h108v41H293V22h155.332zM948.332 22l-17.324 41H840v65h63v41h-63v71h108v41H793V22h155.332zM670.063 22H715v259h-34.593L563 109.327 563.062 281H518V22h34.256L670.25 193.673 670.063 22zM1169.67 22H997v41h60v218h46V63h49.223zM1384.051 281L1274.269 22h-.918l-109.227 258h46.8c2.967-.023 41.443-7.46 74.666-30.929 13.596-9.604 27.729-8.831 34.608-7.637L1336.925 281h47.126zm-122.673-66.201c-9.335 6.594-19.673 11.659-29.073 15.447l41.434-98.184 28.586 67.296c-12.978 1.436-27.35 5.837-40.947 15.441z"></path>
+            </svg>
+			
+			<span style="margin-left:-5px;display:inline-block;
+            font-size:16px;
+            top:-22px;
+            position:relative;
+            color:#2669ff;
+            background-color:#2669ff33;
+            padding:1px 3px 1px 3px;
+            border-radius:5px;">Guide</span>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1587737150"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1587737150"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/guide.xeneta.com\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1587737150"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction/" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/introduction/">
+          Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/quickstart/" title="Quick Start" class="dd-item ">
+        <a href="/introduction/quickstart/">
+        Quick Start
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/uploading/" title="Uploading Rates" class="dd-item ">
+        <a href="/introduction/uploading/">
+        Uploading Rates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/releasenotes/" title="Release Notes" class="dd-item ">
+        <a href="/introduction/releasenotes/">
+        Release Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/concepts/" title="Concepts" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/concepts/">
+          Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/introfreightrate/" title="Introduction to Freight Rates" class="dd-item ">
+        <a href="/concepts/introfreightrate/">
+        Introduction to Freight Rates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/marketmetrics/" title="Market Metrics" class="dd-item ">
+        <a href="/concepts/marketmetrics/">
+        Market Metrics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/futures/" title="Contract Horizon" class="dd-item ">
+        <a href="/concepts/futures/">
+        Contract Horizon
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/intelligence/" title="Intelligence" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/intelligence/">
+          Intelligence
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intelligence/benchmarking/" title="Benchmarking" class="dd-item ">
+        <a href="/intelligence/benchmarking/">
+        Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/analytics/" title="Analytics" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/analytics/">
+          Analytics
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/analytics/spend-analysis/" title="Spend Analysis" class="dd-item ">
+        <a href="/analytics/spend-analysis/">
+        Spend Analysis
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/air/" title="Air" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/air/">
+          Air
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/overview/" title="Overview" class="dd-item ">
+        <a href="/air/overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/myprices/" title="My Prices" class="dd-item ">
+        <a href="/air/myprices/">
+        My Prices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/graphs/" title="Graphs" class="dd-item ">
+        <a href="/air/graphs/">
+        Graphs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/guides/" title="Guides" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/guides/">
+          Guides
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide1/" title="Introduction to Benchmarking" class="dd-item active">
+        <a href="/guides/guide1/">
+        Introduction to Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide2/" title="Using Excel for Benchmarking" class="dd-item ">
+        <a href="/guides/guide2/">
+        Using Excel for Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide3/" title="Market Rates Beyond Today" class="dd-item ">
+        <a href="/guides/guide3/">
+        Market Rates Beyond Today
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3> </h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" target="_blank" href="https://support.xeneta.com"><i class='fas fa-book'></i> Help Center</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" target="_blank" href="https://xeneta.github.io/XenDoc/"><i class='fas fa-book'></i> API Reference</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+  
+  </div>
+  
+</div>
+
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Introduction to Benchmarking</h1>
+          
+
+        
+
+
+
+
+<div>
+	<p style="
+	font-size:16px;
+	padding: 10px;
+	margin-bottom:2em;
+    color: #6e83a0;
+    background-color: #7f97b824;
+    border-radius:5px;
+    max-width:600px;">
+		In this guide, we&rsquo;ll take a look at using Xeneta to compare your uploaded freight rates to current and historical market rates.
+	</p>
+</div>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The Benchmarks graph is designed to help you compare your freight rates against the market. At its core, it plots Xeneta&rsquo;s <a href="https://support.xeneta.com/hc/en-us/articles/115001532114-Market-Benchmarks">market benchmarks</a> alongside your own freight rates.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-1.png' />
+	
+</div>
+
+<p>The Benchmarks graph can be reached in two ways:</p>
+
+<ol>
+<li>Clicking the <strong>View Graph</strong> button from the dashboard search after searching for a trade lane or trade corridor</li>
+<li>Clicking the <strong>View Graph</strong> button from the Market Trends page if you have <a href="https://support.xeneta.com/hc/en-us/articles/115003166269-Followed-Market-Trends">followed trade lanes</a></li>
+</ol>
+
+<h2 id="filtering-your-data">Filtering Your Data</h2>
+
+<p>The Benchmark graph contains a number of filters to help you narrow the scope of the market such that you can compare your prices to the most relevant segments of the market.</p>
+
+<p>The most important filter is the <strong>Date</strong> filter, which determines the date range for which both your data and market data is shown on the graph. By default, the Benchmarks graph looks back one year from the present day.</p>
+
+<p>Secondarily, the graph contains a <strong>Contract Duration</strong> filter to help you select which type of market rates — short-term or long-term — you want to have compared to your own uploaded rates.</p>
+
+<p>For a better look at your uploaded rates, you can use the <a href="https://app.xeneta.com/ocean/prices/corridors">My Prices</a> page to examine your freight volume and its associated prices.</p>
+
+<h2 id="selecting-your-suppliers">Selecting Your Suppliers</h2>
+
+<p>Below the graph, you can find the <strong>My Prices</strong> table, which lists all of the suppliers that you have contracted rates for on the selected trade lane or corridor.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-2.png' />
+	
+</div>
+
+<p>To select a supplier, mouse over the row of the supplier you wish to add and click the <strong>Add</strong> button.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-3.png' />
+	
+</div>
+
+<p>If you have multiple suppliers, you can use the <strong>Suppliers</strong> filter at the top of the page to find the suppliers relevant to your benchmarking.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-4.png' />
+	
+</div>
+
+<p>Once you select a supplier, their rates will be plotted on the Benchmarks graph:</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-5.png' />
+	
+</div>
+
+<p>Finally, use the Market Position legend to the right of the graph to select one or more market positions to use as a benchmark against your selected supplier.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-6.png' />
+	
+</div>
+
+<p>Hover your cursor over the graph to get detailed pricing information for all plotted lines:</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;">
+	<img style="margin-top:0px;" src='../g1-7.png' />
+	
+</div>
+
+<h2 id="understanding-the-benchmarks-graph">Understanding the Benchmarks Graph</h2>
+
+<p>With both the market prices and your own supplier prices plotted on the graph, you can begin to ask questions about your procurement strategy.</p>
+
+<p>Consider how your prices compare to the market average, as well as market low and market high segments. Do you tend to pay for freight above or below the market? How do your fright rates prices compare month over month and year over year?</p>
+
+<p>These are all questions that can help you towards optimizing your ocean freight process.</p>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-137344312-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<footer class=" footline" >
+	
+	
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/guides/" title="Guides"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/guides/guide2/" title="Using Excel for Benchmarking" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    
+    
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      </div>
+    </div>
+    <script src="/js/clipboard.min.js?1587737150"></script>
+    <script src="/js/perfect-scrollbar.min.js?1587737150"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1587737150"></script>
+    <script src="/js/jquery.sticky.js?1587737150"></script>
+    <script src="/js/featherlight.min.js?1587737150"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1587737150"></script>
+    <script src="/js/highlight.pack.js?1587737150"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1587737150"></script>
+    <script src="/js/learn.js?1587737150"></script>
+    <script src="/js/hugo-learn.js?1587737150"></script>
+
+    <link href="/mermaid/mermaid.css?1587737150" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1587737150"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+<div style="
+width:675px;
+margin-left:615px;
+margin-bottom:40px;
+border-top: 1px solid #e3e8ee;
+padding: 40px 10px 50px 10px;
+font-weight:700;
+font-size:14px;
+">
+
+<div>Questions? <a href="mailto:support@xeneta.com">Contact us.</a></div>
+
+
+</div>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intelligence on Xeneta Guide</title>
+    <link>https://guide.xeneta.com/intelligence/</link>
+    <description>Recent content in Intelligence on Xeneta Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://guide.xeneta.com/intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Benchmarking</title>
+      <link>https://guide.xeneta.com/intelligence/benchmarking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/intelligence/benchmarking/</guid>
+      <description>Overview Benchmarking allows you to compare the prices you pay for ocean freight to the prices paid by the market. By knowing where you stand within the market, you can begin to make decisions about improving your procurement process.
+The Xeneta platform has a number of tools for benchmarking your prices against the market.
+Uploading Your Prices Before you can begin benchmarking, you will need to upload your prices to Xeneta.</description>
+    </item>
+    
+  </channel>
+</rss>

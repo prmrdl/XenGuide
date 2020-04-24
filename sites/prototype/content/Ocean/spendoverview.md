@@ -1,6 +1,7 @@
 +++
 title = "Spend Overview"
 weight = 4
+draft = true
 +++
 
 {{% header %}} The <a href="https://app.xeneta.com/ocean/spend/corridors" target="_blank">Spend Overview</a> page ties together your freight volume and its associated prices with the rest of the market. {{% /header %}}

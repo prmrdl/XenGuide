@@ -25,7 +25,7 @@ At its core, Xeneta provides a price benchmark for shipping freight between most
 
 Freight rates are typically associated with a number of surcharges. Surcharges are additional fees involved with transporting the freight container, such as loading the container, processing the cargo documentation, or providing security for the container.
 
-Many surcharges are common to all service providers: fuel fees, documentation fees, and piracy fees. Other surcharges vary based on the carrier, port, global events, and seasons. A common charge applied to cargo based on the location of the port is the <a href="https://support.xeneta.com/hc/en-us/articles/360024759453-THC-Methodology" target="_blank">terminal handling charge</a>, which is the fee paid for loading and unloading cargo at the port of origin and destination.
+Many surcharges are common to all service providers: fuel fees, documentation fees, and piracy fees. Other surcharges vary based on the carrier, port, global events, and seasons. A common charge applied to cargo based on the location of the port is the terminal handling charge, which is the fee paid for handling and moving cargo at the port of origin and destination.
 
 In summary, the total cost of shipping a freight container is the combination of the base freight rate and additional surcharges. 
 
@@ -78,4 +78,4 @@ At its core, the Xeneta platform helps you understand the ocean freight market a
 
 Next, let's take a look at how the Xeneta platform displays freight rate information in its interface.
 
-{{% linkbutton title="Market Metrics" %}} {{< ref "marketmetrics.md" >}} {{% /linkbutton %}}
+{{% linkarrow text="Read about Market Metrics" %}} {{< ref "marketmetrics.md" >}} {{% /linkarrow %}}
