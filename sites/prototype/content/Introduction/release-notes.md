@@ -3,7 +3,7 @@ title = "Release Notes"
 weight = 4
 +++
 
-{{% releasenote title="Followed Market Trends Refresh" date="May 7, 2020"
+{{% releasenote title="Followed Market Trends Refresh" date="May 14, 2020"
  ocean="true" release="true" %}} 
 The Market Trends page has been redesigned and now includes graphs to visualize market movements for your followed trade lanes up to a year back in time.
 
