@@ -3,7 +3,16 @@ title = "Release Notes"
 weight = 4
 +++
 
-{{% releasenote title="Export Graph to Image" date="March 02, 2020"
+{{% releasenote title="Followed Market Trends Refresh" date="May 7, 2020"
+ ocean="true" release="true" %}} 
+The Market Trends page has been redesigned and now includes graphs to visualize market movements for your followed trade lanes up to a year back in time.
+
+For more details on this feature, [read our documentation]({{< ref "Intelligence/market-trends.md" >}}).
+
+{{% /releasenote %}}
+
+
+{{% releasenote title="Export Graph to Image" date="March 2, 2020"
  ocean="true" air="true" release="true" %}} 
 You can now export the Benchmarks and Trends graphs to a PNG image.
 {{% /releasenote %}}

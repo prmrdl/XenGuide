@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Benchmarking</title>
+      <link>https://guide.xeneta.com/intelligence/benchmarking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/intelligence/benchmarking/</guid>
+      <description>Overview Benchmarking allows you to compare the prices you pay for ocean freight to the prices paid by the market. By knowing where you stand within the market, you can begin to make decisions about improving your procurement process.
+The Xeneta platform has a number of tools for benchmarking your prices against the market.
+Uploading Your Prices Before you can begin benchmarking, you will need to upload your prices to Xeneta.</description>
+    </item>
+    
+    <item>
       <title>Introduction to Benchmarking</title>
       <link>https://guide.xeneta.com/guides/guide1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,17 +64,6 @@ Freight rates that are tied to contracts have a validity period that defines the
     </item>
     
     <item>
-      <title>Benchmarking</title>
-      <link>https://guide.xeneta.com/intelligence/benchmarking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://guide.xeneta.com/intelligence/benchmarking/</guid>
-      <description>Overview Benchmarking allows you to compare the prices you pay for ocean freight to the prices paid by the market. By knowing where you stand within the market, you can begin to make decisions about improving your procurement process.
-The Xeneta platform has a number of tools for benchmarking your prices against the market.
-Uploading Your Prices Before you can begin benchmarking, you will need to upload your prices to Xeneta.</description>
-    </item>
-    
-    <item>
       <title>Market Metrics</title>
       <link>https://guide.xeneta.com/concepts/marketmetrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,6 +72,18 @@ Uploading Your Prices Before you can begin benchmarking, you will need to upload
       <description>For an in-depth look at Market Metrics, read our article in the help center. Market metrics are a set of options that control how freight rate data is displayed in Xeneta. You can think of them as a global-level filters for rate information.
 They appear in the top-right corner of on any pages capable of showing freight data — including Air and Ocean dashboards.
  Currently, Xeneta uses 3 types of market metrics across both Ocean and Air freight products:</description>
+    </item>
+    
+    <item>
+      <title>Market Trends</title>
+      <link>https://guide.xeneta.com/intelligence/market-trends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/intelligence/market-trends/</guid>
+      <description>The Market Trends is a collection of trade lanes and corridors available for quick review. It features rate price information for today&amp;rsquo;s date and a selectable date in the past, along with a small graph that shows the general trend for the trade lane for a selected period.
+ It contains two tabs:
+Following
+A list of trade lanes or corridors that you have added to your list of followed trade lanes.</description>
     </item>
     
     <item>
@@ -146,13 +158,13 @@ In these cases, the contracts negotiated near the present day may be contracted 
     
     <item>
       <title>Release Notes</title>
-      <link>https://guide.xeneta.com/introduction/releasenotes/</link>
+      <link>https://guide.xeneta.com/introduction/release-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://guide.xeneta.com/introduction/releasenotes/</guid>
-      <description>March 02, 2020Export Graph to ImageOceanAirFeature ReleaseYou can now export the Benchmarks and Trends graphs to a PNG image.
- January 23, 2020User THC PreferenceOceanFeature ReleaseYou can now select between viewing your rates with the terminal handling charges (THCs) chosen by the default Xeneta methodology or with the THCs that were uploaded with your rates.
-For more information on this feature, refer to our help article.</description>
+      <guid>https://guide.xeneta.com/introduction/release-notes/</guid>
+      <description>May 7, 2020Followed Market Trends RefreshOceanFeature ReleaseThe Market Trends page has been redesigned and now includes graphs to visualize market movements for your followed trade lanes up to a year back in time.
+For more details on this feature, read our documentation.
+ March 2, 2020Export Graph to ImageOceanAirFeature ReleaseYou can now export the Benchmarks and Trends graphs to a PNG image.</description>
     </item>
     
   </channel>

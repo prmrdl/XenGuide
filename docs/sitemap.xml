@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://guide.xeneta.com/intelligence/benchmarking/</loc>
+  </url>
+  
+  <url>
     <loc>https://guide.xeneta.com/introduction/</loc>
   </url>
   
@@ -23,15 +27,15 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/intelligence/benchmarking/</loc>
-  </url>
-  
-  <url>
     <loc>https://guide.xeneta.com/concepts/</loc>
   </url>
   
   <url>
     <loc>https://guide.xeneta.com/concepts/marketmetrics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://guide.xeneta.com/intelligence/market-trends/</loc>
   </url>
   
   <url>
@@ -71,7 +75,7 @@
   </url>
   
   <url>
-    <loc>https://guide.xeneta.com/introduction/releasenotes/</loc>
+    <loc>https://guide.xeneta.com/introduction/release-notes/</loc>
   </url>
   
   <url>
