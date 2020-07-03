@@ -17,10 +17,16 @@ url = "https://support.xeneta.com"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-book'></i> API Reference"
+name = "<i class='fas fa-plug'></i> API Reference"
 identifier = "xenapi"
 url = "https://xeneta.github.io/XenDoc/"
 weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-arrow-right'></i> Book an Analysis"
+identifier = "xenbook"
+url = "https://www.xeneta.com/freight-spend-analysis"
+weight = 30
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

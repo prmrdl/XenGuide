@@ -439,7 +439,7 @@ li.dd-item:not(parent){
 #body img {
 	border: 2px solid #f3f3f3;
     border-radius: 5px;
-	max-width:675px;
+	/*max-width:675px;*/
 }
 #body img, #body .video-container {
     margin: 1rem auto;
