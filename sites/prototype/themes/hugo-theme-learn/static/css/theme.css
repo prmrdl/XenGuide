@@ -433,7 +433,7 @@ li.dd-item:not(parent){
 }
 #body {
     position: relative;
-    margin-left: 550px;
+    margin-left: calc(350px + 10.5vw);
     min-height: 100%;
 }
 #body img {
@@ -1441,4 +1441,25 @@ ol > li {
     border-radius:10px;
     margin-right:10px;
     color: #547da2;
+}
+
+.questions-footer {
+    width:675px;
+    margin-left:calc(365px + 13vw);
+    margin-bottom:40px;
+    border-top: 1px solid #e3e8ee;
+    padding: 40px 10px 50px 10px;
+    font-weight:700;
+    font-size:14px;
+}
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+    .questions-footer {
+        margin-left: 390px;
+    }
+}
+@media only all and (max-width: 47.938em) {
+    .questions-footer {
+        margin-left: 10px;
+    }
 }
