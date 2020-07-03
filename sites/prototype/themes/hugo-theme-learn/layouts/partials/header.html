@@ -42,6 +42,11 @@
         <div class="padding highlightable">
               {{if not .IsHome}}
               <div>
+                                  <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>Navigation
+                        </a>
+                    </span>
                 <!--<div id="top-bar">
                 {{ if and (or .IsPage .IsSection) .Site.Params.editURL }}
                   {{ $File := .File }}

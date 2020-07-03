@@ -1159,7 +1159,8 @@ td {
 }
 @media only all and (max-width: 59.938em) {
     #sidebar {
-        width: 350px;
+        width: 315px;
+        padding-left: 10px;
     }
     #body {
         margin-left: 350px;
@@ -1181,7 +1182,7 @@ td {
         left: 0;
     }
     .sidebar-hidden #body {
-        margin-left: 230px;
+        margin-left: 350px;
         overflow: hidden;
     }
     .sidebar-hidden #overlay {
