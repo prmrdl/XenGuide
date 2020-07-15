@@ -4,6 +4,14 @@
         </div> 
         {{ partial "custom-comments.html" . }}
       </div>
+    
+    {{ if and (or .IsPage .IsSection) }}
+    <div class="side-toc">
+        {{ .TableOfContents }}
+    </div>
+    {{ end }}
+      
+      
     <div id="navigation">
         <!-- Next prev page -->
         {{ $currentNode := . }}
