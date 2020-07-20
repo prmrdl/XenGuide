@@ -1177,6 +1177,10 @@ td {
         margin-left: 0;
         width: 100%;
     }
+    #body-inner {
+        margin-bottom: 5rem;
+        max-width: 675px;
+    }
     .sidebar-hidden {
         overflow: hidden;
     }
