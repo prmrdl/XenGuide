@@ -5,7 +5,7 @@
         {{ partial "custom-comments.html" . }}
       </div>
     
-    {{ if and (or .IsPage .IsSection) }}
+    {{ if and (or .IsPage) }}
     <div class="side-toc">
         {{ .TableOfContents }}
     </div>
