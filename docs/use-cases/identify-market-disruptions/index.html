@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.53" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Identify Market Disruptions :: Xeneta Guide</title>
+
+    
+    <link href="/css/nucleus.css?1603181481" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1603181481" rel="stylesheet">
+    <link href="/css/hybrid.css?1603181481" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1603181481" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1603181481" rel="stylesheet">
+    <link href="/css/auto-complete.css?1603181481" rel="stylesheet">
+    <link href="/css/theme.css?1603181481" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1603181481" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1603181481"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1816946.js"></script>
+
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1816686,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  
+  <body class="" data-url="/use-cases/identify-market-disruptions/">
+    <nav id="sidebar" class="">
+
+<div>
+
+<div style="display:inline-block;width:13vw;"></div>
+<div style="display:inline-block;">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://guide.xeneta.com/">
+  <svg fill="black" width="200px" height="42px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406 302">
+                <path d="M106.411 146.85L29.377 22h51.466l51.47 84.01L183.779 22h51.137l-77.034 124.85L240.228 281h-50.803l-57.445-92.643L74.867 281H23.731l82.68-134.15zM448.332 22l-17.324 41H340v65h63v41h-63v71h108v41H293V22h155.332zM948.332 22l-17.324 41H840v65h63v41h-63v71h108v41H793V22h155.332zM670.063 22H715v259h-34.593L563 109.327 563.062 281H518V22h34.256L670.25 193.673 670.063 22zM1169.67 22H997v41h60v218h46V63h49.223zM1384.051 281L1274.269 22h-.918l-109.227 258h46.8c2.967-.023 41.443-7.46 74.666-30.929 13.596-9.604 27.729-8.831 34.608-7.637L1336.925 281h47.126zm-122.673-66.201c-9.335 6.594-19.673 11.659-29.073 15.447l41.434-98.184 28.586 67.296c-12.978 1.436-27.35 5.837-40.947 15.441z"></path>
+            </svg>
+			
+			<span style="margin-left:-5px;display:inline-block;
+            font-size:16px;
+            top:-22px;
+            position:relative;
+            color:#2669ff;
+            background-color:#2669ff33;
+            padding:1px 3px 1px 3px;
+            border-radius:5px;">Guide</span>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1603181481"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1603181481"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/guide.xeneta.com\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1603181481"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction/" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/introduction/">
+          Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/quickstart/" title="Quick Start" class="dd-item ">
+        <a href="/introduction/quickstart/">
+        Quick Start
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/uploading/" title="Uploading Rates" class="dd-item ">
+        <a href="/introduction/uploading/">
+        Uploading Rates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/release-notes/" title="Release Notes" class="dd-item ">
+        <a href="/introduction/release-notes/">
+        Release Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/concepts/" title="Concepts" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/concepts/">
+          Concepts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/introfreightrate/" title="Introduction to Freight Rates" class="dd-item ">
+        <a href="/concepts/introfreightrate/">
+        Introduction to Freight Rates
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/marketmetrics/" title="Market Metrics" class="dd-item ">
+        <a href="/concepts/marketmetrics/">
+        Market Metrics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/concepts/futures/" title="Contract Horizon" class="dd-item ">
+        <a href="/concepts/futures/">
+        Contract Horizon
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/intelligence/" title="Intelligence" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/intelligence/">
+          Intelligence
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intelligence/benchmarking/" title="Benchmarking" class="dd-item ">
+        <a href="/intelligence/benchmarking/">
+        Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intelligence/market-trends/" title="Market Trends" class="dd-item ">
+        <a href="/intelligence/market-trends/">
+        Market Trends
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/analytics/" title="Analytics" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/analytics/">
+          Analytics
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/analytics/spend-analysis/" title="Spend Analysis" class="dd-item ">
+        <a href="/analytics/spend-analysis/">
+        Spend Analysis
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/air/" title="Air" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/air/">
+          Air
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/overview/" title="Overview" class="dd-item ">
+        <a href="/air/overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/myprices/" title="My Prices" class="dd-item ">
+        <a href="/air/myprices/">
+        My Prices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/air/graphs/" title="Graphs" class="dd-item ">
+        <a href="/air/graphs/">
+        Graphs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/guides/" title="Guides" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/guides/">
+          Guides
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide1/" title="Introduction to Benchmarking" class="dd-item ">
+        <a href="/guides/guide1/">
+        Introduction to Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide2/" title="Using Excel for Benchmarking" class="dd-item ">
+        <a href="/guides/guide2/">
+        Using Excel for Benchmarking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/guides/guide3/" title="Market Rates Beyond Today" class="dd-item ">
+        <a href="/guides/guide3/">
+        Market Rates Beyond Today
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/use-cases/" title="Use Cases" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/use-cases/">
+          Use Cases
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/identify-market-disruptions/" title="Identify Market Disruptions" class="dd-item active">
+        <a href="/use-cases/identify-market-disruptions/">
+        Identify Market Disruptions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/off-tender-requests/" title="Off-Tender Requests" class="dd-item ">
+        <a href="/use-cases/off-tender-requests/">
+        Off-Tender Requests
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/understand-market-position/" title="Understand Your Market Position" class="dd-item ">
+        <a href="/use-cases/understand-market-position/">
+        Understand Your Market Position
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/measure-supplier-performance/" title="Measure Supplier Performance" class="dd-item ">
+        <a href="/use-cases/measure-supplier-performance/">
+        Measure Supplier Performance
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/benchmark-against-peers/" title="Benchmark Against Peers" class="dd-item ">
+        <a href="/use-cases/benchmark-against-peers/">
+        Benchmark Against Peers
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/contract-duration-consideration/" title="Contract Duration Consideration" class="dd-item ">
+        <a href="/use-cases/contract-duration-consideration/">
+        Contract Duration Consideration
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/use-cases/set-budget-expectations/" title="Set Budget Expectations" class="dd-item ">
+        <a href="/use-cases/set-budget-expectations/">
+        Set Budget Expectations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3> </h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" target="_blank" href="https://support.xeneta.com"><i class='fas fa-book'></i> Help Center</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" target="_blank" href="https://xeneta.github.io/XenDoc/"><i class='fas fa-plug'></i> API Reference</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" target="_blank" href="https://www.xeneta.com/freight-spend-analysis"><i class='fas fa-arrow-right'></i> Book an Analysis</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+  
+  </div>
+  
+</div>
+
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <span id="sidebar-toggle-span">
+                    <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fas fa-bars"></i>Navigation
+                    </a>
+                </span>
+                
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Identify Market Disruptions</h1>
+          
+
+        
+
+
+
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Xeneta can visualize market movements with its graphing functionality. This is immediately useful for identifying how the market reacts to world events and gives you the insight to be proactive about your freight procurement.</p>
+
+<h2 id="long-term-vs-short-term">Long-term vs. Short-term</h2>
+
+<p>As an example, we&rsquo;ll take a look at the trends of the past year between China East Main and the US West Coast from <span style="border-radius:5px;background-color:#e8e8e8;padding:2px 2px 2px 5px;margin-right:3px;">
+ 12-10-2019 
+</span> to <span style="border-radius:5px;background-color:#e8e8e8;padding:2px 2px 2px 5px;margin-right:3px;">
+12-10-2020
+</span>.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;max-width:35vw;">
+	<img style="margin-top:0px;" src='/img/use-cases/1.png' />
+	
+</div>
+
+<a class="linkbutton" href="https://app.xeneta.com/ocean/trade-lane-graph/trends?TFlag=default&amp;contracted_within=all&amp;date_from=2019-10-12&amp;date_to=2020-10-12&amp;dest=us_west_coast&amp;equipment_id=2&amp;orig=china_east_main&amp;thc=meth" target="_blank">
+     View example in Xeneta 
+</a>
+
+<p>In the image above, we have plotted the short-term (yellow) and long-term (blue) market averages for the past year. We can clearly see that by October 2020 the price to ship freight on short-term contracts is almost double the price of running long-term contracts in that period. The rapid increase in short-term prices began around June and continued to rise until October, where it stabilized.</p>
+
+<p>With short-term prices significantly above long-term prices, the market will tend to strongly prefer shipping freight on short-term contracts. This suggests that, as a result, market participants with long-term contracts will see much of their cargo getting rolled.</p>
+
+<h2 id="surcharges">Surcharges</h2>
+
+<p>Coming into IMO 2020, most market players were unsure of what would happen to prices when the new surcharge came into effect worldwide. In the image below, we have a snapshot of the Shanghai to Hamburg tradelane around the beginning of 2020.</p>
+
+<div style="display:inline-block;margin-top:10px;margin-bottom:10px;max-width:35vw;">
+	<img style="margin-top:0px;" src='/img/use-cases/2.png' />
+	
+</div>
+
+<a class="linkbutton" href="https://app.xeneta.com/ocean/trade-lane-graph/trends?TFlag=default&amp;contracted_within=all&amp;date_from=2019-10-13&amp;date_to=2020-03-27&amp;dest=DEHAM&amp;equipment_id=2&amp;orig=CNSGH&amp;thc=meth" target="_blank">
+     View example in Xeneta 
+</a>
+
+<p>Using Xeneta&rsquo;s data to look back on the market clearly shows an across-the-board price increase. However, while market prices initially shot up, they quickly settled over the next few months, and for the most part prices are not vastly different from before the new surcharge.</p>
+
+<p>While Xeneta does not speculate about future prices, it can still help you identify market movements and can prepare your organization for a change in market strategy.</p>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-137344312-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<footer class=" footline" >
+	
+	
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+    
+    
+    <div class="side-toc">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#long-term-vs-short-term">Long-term vs. Short-term</a></li>
+<li><a href="#surcharges">Surcharges</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+    
+      
+      
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/use-cases/" title="Use Cases"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/use-cases/off-tender-requests/" title="Off-Tender Requests" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    
+    
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      </div>
+    </div>
+    <script src="/js/clipboard.min.js?1603181481"></script>
+    <script src="/js/perfect-scrollbar.min.js?1603181481"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1603181481"></script>
+    <script src="/js/jquery.sticky.js?1603181481"></script>
+    <script src="/js/featherlight.min.js?1603181481"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1603181481"></script>
+    <script src="/js/highlight.pack.js?1603181481"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1603181481"></script>
+    <script src="/js/learn.js?1603181481"></script>
+    <script src="/js/hugo-learn.js?1603181481"></script>
+
+    <link href="/mermaid/mermaid.css?1603181481" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1603181481"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+<div class="questions-footer">
+
+<div>Questions? <a href="mailto:support@xeneta.com">Contact us.</a></div>
+
+
+</div>
+  </body>
+</html>
+

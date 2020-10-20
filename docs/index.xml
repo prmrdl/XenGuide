@@ -22,6 +22,17 @@ Uploading Your Prices Before you can begin benchmarking, you will need to upload
     </item>
     
     <item>
+      <title>Identify Market Disruptions</title>
+      <link>https://guide.xeneta.com/use-cases/identify-market-disruptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/identify-market-disruptions/</guid>
+      <description>Introduction Xeneta can visualize market movements with its graphing functionality. This is immediately useful for identifying how the market reacts to world events and gives you the insight to be proactive about your freight procurement.
+Long-term vs. Short-term As an example, we&amp;rsquo;ll take a look at the trends of the past year between China East Main and the US West Coast from 12-10-2019  to 12-10-2020.
+ View example in Xeneta  In the image above, we have plotted the short-term (yellow) and long-term (blue) market averages for the past year.</description>
+    </item>
+    
+    <item>
       <title>Introduction to Benchmarking</title>
       <link>https://guide.xeneta.com/guides/guide1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -96,6 +107,16 @@ This view allows you to see how market rates have changed for different periods 
     </item>
     
     <item>
+      <title>Off-Tender Requests</title>
+      <link>https://guide.xeneta.com/use-cases/off-tender-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/off-tender-requests/</guid>
+      <description>Introduction Every organization has a different approach to tenders — some tender frequently, others only once a year. However, if your freight needs change outside of the usual tender period, it may be cumbersome or expensive for your organization to begin making price requests for additional freight.
+With Xeneta, you can instantly find spot prices for any trade lane globally — without going through a back-and-forth with potential suppliers.</description>
+    </item>
+    
+    <item>
       <title>Spend Analysis</title>
       <link>https://guide.xeneta.com/analytics/spend-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -157,6 +178,27 @@ In these cases, the contracts negotiated near the present day may be contracted 
     </item>
     
     <item>
+      <title>Understand Your Market Position</title>
+      <link>https://guide.xeneta.com/use-cases/understand-market-position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/understand-market-position/</guid>
+      <description>Introduction The first step to improving your freight contracts is understanding where they stand in relation to the market. By uploading your freight rates into Xeneta, you can leverage Xeneta&amp;rsquo;s benchmarking capabilities to find out where you can improve your freight rates.
+The Spend Overview The Spend Overview collects all of your uploaded freight rates and breaks them down by corridor. It is immediately useful for finding the corridors with the largest spend and the largest volume.</description>
+    </item>
+    
+    <item>
+      <title>Measure Supplier Performance</title>
+      <link>https://guide.xeneta.com/use-cases/measure-supplier-performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/measure-supplier-performance/</guid>
+      <description>Introduction Xeneta can organize your uploaded data by individual suppliers, which will let you identify your best and worst performing suppliers.
+Supplier Breakdown You can see the volume, spend, and saving potentials of all of your suppliers by navigating to the Suppliers tab of the Spend Overview.
+ View example in Xeneta  The Covered vs. Market column indicates the level to which your rates are above or below the market for the same trade lanes.</description>
+    </item>
+    
+    <item>
       <title>Release Notes</title>
       <link>https://guide.xeneta.com/introduction/release-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -165,6 +207,38 @@ In these cases, the contracts negotiated near the present day may be contracted 
       <description>May 14, 2020Followed Market Trends RefreshOceanFeature ReleaseThe Market Trends page has been redesigned and now includes graphs to visualize market movements for your followed trade lanes up to a year back in time.
 For more details on this feature, read our documentation.
  March 2, 2020Export Graph to ImageOceanAirFeature ReleaseYou can now export the Benchmarks and Trends graphs to a PNG image.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark Against Peers</title>
+      <link>https://guide.xeneta.com/use-cases/benchmark-against-peers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/benchmark-against-peers/</guid>
+      <description>By default, Xeneta offers benchmarking against the entire ocean freight market.
+As an additional service, Xeneta provides industry-based benchmarking so that you can compare your performance specifically to others in your industry.
+ This service is part of a larger reporting suite called Executive Reporting. Executive Reporting includes deeper analysis into your freight data including competitive analysis, regional performance, and carrier performance.
+Contact your Customer Success Manager to learn more about Executive Reporting.</description>
+    </item>
+    
+    <item>
+      <title>Contract Duration Consideration</title>
+      <link>https://guide.xeneta.com/use-cases/contract-duration-consideration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/contract-duration-consideration/</guid>
+      <description> Introduction </description>
+    </item>
+    
+    <item>
+      <title>Set Budget Expectations</title>
+      <link>https://guide.xeneta.com/use-cases/set-budget-expectations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guide.xeneta.com/use-cases/set-budget-expectations/</guid>
+      <description>Introduction It&amp;rsquo;s important to set your budget as you go into tender. If you&amp;rsquo;ve been out of the market for some time, Xeneta can help you align expectations and forecast possible budget increases or decreases.
+Global Market Trends You can use the Global Market Trends to see corridor price changes between the present day and up to a year in the past.
+ View example in Xeneta  By setting the Display parameter to the Past 1 Year, you can quickly find how the corridors that are relevant to your organization have been impacted.</description>
     </item>
     
   </channel>
