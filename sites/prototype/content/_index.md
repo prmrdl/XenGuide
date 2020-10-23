@@ -6,8 +6,6 @@ title = "Xeneta Guide"
 
 You can get started by reading through the basics of the Xeneta platform in our Quickstart Guide.
 
-<!-- {{% linkarrow text="Read the Quickstart Guide" %}} {{< ref "/quickstart" >}} {{% /linkarrow %}} -->
-
 <div style="display:flex;flex-wrap:wrap;margin:-5px;margin-bottom:40px;">
 
 {{% usecaseblocklarge title="Read the quickstart guide" text="Learn about the core features of Xeneta including searching for rates, viewing market prices, and benchmarking your rates agains the market." %}} {{< ref "/quickstart" >}} {{% /usecaseblocklarge %}}
@@ -32,9 +30,3 @@ You can get started by reading through the basics of the Xeneta platform in our 
 # Have other questions?
 
 You can reach out to our support team for any questions about the product.
-
-<!-- For more in-depth reading, take a look at the concepts behind Xeneta's market analytics platform and read our guides.  
-
-{{% linkarrow text="Learn about Xeneta concepts" %}} {{< ref "/Concepts" >}} {{% /linkarrow %}}
-
-{{% linkarrow text="Explore our guides" %}} {{< ref "/Guides" >}} {{% /linkarrow %}} -->

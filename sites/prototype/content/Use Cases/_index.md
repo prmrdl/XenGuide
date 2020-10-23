@@ -41,7 +41,7 @@ Compare your uploaded spend to the global ocean freight market to find cost savi
 
 {{% usecaseblock title="Set budget expectations" text="Prepare for budget increases or reductions and align expectations." %}} {{< ref "/set-budget-expectations" >}} {{% /usecaseblock %}}
 
-{{% usecaseblock title="Spot opportunities" text="Find opportunities for next year and evaluate lost opportunities." %}} {{< ref "/quickstart" >}} {{% /usecaseblock %}}
+{{% usecaseblock title="Spot opportunities" text="Find opportunities for next year and evaluate lost opportunities." %}} {{< ref "/spot-opportunities" >}} {{% /usecaseblock %}}
 
 </div>
 
@@ -51,8 +51,8 @@ Leverage Xeneta's benchmarking features to determine the optimal suppliers for y
 
 <div style="display:flex;flex-wrap:wrap;margin:-5px;margin: 20px 0px 70px 0px;">
 
-{{% usecaseblock title="Set tender targets" text="Plan relevant and accurate targets, and gain leverage ahead of negotiations." %}} {{< ref "/quickstart" >}} {{% /usecaseblock %}}
+<!-- {{% usecaseblock title="Set tender targets" text="Plan relevant and accurate targets, and gain leverage ahead of negotiations." %}} {{< ref "/quickstart" >}} {{% /usecaseblock %}} -->
 
-{{% usecaseblock title="Understand supplier bids" text="Within the context of the market, spot supplier opportunities." %}} {{< ref "/quickstart" >}} {{% /usecaseblock %}}
+{{% usecaseblock title="Understand supplier bids" text="Within the context of the market, spot supplier opportunities." %}} {{< ref "/understand-supplier-bids" >}} {{% /usecaseblock %}}
 
 </div>
