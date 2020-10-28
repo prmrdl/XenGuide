@@ -1,6 +1,6 @@
 +++
 title = "Spot Opportunities"
-weight = 9
+weight = 8
 +++
 
 ## Introduction

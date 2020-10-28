@@ -1,6 +1,6 @@
 +++
 title = "Understand Supplier Bids"
-weight = 8
+weight = 9
 +++
 
 ## Introduction
