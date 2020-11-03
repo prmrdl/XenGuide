@@ -13,7 +13,7 @@ disableShortcutsTitle = true
 [[menu.shortcuts]]
 name = "<i class='fas fa-book'></i> Help Center"
 identifier = "xensup"
-url = "https://support.xeneta.com"
+url = "https://xeneta.elevio.help/en"
 weight = 10
 
 [[menu.shortcuts]]
