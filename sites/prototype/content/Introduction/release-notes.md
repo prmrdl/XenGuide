@@ -3,6 +3,14 @@ title = "Release Notes"
 weight = 4
 +++
 
+{{% releasenote title="Schedule Reliability" date="November 5, 2020"
+ ocean="true" release="true" %}} 
+Xeneta has partnered with Sea-Intelligence to bring global schedule reliability data into our platform.
+
+For more details on this feature, [read our documentation](https://xeneta.elevio.help/en/articles/90-schedule-reliability).
+
+{{% /releasenote %}}
+
 {{% releasenote title="Followed Market Trends Refresh" date="May 14, 2020"
  ocean="true" release="true" %}} 
 The Market Trends page has been redesigned and now includes graphs to visualize market movements for your followed trade lanes up to a year back in time.
