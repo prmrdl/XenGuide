@@ -51,7 +51,7 @@ Leverage Xeneta's benchmarking features to determine the optimal suppliers for y
 
 <div style="display:flex;flex-wrap:wrap;margin:-5px;margin: 20px 0px 70px 0px;">
 
-{{% usecaseblock title="Set tender targets" text="Plan relevant and accurate targets, and gain leverage ahead of negotiations." %}} {{< ref "/quickstart" >}} {{% /usecaseblock %}}
+{{% usecaseblock title="Set tender targets" text="Plan relevant and accurate targets, and gain leverage ahead of negotiations." %}} {{< ref "/set-tender-targets" >}} {{% /usecaseblock %}}
 
 {{% usecaseblock title="Understand supplier bids" text="Within the context of the market, spot supplier opportunities." %}} {{< ref "/understand-supplier-bids" >}} {{% /usecaseblock %}}
 
