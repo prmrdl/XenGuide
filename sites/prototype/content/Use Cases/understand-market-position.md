@@ -5,11 +5,11 @@ weight = 3
 
 ## Introduction
 
-The first step to improving your freight contracts is understanding where they stand in relation to the market. By uploading your freight rates into Xeneta, you can leverage Xeneta's benchmarking capabilities to find out where you can improve your freight rates.
+The first step to improving your freight contracts is understanding where they stand in relation to the market. By uploading your freight rates and volumes into Xeneta, you can leverage Xeneta’s benchmarking capabilities to find out where you can improve your freight rates.
 
 ## The Spend Overview 
 
-The Spend Overview collects all of your uploaded freight rates and breaks them down by corridor. It is immediately useful for finding the corridors with the largest spend and the largest volume. 
+The Spend Overview collects all of your uploaded freight rates and volumes and breaks them down by corridor. It is immediately useful for finding the corridors with the largest spend and the largest volume. It also offers insight into any discrepancies or outliers from the market benchmarks that Xeneta offers.
 
 {{< fig src="/img/use-cases/5.png" >}}
 
@@ -30,5 +30,7 @@ Auto-generated Reports take snapshots of your valid rates and the associated Xen
 {{< linkbutton link="https://app.xeneta.com/ocean/reports/auto-generated" >}} View example in Xeneta {{< /linkbutton >}}
 
 In this manner, you will be able to understand how your rates compare to the market and the sort of rates to expect once you enter the tender process.
+
+In this manner, you will be able to understand how your rates compare to the market, whether the market has moved favorably or otherwise relative to your rates, and the sort of rates to expect once you enter the tender process.
 
 {{< fig src="/img/use-cases/10.png" >}}

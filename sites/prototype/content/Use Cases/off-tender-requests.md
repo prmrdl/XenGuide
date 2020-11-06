@@ -5,9 +5,9 @@ weight = 2
 
 ## Introduction
 
-Every organization has a different approach to tenders — some tender frequently, others only once a year. However, if your freight needs change outside of the usual tender period, it may be cumbersome or expensive for your organization to begin making price requests for additional freight. 
+Every organization has a different approach to tenders — some tender frequently, others only once a year. However, if your freight needs change outside of the usual tender period, it may be cumbersome or expensive for your organization to begin making price requests for additional trade lanes that were not in scope in the previous tender.
 
-With Xeneta, you can instantly find spot prices for any trade lane globally — without going through a back-and-forth with potential suppliers.
+With Xeneta, you can instantly find spot prices for any trade lane globally — without going through a back-and-forth with potential suppliers. This is valuable as it saves time internally as well as with your suppliers — especially in cases where it’s not yet known whether you will end up booking volumes on the requested rates.
 
 ## Searching for Spot Rates
 

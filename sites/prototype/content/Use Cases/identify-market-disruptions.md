@@ -17,7 +17,7 @@ As an example, we'll take a look at the trends of the past year between China Ea
 
 In the image above, we have plotted the short-term (yellow) and long-term (blue) market averages for the past year. We can clearly see that by October 2020 the price to ship freight on short-term contracts is almost double the price of running long-term contracts in that period. The rapid increase in short-term prices began around June and continued to rise until October, where it stabilized.
 
-With short-term prices significantly above long-term prices, the market will tend to strongly prefer shipping freight on short-term contracts. This suggests that, as a result, market participants with long-term contracts will see much of their cargo getting rolled.
+With short-term prices significantly above long-term prices, the market will tend to strongly prefer shipping freight on short-term contracts. This suggests that, as a result, market participants with long-term contracts at average rate levels will see an increased risk for their cargo getting rolled.
 
 
 ## Surcharges
@@ -26,8 +26,8 @@ Coming into IMO 2020, most market players were unsure of what would happen to pr
 
 {{< fig src="/img/use-cases/2.png" >}}
 
-{{< linkbutton link="https://app.xeneta.com/ocean/trade-lane-graph/trends?TFlag=default&contracted_within=all&date_from=2019-10-13&date_to=2020-03-27&dest=DEHAM&equipment_id=2&orig=CNSGH&thc=meth" >}} View example in Xeneta {{< /linkbutton >}}
+{{< linkbutton link="https://app.xeneta.com/ocean/trade-lane-graph/trends?TFlag=default&contracted_within=3months&date_from=2019-10-13&date_to=2020-03-27&dest=DEHAM&equipment_id=2&orig=CNSGH&thc=meth" >}} View example in Xeneta {{< /linkbutton >}}
 
-Using Xeneta's data to look back on the market clearly shows an across-the-board price increase. However, while market prices initially shot up, they quickly settled over the next few months, and for the most part prices are not vastly different from before the new surcharge.
+Using Xeneta’s data to see sudden movements in the short-term market (for instance due to regulatory changes, as in this example) allows you to foresee potential risks — like increased chances for cargo getting rolled or potential increased rate levels for new long-term rates. 
 
-While Xeneta does not speculate about future prices, it can still help you identify market movements and can prepare your organization for a change in market strategy.
+While Xeneta does not speculate about future prices, it can still help you identify market movements and can prepare your organization for a change in your approach to how and when you procure and negotiate rates in the market.
